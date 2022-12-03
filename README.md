@@ -18,21 +18,24 @@
 
 
 ### 界面截图
-首页
-![首页](img/shouye.png)
-报表
-![库存](https://gitee.com/himool/erp/raw/master/img/kucun.png)
-产品
-![产品](https://gitee.com/himool/erp/raw/master/img/%E4%BA%A7%E5%93%81.png)
-采购
-![采购](https://gitee.com/himool/erp/raw/master/img/%E9%87%87%E8%B4%AD.png)
-销售
-![销售](https://gitee.com/himool/erp/raw/master/img/%E9%94%80%E5%94%AE.png)
-生产
-![生产](https://gitee.com/himool/erp/raw/master/img/%E7%94%9F%E4%BA%A7.png)
-库存
-![库存](https://gitee.com/himool/erp/raw/master/img/%E5%BA%93%E5%AD%98.png)
-财务
-![财务](https://gitee.com/himool/erp/raw/master/img/%E8%B4%A2%E5%8A%A1.png)
-设置
-![设置](https://gitee.com/himool/erp/raw/master/img/%E8%AE%BE%E7%BD%AE.png)
+登录板块
+![登录板块](img/login.png)
+注册板块
+![注册板块](img/reg.png)
+首页板块
+![首页板块](img/shouye.png)
+产品板块
+![产品板块](/img/chanpin.png)
+采购管理
+![采购管理](/img/caigou.png)
+生产管理
+![生产管理](/img/shengchan.png)
+销售管理
+![销售管理](/img/xiaoshou.png)
+财务管理
+![财务管理](/img/caiwu.png)
+报表统计
+![报表统计](/img/baobiao.png)
+系统管理
+![系统管理](/img/juese.png)
+
