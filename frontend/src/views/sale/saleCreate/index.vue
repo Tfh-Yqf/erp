@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-card title="销售开单">
+    <a-card title="销售订单">
       <a-spin :spinning="loading">
         <a-form-model ref="form" :model="form" :rules="rules" :label-col="{ span: 8 }" :wrapper-col="{ span: 16 }">
           <a-row>
@@ -41,16 +41,7 @@
                 <a-date-picker v-model="form.handle_time" valueFormat="YYYY-MM-DD" style="width: 100%" />
               </a-form-model-item>
             </a-col>
-            <!-- <a-col :span="6" style="width: 320px;">
-              <a-form-model-item prop="discount" label="整单折扣">
-                <a-input-number v-model="form.discount" style="width: 100%;" />
-              </a-form-model-item>
-            </a-col>
-            <a-col :span="6" style="width: 320px;">
-              <a-form-model-item prop="other_amount" label="其他费用">
-                <a-input-number v-model="form.other_amount" style="width: 100%;" />
-              </a-form-model-item>
-            </a-col> -->
+
             <a-col :span="6" style="width: 320px;">
               <a-form-model-item prop="remark" label="备注">
                 <a-input v-model="form.remark" allowClear />
@@ -78,12 +69,7 @@
               </div>
               <div slot="tax" slot-scope="value, item, index">
                 <div v-if="!item.isTotal" style="display: flex;flex-direction: row;align-items: center">
-                  <a-input-number
-                      v-model="item.tax"
-                      :min="0"
-                      size="small"
-                      style="width: 60px;"
-                  ></a-input-number>
+                  <a-input-number v-model="item.tax" :min="0" size="small" style="width: 60px;"></a-input-number>
                   <a>%</a>
                 </div>
 
@@ -106,12 +92,7 @@
             </a-col>
 
             <a-col :span="4">
-              <a-form-model-item
-                prop="other_amount"
-                label="其他费用"
-                :label-col="{ span: 24 }"
-                :wrapper-col="{ span: 24 }"
-              >
+              <a-form-model-item prop="other_amount" label="其他费用" :label-col="{ span: 24 }" :wrapper-col="{ span: 24 }">
                 <a-input-number v-model="form.other_amount" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
@@ -120,9 +101,7 @@
                 <a-input-number :value="totalAmount" :disabled="true" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
-          </a-row>
 
-          <a-row gutter="16">
             <a-col :span="4">
               <a-form-model-item label="结算账户" :label-col="{ span: 24 }" :wrapper-col="{ span: 24 }">
                 <a-select v-model="sales_account_item.account" style="width: 100%">
@@ -137,14 +116,13 @@
                 <a-input-number v-model="sales_account_item.collection_amount" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
-          </a-row>
-          <a-row gutter="16">
             <a-col :span="4">
               <a-form-model-item label="本单欠款(元)" :label-col="{ span: 24 }" :wrapper-col="{ span: 24 }">
                 <a-input-number :value="amountOwed" :disabled="true" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
           </a-row>
+
         </div>
 
         <!-- <div>
@@ -181,17 +159,17 @@
         </div> -->
       </a-spin>
 
-      <div style="margin-top: 32px;">
-        <a-popconfirm title="确定创建吗?" @confirm="create">
-          <a-button type="primary" :loading="loading">创建</a-button>
-        </a-popconfirm>
+      <div style="width: 100%;display: flex;justify-content: center;">
+        <div style="margin-top: 32px;">
+          <a-popconfirm title="确定保存吗?" @confirm="create">
+            <a-button type="primary" :loading="loading">保存</a-button>
+          </a-popconfirm>
+        </div>
       </div>
+
     </a-card>
-    <materials-select-modal
-      v-model="materialsSelectModalVisible"
-      :warehouse="form.warehouse"
-      @select="onSelectMaterial"
-    ></materials-select-modal>
+    <materials-select-modal v-model="materialsSelectModalVisible" :warehouse="form.warehouse"
+      @select="onSelectMaterial"></materials-select-modal>
   </div>
 </template>
 
@@ -289,7 +267,7 @@ export default {
           width: 200,
           customRender: (value, item) => {
             if (item.isTotal) return value;
-            value = NP.times(item.sales_quantity, item.sales_price,((item.tax/100 || 0) +1));
+            value = NP.times(item.sales_quantity, item.sales_price, ((item.tax / 100 || 0) + 1));
             return item.id ? NP.round(value, 2) : "";
           },
         },
@@ -342,7 +320,7 @@ export default {
     totalAmount() {
       let totalAmount = 0;
       for (let item of this.materialItems) {
-        let amount = NP.times(item.sales_quantity, item.sales_price,((item.tax/100 || 0) +1));
+        let amount = NP.times(item.sales_quantity, item.sales_price, ((item.tax / 100 || 0) + 1));
         totalAmount = NP.plus(totalAmount, amount);
       }
 
@@ -359,7 +337,7 @@ export default {
         totalAmount = 0;
       for (let item of this.materialItems) {
         totalQuantity = NP.plus(totalQuantity, item.sales_quantity);
-        let amount = NP.times(item.sales_quantity, item.sales_price,((item.tax/100 || 0) +1));
+        let amount = NP.times(item.sales_quantity, item.sales_price, ((item.tax / 100 || 0) + 1));
         totalAmount = NP.plus(totalAmount, amount);
       }
       return [
@@ -504,10 +482,11 @@ export default {
               return {
                 goods: item.goods,
                 sales_quantity: item.sales_quantity,
-                sales_price: item.sales_price,
+                sales_price: item.sales_price*(1+item.tax/100),
               };
             }),
           };
+          formData.total_amount = this.totalAmount;
           saleOrderCreate(formData)
             .then((data) => {
               this.$message.success("创建成功");
@@ -520,10 +499,10 @@ export default {
       });
     },
     resetForm() {
-      this.form = { other_amount: 0};
+      this.form = { other_amount: 0 };
       this.sales_account_item = { collection_amount: 0 };
       getSaleOrderNumber().then((data) => {
-        this.form = {...this.form, number: data.number, discount: 100 };
+        this.form = { ...this.form, number: data.number, discount: 100 };
       });
       this.materialItems = [];
       this.handelAddAcount();

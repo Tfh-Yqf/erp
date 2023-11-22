@@ -35,8 +35,8 @@
         this.chart = new window.G2.Chart({ container: 'salesTrend', autoFit: true, height, });
         this.chart.scale({ date: { range: [0, 1] }, total_sales_amount: { nice: true } });
         this.chart.tooltip({ showCrosshairs: true, shared: true });
-        this.chart.line().position('date*total_sales_amount').color('warehouse_name').shape('smooth');
-        this.chart.point().position('date*total_sales_amount').color('warehouse_name').shape('circle');
+        this.chart.line().position('date*total_sales_amount').color('#50799e').shape('smooth');
+        this.chart.point().position('date*total_sales_amount').color('#50799e').shape('circle');
         this.list();
       },
       list() {

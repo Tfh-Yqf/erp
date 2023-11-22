@@ -1,7 +1,7 @@
 <template>
   <div>
     <a-card title="员工账号">
-      <a-row gutter="16">
+      <a-row :gutter="16">
         <a-col :span="24" :md="8" :xl="6" style="margin-bottom: 12px;">
           <a-input-search v-model="searchForm.search" placeholder="用户名, 名称, 电话" allowClear @search="search" />
         </a-col>
@@ -27,7 +27,7 @@
           </div>
           <div slot="role_names" slot-scope="roleNames">
             <a-tag v-for="role in roleNames" :key="role" color="#2db7f5">
-              {{role}}
+              {{role.name}}
             </a-tag>
           </div>
           <div slot="action" slot-scope="value, item">

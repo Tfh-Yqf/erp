@@ -84,6 +84,7 @@ class StockOutRecordSerializer(BaseSerializer):
 
         def validate(self, attrs):
             stock_out_goods = attrs['stock_out_goods']
+
             goods = stock_out_goods.goods
 
             if stock_out_goods.remain_quantity < attrs['stock_out_quantity']:

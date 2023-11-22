@@ -33,17 +33,17 @@ export function setCommonFunctions(data) {
 
 // reg
 export function reg(data) {
-  return request({ url: `http://175.24.184.232:8089/register`, method: 'post', data }, false)
+  return request({ url: `https://xingqianli.tanfuhua.com/register`, method: 'post', data }, false)
 }
 
 export function sendemail(data) {
-  return request({ url: `http://175.24.184.232:8089/sendemail?email=`+data+'&key=Dxjs14eCojsxqIXS', method: 'get' }, false)
+  return request({ url: `https://xingqianli.tanfuhua.com/sendemail?email=`+data+'&key=Dxjs14eCojsxqIXS', method: 'get' }, false)
 }
 
 export function kucun(data) {
-  return request({ url: `http://175.24.184.232:8089/kucun`, method: 'get' })
+  return request({ url: `https://xingqianli.tanfuhua.com/kucun`, method: 'get' })
 }
 
 export function kucun_yujing(data) {
-  return request({ url: `http://175.24.184.232:8089/kucun_yujing`, method: 'get' }, false)
+  return request({ url: `https://xingqianli.tanfuhua.com/kucun_yujing`, method: 'get' }, false)
 }

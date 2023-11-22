@@ -1,21 +1,23 @@
 <template>
   <div style="height: 100vh;">
     <div class="logo" @click="$router.push('/')" style="width: 256px;display: flex;flex-direction: row;align-items: center;">
-      <img :src="logo" width="36" style="margin-top: -6px; margin-left: 8px;" />
-      <span v-if="!collapsed" style="color: #1890ff; margin-left: 6px; font-size: 16px">库清清</span>
-      <img :src="group" width="100" style="margin-top: -6px; margin-left: 8px;" height="40" />
+      <img :src="logo" width="60" style="margin-top: -6px; margin-left: 8px;" />
+      <span v-if="!collapsed" style="color: #1890ff; margin-left: 6px; font-size: 14px">{{ ProjectName }}</span>
+      <!-- <img :src="group" width="100" style="margin-top: -6px; margin-left: 8px;" height="40" /> -->
     </div>
     <a-menu theme="light" mode="inline" :selectedKeys="selectedKeys" :openKeys="openKeys" :inline-collapsed="collapsed"
       :style="{width: collapsed ? '80px' : '256px'}" @click="switchView" @openChange="openChange">
-      <a-menu-item key="/home">
-        <a-icon type="home" /><span>首页</span>
-      </a-menu-item>
+
 
       <a-sub-menu v-for="menu in menus" :key="menu.key">
         <span slot="title">
           <a-icon :type="menu.icon" /><span>{{menu.name}}</span></span>
         <a-menu-item v-for="submenu of menu.submenus" :key="submenu.key">{{submenu.name}}</a-menu-item>
       </a-sub-menu>
+
+      <a-menu-item key="/home">
+        <a-icon type="home" /><span>数据看板</span>
+      </a-menu-item>
     </a-menu>
 
     <!-- <div style="position: fixed; bottom: 0;">

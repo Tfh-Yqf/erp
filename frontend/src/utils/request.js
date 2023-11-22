@@ -10,7 +10,9 @@ let requestQueue = [],
   isRefreshing = false;
 
 const instance = axios.create({
-  baseURL: "/api/",
+  // baseURL: "https://erp.tanfuhua.com/"+"/api/",  // 使用服务器的后端
+  // baseURL: "http://127.0.0.1:8000/" + "/api/", // 使用本地的后端 
+  baseURL: "/api/", // 部署用的后端 
   timeout: 10000,
   headers: { "Content-Type": "application/json" },
 });
@@ -64,6 +66,7 @@ instance.interceptors.response.use(
               redirectLogin();
               message.error("令牌过期, 请重新登录");
             }
+            
             return Promise.reject(error);
           })
           .finally(() => {

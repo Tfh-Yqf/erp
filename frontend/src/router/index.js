@@ -13,6 +13,7 @@ import finance from './finance'
 import production from './production'
 import yindao from './yindao'
 
+
 const index = {
   path: '/',
   component: () => import('@/layouts/BaseLayout'),
@@ -29,4 +30,4 @@ const index = {
 
 const routes = [index, user, yindao, account, manage, system, report, basicData, goods, purchasing, sale, warehouse, finance, production];
 
-export default new VueRouter({ mode: 'history', routes })
+export default new VueRouter({ mode: 'hash', routes })

@@ -33,7 +33,7 @@
 <script>
   import { roleList, roleDestroy } from '@/api/account'
   import { permissionList } from '@/api/system';
-  import { permissions } from '@/permissions.js'
+  import { permissions,permission_groups,permissionsTree } from '@/permissions.js'
   import columns from './columns.js'
 
   export default {
@@ -54,15 +54,17 @@
         targetItem: {},
         form: {},
 
-        permissionItems: [],
+        permissionItems: permission_groups,
       };
     },
     methods: {
       initialize() {
+
         this.list();
 
         permissionList().then(data => {
-          this.permissionItems = data;
+          // this.permissionItems = data;
+          console.log(data);
         });
       },
       list() {

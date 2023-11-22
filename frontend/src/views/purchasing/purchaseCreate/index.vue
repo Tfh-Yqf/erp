@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-card title="采购开单">
+    <a-card title="采购订单">
       <a-spin :spinning="loading">
         <a-form-model ref="form" :model="form" :rules="rules" :label-col="{ span: 8 }" :wrapper-col="{ span: 16 }">
           <a-row>
@@ -111,9 +111,6 @@
                 <a-input-number :value="totalAmount" :disabled="true" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
-          </a-row>
-
-          <a-row gutter="16">
             <a-col :span="4">
               <a-form-model-item label="结算账户" :label-col="{ span: 24 }" :wrapper-col="{ span: 24 }">
                 <a-select v-model="purchase_account_item.account" style="width: 100%">
@@ -128,13 +125,19 @@
                 <a-input-number v-model="purchase_account_item.payment_amount" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
-          </a-row>
-          <a-row gutter="16">
+
             <a-col :span="4">
               <a-form-model-item label="本单欠款(元)" :label-col="{ span: 24 }" :wrapper-col="{ span: 24 }">
                 <a-input-number :value="amountOwed" :disabled="true" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
+          </a-row>
+
+          <a-row gutter="16">
+
+          </a-row>
+          <a-row gutter="16">
+
           </a-row>
 
           <!-- <div style="margin-top: 16px; width: 40%;">
@@ -177,12 +180,14 @@
             </div> -->
         </div>
       </a-spin>
-
-      <div style="margin-top: 32px;">
-        <a-popconfirm title="确定创建吗?" @confirm="create">
-          <a-button type="primary" :loading="loading">创建</a-button>
+      <div style="width: 100%;display: flex;justify-content: center;">
+        <div >
+        <a-popconfirm title="确定保存吗?" @confirm="create">
+          <a-button type="primary" :loading="loading">保存</a-button>
         </a-popconfirm>
       </div>
+      </div>
+
     </a-card>
     <materials-select-modal
       v-model="materialsSelectModalVisible"
@@ -504,13 +509,16 @@ export default {
             ...this.form,
             purchase_account_items,
             purchase_goods_items: this.materialItems.map((item) => {
+              console.log(item);
               return {
                 goods: item.goods,
                 purchase_quantity: item.purchase_quantity,
-                purchase_price: item.purchase_price,
+                purchase_price: item.purchase_price*(1+item.tax/100), 
               };
             }),
           };
+          formData.total_amount = this.totalAmount;
+
           console.log(formData);
           purchaseOrderCreate(formData)
             .then((data) => {

@@ -43,6 +43,7 @@ class StockOutRecordViewSet(BaseViewSet, ListModelMixin, RetrieveModelMixin, Cre
 
     @transaction.atomic
     def perform_create(self, serializer):
+
         stock_out_record = serializer.save()
 
         # 同步库存, 流水

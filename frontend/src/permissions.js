@@ -15,6 +15,7 @@ export let permissions = {
   'order_prefix': '单据字头',
   'inventory': '库存信息',
   'flow': '出入库历史',
+  'stock_check':'盘点业务'
 }
 
 export let permissionsTree = [
@@ -133,4 +134,184 @@ export let permissionsTree = [
       },
     ],
   },
+]
+
+
+export let permission_groups = [
+  {
+      "id": 1,
+      "name": "数据看板",
+      "permission_items": [
+          {
+              "id": 1,
+              "name": "销售走势",
+              "code": "sales_trend"
+          },
+          {
+              "id": 2,
+              "name": "销售前十产品",
+              "code": "sales_hot_goods"
+          },
+          {
+              "id": 3,
+              "name": "订单收款明细",
+              "code": "stock_in_reminder"
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "name": "报表统计",
+      "permission_items": [
+          {
+              "id": 6,
+              "name": "销售报表",
+              "code": "sales_report"
+          },
+          {
+              "id": 7,
+              "name": "采购报表",
+              "code": "purchase_report"
+          },
+          {
+              "id": 8,
+              "name": "库存报表",
+              "code": "inventory"
+          },
+
+          {
+              "id": 10,
+              "name": "收支统计",
+              "code": "finance_statistic"
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "name": "基础档案",
+      "permission_items": [
+          {
+              "id": 11,
+              "name": "客户管理",
+              "code": "client"
+          },
+          {
+              "id": 12,
+              "name": "供应商管理",
+              "code": "supplier"
+          },
+          {
+              "id": 13,
+              "name": "仓库管理",
+              "code": "warehouse"
+          },
+          {
+              "id": 14,
+              "name": "结算账户",
+              "code": "account"
+          },
+          {
+              "id": 15,
+              "name": "结算账户",
+              "code": "charge_item"
+          }
+      ]
+  },
+  
+  {
+      "id": 5,
+      "name": "采购管理",
+      "permission_items": [
+          {
+              "id": 19,
+              "name": "采购订单",
+              "code": "purchase_order"
+          },
+          {
+              "id": 20,
+              "name": "采购退货",
+              "code": "purchase_return_order"
+          }
+      ]
+  },
+  {
+      "id": 6,
+      "name": "销售管理",
+      "permission_items": [
+          {
+              "id": 21,
+              "name": "销售订单",
+              "code": "sales_order"
+          },
+          {
+              "id": 22,
+              "name": "销售退货",
+              "code": "sales_return_order"
+          }
+      ]
+  },
+
+  {
+      "id": 8,
+      "name": "库存管理",
+      "permission_items": [
+          {
+              "id": 25,
+              "name": "入库业务",
+              "code": "stock_in"
+          },
+          {
+              "id": 26,
+              "name": "出库业务",
+              "code": "stock_out"
+          },
+          {
+              "id": 27,
+              "name": "盘点业务",
+              "code": "stock_check"
+          },
+          {
+              "id": 28,
+              "name": "调拨业务",
+              "code": "stock_transfer"
+          },
+          {
+            "id": 29,
+            "name": "库存结存",
+            "code": "inventory_flow"
+        },
+      ] 
+  },
+  {
+      "id": 9,
+      "name": "往来管理",
+      "permission_items": [
+          {
+              "id": 30,
+              "name": "应付账款",
+              "code": "supplier_arrears"
+          },
+          {
+              "id": 31,
+              "name": "付款业务",
+              "code": "payment_order"
+          },
+          {
+              "id": 32,
+              "name": "应收账款",
+              "code": "client_arrears"
+          },
+          {
+              "id": 33,
+              "name": "收款业务",
+              "code": "collection_order"
+          },
+
+          {
+              "id": 36,
+              "name": "资金流水",
+              "code": "finance_flow"
+          }
+      ]
+  }
 ]

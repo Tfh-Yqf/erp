@@ -9,12 +9,7 @@ export default {
       meta: { title: '登录' },
       component: () => import('@/views/login/Login'),
     },
-    {
-      path: 'yindao',
-      name: 'yindao',
-      meta: { title: '引导页' },
-      component: () => import('@/layouts/YinDaoYe'),
-    },
+
     {
       path: 'set_password',
       name: 'setPassword',

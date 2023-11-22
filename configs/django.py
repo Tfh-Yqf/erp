@@ -13,11 +13,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '8080',
-        'PORT': '3306',
-        'USER': 'admin',
-        'PASSWORD': 'admin',
-        'NAME': 'erp',
+        'HOST': 'your database Ip Or Domain',
+        'PORT': 'your_port',
+        'USER': 'your_user',
+        'PASSWORD': 'your_password',
+        'NAME': 'erp_db',
         'OPTIONS': {'charset': 'utf8mb4'},
     }
 }

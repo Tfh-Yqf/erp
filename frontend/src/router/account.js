@@ -11,7 +11,7 @@ export default {
     },
     {
       path: 'account',
-      name: 'account', 
+      name: 'Account', 
       meta: { title: '账号管理', permission: 'account' },
       component: () => import('@/views/account/Account'),
     },

@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { salesTrendList } from '@/api/system'
+
 import { kucun} from '@/api/user';
 import moment from 'moment'
 

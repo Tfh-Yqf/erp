@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-card title="收款">
+    <a-card title="收款业务">
       <a-row gutter="16">
         <a-col :span="24" :md="8" :xl="6" style="max-width: 256px; margin-bottom: 12px;">
           <a-input-search v-model="searchForm.search" placeholder="单号" allowClear @search="search" />
@@ -65,8 +65,8 @@
             width: 170
           },
           {
-            title: '优惠金额(元)',
-            dataIndex: 'discount_amount',
+            title: '收款金额(元)',
+            dataIndex: 'total',
           },
           {
             title: '备注',
@@ -99,6 +99,13 @@
         collectionOrdersList(this.searchForm).then(data => {
           this.pagination.total = data.count;
           this.items = data.results;
+
+          for(var i=0;i<this.items.length;i++){
+            this.items[i].total = 0.0;
+            for(var j=0;j<this.items[i].collection_account_items.length;j++){
+              this.items[i].total += parseFloat(this.items[i].collection_account_items[j].collection_amount);
+            }
+          }
         }).finally(() => {
           this.loading = false;
         });

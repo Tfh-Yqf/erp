@@ -253,7 +253,8 @@ class PurchaseReturnOrderViewSet(BaseViewSet, ListModelMixin, RetrieveModelMixin
             for purchase_return_goods in purchase_return_order.purchase_return_goods_set.all():
                 stock_out_goods_set.append(StockOutGoods(
                     stock_out_order=stock_out_order, goods=purchase_return_goods.goods,
-                    stock_out_quantity=purchase_return_goods.return_quantity, team=self.team
+                    stock_out_quantity=purchase_return_goods.return_quantity, team=self.team,
+                    remain_quantity=purchase_return_order.total_quantity
                 ))
             else:
                 StockOutGoods.objects.bulk_create(stock_out_goods_set)

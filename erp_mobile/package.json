@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "node-sass": "^7.0.1",
-    "sass-loader": "^12.6.0",
-    "vuex": "^4.0.2"
-  }
-}

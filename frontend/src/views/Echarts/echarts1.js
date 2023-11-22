@@ -155,5 +155,69 @@ export const sales_predict_echarts = (data) =>{
 }
 
 
+export const pie_echatrts = (data) =>{
 
+    var echart_data = [];
+    var temp = [];
+    if(data.total_amount>data.collection_amount)
+        temp = { value: data.total_amount-data.collection_amount, name: '未收到款项' };
+    else
+        temp = { value: data.collection_amount-data.total_amount, name: '未收到款项' };  
+    echart_data.push({...temp});
+    var temp = { value: data.collection_amount, name: '已收到款项' };
+    echart_data.push({...temp});
+    return   {
+        title: {
+            text: data.number,
+            subtext:'数据统计',
+            left: 'center'
+          },
+        tooltip: {
+          trigger: 'item'
+        },
+        series: [
+            {
+              name: 'Access From',
+              type: 'pie',
+              radius: '50%',
+              data: echart_data,
+              emphasis: {
+                itemStyle: {
+                  shadowBlur: 5,
+                  shadowOffsetX: 0,
+                  shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+              }
+            }
+          ]
+        // series: [
+        //   {
+        //     name: 'Access From',
+        //     type: 'pie',
+        //     radius: ['40%', '70%'],
+        //     avoidLabelOverlap: false,
+        //     itemStyle: {
+        //       borderRadius: 10,
+        //       borderColor: '#fff',
+        //       borderWidth: 2
+        //     },
+        //     label: {
+        //       show: false,
+        //       position: 'center'
+        //     },
+        //     emphasis: {
+        //       label: {
+        //         show: true,
+        //         fontSize: 12,
+        //         fontWeight: 'bold'
+        //       }
+        //     },
+        //     labelLine: {
+        //       show: false
+        //     },
+        //     data: echart_data
+        //   }
+        // ]
+      }
+}
 

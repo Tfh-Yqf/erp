@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-card title="出库创建">
+    <a-card title="出库单">
       <a-button slot="extra" type="primary" ghost @click="() => { this.$router.go(-1); }"> <a-icon type="left" />返回</a-button>
       <section>
         <a-spin :spinning="loading">
@@ -66,11 +66,14 @@
             </a-table>
           </a-form-model>
         </a-spin>
-        <div style="margin-top: 32px;">
-          <a-popconfirm title="确定创建吗?" @confirm="create">
-            <a-button type="primary" :loading="loading">创建</a-button>
+        <div style="display: flex;justify-content: center;width: 100%;">
+          <div style="margin-top: 32px;">
+          <a-popconfirm title="确定保存吗?" @confirm="create">
+            <a-button type="primary" :loading="loading">保存</a-button>
           </a-popconfirm>
         </div>
+        </div>
+
       </section>
     </a-card>
   </div>
@@ -121,6 +124,12 @@
             key: 'stock_out_quantity',
             width: 120,
             scopedSlots: { customRender: 'stock_out_quantity' },
+          },
+          {
+            title: '待出库数量',
+            dataIndex: 'wait_quantity',
+            key: 'wait_quantity',
+            width: 120,
           },
           {
             title: '单位',
@@ -191,6 +200,7 @@
               warehouse: data.warehouse
             }).then(data => {
               item.batchItems = data.results;
+              item.wait_quantity = item.remain_quantity;
               materialItems.push(item);
             });
 					}));

@@ -1,10 +1,13 @@
 <template>
-  <div>
+  <div style="text-align: center;">
     <div style="float: left;">
       <a-icon class="trigger" :type="collapsed ? 'menu-unfold' : 'menu-fold'" @click="$emit('toggleCollapsed')" />
     </div>
+    
+    <a style="color: #50799e;font-weight: bold;font-size: 20px;">{{ ProjectName }}</a>
+
     <div style="float: right;">
-       <a-dropdown :trigger="['click']">
+       <!-- <a-dropdown :trigger="['click']">
         <span class="trigger">
           {{currentWarehouse}}
           <a-icon type="down" />
@@ -14,14 +17,17 @@
             <span>{{item.name}}</span>
           </a-menu-item>
         </a-menu>
-      </a-dropdown>
+      </a-dropdown> -->
 
       <a-dropdown :trigger="['click']">
-        <span class="trigger">
+       
+        <span class="trigger" style="color: #50799e;">
+          <img :src="avatar" width="36" style="margin-top: -6px; margin-left: 8px;" />
           {{username}}
-          <a-icon type="down" />
+
+          <a-icon type="down" style="margin-left: 10px;" />
         </span>
-        <a-menu slot="overlay">
+        <a-menu slot="overlay" >
           <a-menu-item @click="$router.push('/user/set_password')">
             <span>修改密码</span>
           </a-menu-item>
@@ -47,6 +53,7 @@
       return {
         warehouseItems: [],
         currentWarehouse: '所有仓库',
+        avatar:require('@/assets/avatar.png')
       };
     },
     methods: {

@@ -179,7 +179,7 @@ class CollectionOrderViewSet(BaseViewSet, ListModelMixin, RetrieveModelMixin, Cr
     def number(self, request, *args, **kwargs):
         """获取编号"""
 
-        number = PaymentOrder.get_number(self.team)
+        number = CollectionOrder.get_number(self.team)
         return Response(data={'number': number}, status=status.HTTP_200_OK)
 
     @transaction.atomic

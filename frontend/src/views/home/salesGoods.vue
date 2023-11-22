@@ -34,7 +34,7 @@
         let height = window.innerHeight / 2 - 141;
         this.chart = new window.G2.Chart({ container: 'salesGoods', autoFit: true, height });
         this.chart.scale('total_sales_quantity', { alias: '销量' });
-        this.chart.interval().position('goods_name*total_sales_quantity');
+        this.chart.interval().position('goods_name*total_sales_quantity').color('#50799e');
         this.list();
       },
       list() {

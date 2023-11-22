@@ -3,61 +3,51 @@
     <a-row :gutter="[8, 8]">
       <a-col :span="8">
         <a-card title="今日销售额(元)" size="small">
-          <div style="text-align: center; font-size: 36px; font-weight: 600; color: #1890ff; margin: 12px 0;">
+          <div style="text-align: center; font-size: 36px; font-weight: 600; color: #50799e; margin: 12px 0;">
             {{ item.sales_amount }}
           </div>
         </a-card>
       </a-col>
       <a-col :span="8">
         <a-card title="今日销售笔数" size="small">
-          <div style="text-align: center; font-size: 36px; font-weight: 600; color: #1890ff; margin: 12px 0;">
+          <div style="text-align: center; font-size: 36px; font-weight: 600; color: #50799e; margin: 12px 0;">
             {{ item.sales_count }}
           </div>
         </a-card>
       </a-col>
       <a-col :span="8">
         <a-card title="今日采购笔数" size="small">
-          <div style="text-align: center; font-size: 36px; font-weight: 600; color: #1890ff; margin: 12px 0;">
+          <div style="text-align: center; font-size: 36px; font-weight: 600; color: #50799e; margin: 12px 0;">
             {{ caigou_bishu }}
           </div>
         </a-card>
       </a-col>
 
-      <a-col :span="24">
+      <!-- <a-col :span="24">
         <a-card title="待办事项" size="small">
 
           <a-card-grid style="width:25%; text-align:center; cursor: pointer;" @click="navigateTo('/warehouse/inStock')">
             <a-statistic title="待入库" :value="item.stock_in_task_count" />
           </a-card-grid>
 
-          <a-card-grid
-            style="width:25%; text-align:center; cursor: pointer;"
-            @click="navigateTo('/warehouse/outStock')"
-          >
+          <a-card-grid style="width:25%; text-align:center; cursor: pointer;" @click="navigateTo('/warehouse/outStock')">
             <a-statistic title="待出库" :value="item.stock_out_task_count" />
           </a-card-grid>
 
 
-<!--          <a-card-grid-->
-<!--            style="width:20%; text-align:center; cursor: pointer;"-->
-<!--            @click="navigateTo('/report/stock_report')"-->
-<!--          >-->
-<!--            <a-statistic title="库存预警" :value="item.inventory_warning_count" />-->
-<!--          </a-card-grid>-->
+          <a-card-grid style="width:20%; text-align:center; cursor: pointer;" @click="navigateTo('/report/stock_report')">
+            <a-statistic title="库存预警" :value="item.inventory_warning_count" />
+          </a-card-grid>-
 
 
-          <a-card-grid
-            style="width:25%; text-align:center; cursor: pointer;"
-            @click="navigateTo('/finance/arrears_receivable')"
-          >
+          <a-card-grid style="width:25%; text-align:center; cursor: pointer;"
+            @click="navigateTo('/finance/arrears_receivable')">
             <a-statistic title="应收欠款(元)" :value="item.arrears_receivable_amount" />
           </a-card-grid>
 
 
-          <a-card-grid
-            style="width:25%; text-align:center; cursor: pointer;"
-            @click="navigateTo('/finance/arrears_payable')"
-          >
+          <a-card-grid style="width:25%; text-align:center; cursor: pointer;"
+            @click="navigateTo('/finance/arrears_payable')">
             <a-statistic title="应付欠款(元)" :value="item.arrears_payable_amount" />
           </a-card-grid>
 
@@ -65,48 +55,48 @@
         </a-card>
       </a-col>
 
-       <a-col :span="24">
+      <a-col :span="24">
         <a-card title="ERP操作快捷入口" size="small">
           <a-row gutter="0">
             <a-col :span="4" @click="jump_caigou">
-              <a-card-grid style="width: 100%; cursor: pointer; text-align: center;" >
-                <a-icon type="profile" style="font-size: 40px; color: #1890ff;" />
+              <a-card-grid style="width: 100%; cursor: pointer; text-align: center;">
+                <a-icon type="profile" style="font-size: 40px; color: #50799e;" />
                 <div style="margin-top: 4px;">采购开单</div>
               </a-card-grid>
             </a-col>
             <a-col :span="4" @click="jump_xiaoshou">
               <a-card-grid style="width: 100%; cursor: pointer; text-align: center;">
-                <a-icon type="profile" style="font-size: 40px; color: #1890ff;" />
+                <a-icon type="profile" style="font-size: 40px; color: #50799e;" />
                 <div style="margin-top: 4px;">销售开单</div>
               </a-card-grid>
             </a-col>
             <a-col :span="4" @click="jump_ruku">
               <a-card-grid style="width: 100%; cursor: pointer; text-align: center;">
-                <a-icon type="profile" style="font-size: 40px; color: #1890ff;" />
+                <a-icon type="profile" style="font-size: 40px; color: #50799e;" />
                 <div style="margin-top: 4px;">入库</div>
               </a-card-grid>
             </a-col>
             <a-col :span="4" @click="jump_chuku">
               <a-card-grid style="width: 100%; cursor: pointer; text-align: center;">
-                <a-icon type="profile" style="font-size: 40px; color: #1890ff;" />
+                <a-icon type="profile" style="font-size: 40px; color: #50799e;" />
                 <div style="margin-top: 4px;">出库</div>
               </a-card-grid>
             </a-col>
             <a-col :span="4" @click="jump_pandia">
               <a-card-grid style="width: 100%; cursor: pointer; text-align: center;">
-                <a-icon type="profile" style="font-size: 40px; color: #1890ff;" />
+                <a-icon type="profile" style="font-size: 40px; color: #50799e;" />
                 <div style="margin-top: 4px;">盘点</div>
               </a-card-grid>
             </a-col>
             <a-col :span="4" @click="jump_diaobo">
               <a-card-grid style="width: 100%; cursor: pointer; text-align: center;">
-                <a-icon type="profile" style="font-size: 40px; color: #1890ff;" />
+                <a-icon type="profile" style="font-size: 40px; color: #50799e;" />
                 <div style="margin-top: 4px;">调拨</div>
               </a-card-grid>
             </a-col>
           </a-row>
         </a-card>
-      </a-col>
+      </a-col> -->
 
       <a-col :span="12">
         <sales-trend />
@@ -115,17 +105,18 @@
       <a-col :span="12">
         <sales-goods />
       </a-col>
-      <div style="width: 100%;display: flex;flex-direction: row;"  @click="navigateTo('/report/stock_report')">
-        <a-col :span="18">
-          <Saleskucun />
-        </a-col>
-        <div style="background-color: #FFFFFF" @click="jump_chanpin_xinxi">
-          <a-table  size="small" :columns="columns" :dataSource="yujing" rowKey="id"  :pagination="pagination">
+      
+      <a-col :span="15">
+        <SalesDetail ref="salesDetail" />
+      </a-col>
+      <a-col :span="9" >
+        <a-card title="临期预警">
+          <a-table size="small" :columns="columns" :dataSource="yujing" rowKey="id" :pagination="pagination">
           </a-table>
-        </div>
+        </a-card>
 
+      </a-col>
 
-      </div>
 
     </a-row>
   </div>
@@ -133,22 +124,30 @@
 
 <script>
 import { homeOverview } from "@/api/statistic";
-import { kucun_yujing} from '@/api/user';
-import {get_caigou_bishu} from '@/api/new'
+import { kucun_yujing } from '@/api/user';
+import { get_caigou_bishu } from '@/api/new'
 
 export default {
   components: {
     SalesTrend: () => import("./salesTrend.vue"),
     SalesGoods: () => import("./salesGoods.vue"),
-    Saleskucun:() => import("./saleskucun.vue")
+    // Saleskucun: () => import("./saleskucun.vue"),
+    SalesDetail: () => import("../report/incomeExpenseStatistics/salesDetail.vue")
   },
   data() {
     return {
-      caigou_bishu:0,
+      pagination:false,
+      caigou_bishu: 0,
       loading: false,
       item: {},
-      yujing:[],
+      yujing: [],
       columns: [
+      {
+          title: '仓库',
+          dataIndex: 'warehoue_name',
+          key: 'warehoue_name',
+          width: 80
+        },
         {
           title: '产品名',
           dataIndex: 'name',
@@ -158,35 +157,41 @@ export default {
         {
           title: '预警临界数量',
           dataIndex: 'inventory_lower',
-          sorter: true,
+          sorter: false,
           width: 150
         },
         {
           title: '库存数量',
           dataIndex: 'total_quantity',
           width: 80
-        }]
+        },
+        
+      ]
     };
   },
   methods: {
     initialize() {
+
       this.list();
-      kucun_yujing("test").then(res=>{
+      kucun_yujing("test").then(res => {
         console.log(res);
         this.yujing = res;
-      }).finally(()=>{
+      }).finally(() => {
 
       });
 
-      get_caigou_bishu({}).then(res=>{
+      get_caigou_bishu({}).then(res => {
         this.caigou_bishu = res;
       })
+
+      
     },
     list() {
       this.loading = true;
       homeOverview()
         .then((data) => {
           this.item = data;
+          this.$refs.salesDetail.initialize('2000-01-01', '2100-01-01');
         })
         .finally(() => {
           this.loading = false;
@@ -195,25 +200,25 @@ export default {
     navigateTo(pathName) {
       this.$router.push({ path: pathName });
     },
-    jump_caigou(){
+    jump_caigou() {
       this.$router.push('/purchasing/purchase_create')
     },
-    jump_xiaoshou(){
+    jump_xiaoshou() {
       this.$router.push('/sale/sale_record')
     },
-    jump_ruku(){
+    jump_ruku() {
       this.$router.push('/warehouse/inStock')
     },
-    jump_chuku(){
+    jump_chuku() {
       this.$router.push('/warehouse/outStock')
     },
-    jump_pandia(){
+    jump_pandia() {
       this.$router.push('/warehouse/inventory')
     },
-    jump_diaobo(){
+    jump_diaobo() {
       this.$router.push('/warehouse/allocation')
     },
-    jump_chanpin_xinxi(){
+    jump_chanpin_xinxi() {
       this.$router.push('/sales/information')
     }
   },

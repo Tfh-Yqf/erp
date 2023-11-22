@@ -56,7 +56,7 @@
               console.log(temp);
               add_average(temp).then(res=>{
                 console.log(res);
-                this.$message.success('联级修改成功');
+                // this.$message.success('联级修改成功');
                 this.cancel();
                 this.$emit(this.form.id ? 'update' : 'create', data);
               }).finally(re=>{

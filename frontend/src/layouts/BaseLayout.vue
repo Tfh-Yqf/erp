@@ -63,7 +63,7 @@
     methods: {
       initialize() {
         if (!Cookies.get('access') || !Cookies.get('refresh')) {
-          return this.$router.push('/yindao/yindao');
+          return this.$router.push('/yindao');
         }
         // this.isLogin = true;
         getInfo().then(data => {

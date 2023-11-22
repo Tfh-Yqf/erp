@@ -1,9 +1,7 @@
 <template>
   <div>
-    <a-card :tab-list="tabList" :active-tab-key="currentTab" @tabChange="changeTab">
-      <div style="display: flex;flex-direction: row;background-color: #FFFFFF;width: 100%">
-        <div id="xiaoshou_echarts" style="width: 100%;height: 250px;"></div>
-      </div>
+    <a-card  :active-tab-key="currentTab" @tabChange="changeTab">
+
       <a-row gutter="24">
         <a-col :span="10">
           <a-form-model-item :wrapper-col="{ span: 24 }">
@@ -29,14 +27,21 @@
           </a-form-model-item>
         </a-col>
       </a-row>
+      <div style="width:100%;display: flex;justify-content: space-evenly;">
+        <div style="font-size: 60px;display: flex;">
+          <div style="font-size: 20px;display: flex;">销售次数<span class="total">{{totalCount}}</span></div>
+        </div>
+        <div style="font-size: 60px;display: flex;">
+          <div style="font-size: 20px;display: flex;">销售数量<span class="total">{{totalQuantity}}</span></div>
+          
+        </div>
+        <div style="font-size: 60px;display: flex;">
+          <div style="font-size: 20px;display: flex;">销售金额<span class="total">{{totalAmount}}</span></div>
+        </div>
+      </div>
 
-      <a-descriptions :column="{ xxl: 4, xl: 4, lg: 4, md: 2, sm: 2, xs: 1 }" style="text-align: center;">
-        <a-descriptions-item label="销售次数"><span class="total">{{totalCount}}</span></a-descriptions-item>
-        <a-descriptions-item label="销售数量"><span class="total">{{totalQuantity}}</span></a-descriptions-item>
-        <a-descriptions-item label="销售金额"><span class="total">{{totalAmount}}</span></a-descriptions-item>
-      </a-descriptions>
 
-      <div>
+      <div style="margin-top: 20px;">
         <flow-pane v-show="currentTab === 'flow'" :items="items" :loading="loading" :pagination="pagination" @tableChange="tableChange" />
         <goods-pane v-show="currentTab === 'goods'" :items="items" :loading="loading" :pagination="pagination" @tableChange="tableChange" />
       </div>
@@ -67,14 +72,7 @@
         currentTab: 'flow',
         radioValue: '0',
         tabList: [
-          {
-            key: 'flow',
-            tab: '销售明细',
-          },
-          {
-            key: 'goods',
-            tab: '按产品汇总',
-          },
+
         ],
         searchForm: {
           dateRange: [moment().startOf('day'), moment().startOf('day')],
@@ -137,8 +135,8 @@
             this.items = resp.results;
             this.pagination.total = resp.count;
 
-            var myChart = echarts.init(document.getElementById('xiaoshou_echarts'));
-            myChart.setOption(xiaoshou_echarts_data(resp.results));
+            // var myChart = echarts.init(document.getElementById('xiaoshou_echarts'));
+            // myChart.setOption(xiaoshou_echarts_data(resp.results));
           }).finally(() => {
             this.loading = false;
           });
@@ -147,8 +145,8 @@
             this.items = resp.results;
             this.pagination.total = resp.count;
 
-            var myChart = echarts.init(document.getElementById('xiaoshou_echarts'));
-            myChart.setOption(xiaoshou_echarts_data(resp.results));
+            // var myChart = echarts.init(document.getElementById('xiaoshou_echarts'));
+            // myChart.setOption(xiaoshou_echarts_data(resp.results));
           }).finally(() => {
             this.loading = false;
           });
@@ -206,5 +204,6 @@
 <style scoped>
   .total {
     color: #a94442;
+    margin-left: 20px;
   }
 </style>

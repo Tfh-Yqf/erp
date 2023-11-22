@@ -272,7 +272,7 @@ class SalesReturnOrderViewSet(BaseViewSet, ListModelMixin, RetrieveModelMixin, C
                 account = sales_return_account.account
                 amount_before = account.balance_amount
                 amount_change = sales_return_account.payment_amount
-                amount_after = NP.plus(amount_before, amount_change)
+                amount_after = NP.minus(amount_before, amount_change)
 
                 finance_flows.append(FinanceFlow(
                     account=account, type=FinanceFlow.Type.SALES_RETURN, amount_before=amount_before,

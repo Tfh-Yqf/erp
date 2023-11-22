@@ -30,3 +30,5 @@ sqlparse==0.4.2
 toml==0.10.2
 uritemplate==4.1.1
 uvicorn==0.16.0
+django-cors-headers==4.3.0
+mysqlclient==2.2.0

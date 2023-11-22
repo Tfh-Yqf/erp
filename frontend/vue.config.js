@@ -17,15 +17,22 @@ module.exports = {
     loaderOptions: {
       less: {
         javascriptEnabled: true,
+        modifyVars: {
+          'primary-color': '#50799e',
+          'text-color': '#6e6e6e',
+          'border-color': '#eee',
+          'nice-blue': '#f0f'
+
+        },
       },
     },
   },
   devServer: {
-    proxy: {
-      "/api": {
-        target: "http://114.218.158.78:12223",
-        changeOrigin: true,
-      },
-    },
+    // proxy: {
+    //   "/api": {
+    //     target: "http://114.218.158.78:12223",
+    //     changeOrigin: true,
+    //   },
+    // },
   },
 };

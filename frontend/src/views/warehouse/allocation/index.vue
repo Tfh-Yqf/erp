@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-card title="调拨">
+    <a-card title="调拨单">
       <a-row gutter="16">
         <a-col :span="24" :md="8" :xl="6" style="max-width: 256px; margin-bottom: 12px;">
           <a-input-search v-model="searchForm.search" placeholder="单号" allowClear @search="search" />

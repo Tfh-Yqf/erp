@@ -65,6 +65,7 @@
     },
     methods: {
       initialize(start_date, end_date) {
+        console.log('test')
         this.list(start_date, end_date);
       },
       list(start_date, end_date) {

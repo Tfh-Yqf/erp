@@ -1,22 +1,16 @@
 <template>
 
-  <div  class="background" style="display: flex;flex-direction: column;justify-content: center;width: 100%;">
-    <div style="background-color: #fff;border-radius: 10px;width: 300px;margin-left: 70%">
+  <div  class="background" >
+    <a-card class="card" :title="ProjectName">
       <div style="text-align: center; padding-top: 16px">
-        <img :src="logo" width="100" style="cursor: pointer; margin-top: 16px" @click="backIndex" />
+        <img :src="logo" width="120" style="cursor: pointer; margin-top: 16px" @click="backIndex" />
       </div>
-      <div class="title" style="margin-top: 16px">
-        <span style="cursor: pointer; font-size: 24px" >库清清</span>
-      </div>
-      <div style="text-align: center; font-size: 16px; color: #1890ff; margin-top: 8px; margin-bottom: 24px">
-        <span>智能物资管理信息化平台</span>
-      </div>
+
       <div style="width: 100%;display: flex;flex-direction: row;justify-content: center;margin-bottom: 30px;">
-        <a-button @click="jump_login" type="primay" size="large" style="background-color: #3c9cff;color:#FFF">立即开始</a-button>
+        <a-button @click="jump_login" type="primay" size="large" style="background-color: #50799e;color:#FFF;width: 200px;">立即开始</a-button>
       </div>
-
-
-    </div>
+    </a-card>
+ 
 
   </div>
 </template>
@@ -40,7 +34,7 @@ export default {
 
 <style scoped>
 .card {
-  width: 480px;
+  width: 450px;
   border-radius: 8px;
   padding-bottom: 64px;
   margin: auto;
@@ -49,7 +43,7 @@ export default {
 .background {
   min-height: 100%;
   padding: 10vh 0;
-  background: url("https://vkceyugu.cdn.bspapp.com/VKCEYUGU-c84ba6b8-76a1-4911-86f7-95839ee7bd57/eb70a786-4162-441b-b497-49a6ce8caa0d.jpg") ;
+  background: url("https://datastorage.tanfuhua.com/file/download/thumbFiles/backgroungd_1699318922426.jpg") ;
   background-size: 100% 100%;
 }
 

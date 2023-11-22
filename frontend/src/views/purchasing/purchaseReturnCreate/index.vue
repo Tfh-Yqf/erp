@@ -66,7 +66,7 @@
         <a-divider orientation="left">产品信息</a-divider>
 
         <div>
-          <a-row gutter="16">
+          <a-row :gutter="16">
             <a-space>
               <a-button type="primary" @click="openMaterialModal">添加产品</a-button>
             </a-space>
@@ -92,14 +92,9 @@
         <a-divider orientation="left">账单信息</a-divider>
 
         <div>
-          <a-row gutter="16">
+          <a-row :gutter="16">
             <a-col :span="4">
-              <a-form-model-item
-                prop="other_amount"
-                label="其他费用"
-                :label-col="{ span: 24 }"
-                :wrapper-col="{ span: 24 }"
-              >
+              <a-form-model-item prop="other_amount" label="其他费用" :label-col="{ span: 24 }" :wrapper-col="{ span: 24 }">
                 <a-input-number v-model="form.other_amount" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
@@ -108,9 +103,6 @@
                 <a-input-number :value="totalAmount" :disabled="true" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
-          </a-row>
-
-          <a-row gutter="16">
             <a-col :span="4">
               <a-form-model-item label="结算账户" :label-col="{ span: 24 }" :wrapper-col="{ span: 24 }">
                 <a-select v-model="purchase_return_account_item.account" style="width: 100%">
@@ -125,18 +117,18 @@
                 <a-input-number v-model="purchase_return_account_item.collection_amount" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
-          </a-row>
-          <a-row gutter="16">
             <a-col :span="4">
               <a-form-model-item label="本单欠款(元)" :label-col="{ span: 24 }" :wrapper-col="{ span: 24 }">
                 <a-input-number :value="amountOwed" :disabled="true" style="width: 100%;" />
               </a-form-model-item>
             </a-col>
           </a-row>
+
+
         </div>
 
         <!-- <div>
-          <a-row gutter="16">
+          <a-row :gutter="16">
             <a-space>
               <a-button type="primary" @click="handelAddAcount">添加结算账户</a-button>
             </a-space>
@@ -168,18 +160,17 @@
           </div>
         </div> -->
       </a-spin>
-
-      <div style="margin-top: 32px;">
-        <a-popconfirm title="确定创建吗?" @confirm="create">
-          <a-button type="primary" :loading="loading">创建</a-button>
-        </a-popconfirm>
+      <div style="width: 100%;display: flex;justify-content: center;">
+        <div style="margin-top: 32px;">
+          <a-popconfirm title="确定保存吗?" @confirm="create">
+            <a-button type="primary" :loading="loading">保存</a-button>
+          </a-popconfirm>
+        </div>
       </div>
+
     </a-card>
-    <materials-select-modal
-      v-model="materialsSelectModalVisible"
-      :warehouse="form.warehouse"
-      @select="onSelectMaterial"
-    ></materials-select-modal>
+    <materials-select-modal v-model="materialsSelectModalVisible" :warehouse="form.warehouse"
+      @select="onSelectMaterial"></materials-select-modal>
   </div>
 </template>
 
@@ -258,12 +249,25 @@ export default {
           width: 80,
         },
         {
+          title: "采购数量",
+          dataIndex: "purchase_quantity",
+          key: "purchase_quantity",
+          width: 120
+        },
+        {
+          title: "采购金额",
+          dataIndex: "total_quantity",
+          key: "total_quantity",
+          width: 120
+        },
+        {
           title: "退货数量",
           dataIndex: "return_quantity",
           key: "return_quantity",
           width: 120,
           scopedSlots: { customRender: "return_quantity" },
         },
+
         {
           title: "退货单价(元)",
           dataIndex: "return_price",
@@ -271,8 +275,9 @@ export default {
           width: 120,
           scopedSlots: { customRender: "return_price" },
         },
+
         {
-          title: "金额",
+          title: "退款金额",
           dataIndex: "totalAmount",
           key: "totalAmount",
           width: 200,
@@ -402,8 +407,10 @@ export default {
       this.form.supplier = selected.supplier;
       this.form.warehouse = selected.warehouse;
       this.form.handler = selected.handler;
+      console.log(selected);
+      this.materialItems = [];
       selected.purchase_goods_items.map(item => {
-        this.onSelectMaterial({...item, ...{ goods_spec: item.goods_spec || '', total_quantity: item.total_amount }})
+        this.onSelectMaterial({ ...item, ...{ goods_spec: item.goods_spec || '', total_quantity: item.total_amount } })
       })
     },
     handelAddAcount() {
@@ -440,7 +447,7 @@ export default {
       if (index != -1) {
         this.$message.warn("产品已存在");
         return;
-      }
+      } 
       this.materialItems = this.$functions.insertItem(this.materialItems, {
         id: item.id,
         goods: item.goods,
@@ -448,7 +455,8 @@ export default {
         name: item.goods_name,
         spec: item.goods_spec,
         unit: item.unit_name,
-        return_quantity: 1,
+        return_quantity: item.purchase_quantity,
+        purchase_quantity:item.purchase_quantity,
         return_price: item.purchase_price,
         total_quantity: item.total_quantity,
       });
@@ -515,7 +523,7 @@ export default {
                   return_price: item.return_price,
                 };
               }
-              
+
             }),
           };
           console.log(formData);

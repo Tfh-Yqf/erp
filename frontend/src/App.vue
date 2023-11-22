@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <a-config-provider :locale="zh_CN">
+    <a-config-provider :locale="zh_CN" :theme="theme">
       <router-view />
     </a-config-provider>
   </div>
@@ -14,6 +14,9 @@ export default {
   data() {
     return {
       zh_CN,
+      theme:{
+        "primary-color": "#000000",
+      }
     };
   },
 };

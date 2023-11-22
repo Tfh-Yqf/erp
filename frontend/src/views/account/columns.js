@@ -20,7 +20,7 @@ export default [
   {
     title: '手机号',
     dataIndex: 'phone',
-  },
+  }, 
   {
     title: "状态",
     dataIndex: "is_active",
@@ -29,7 +29,7 @@ export default [
   },
   {
     title: '角色',
-    dataIndex: 'role_names',
+    dataIndex: 'role_items',
     scopedSlots: { customRender: 'role_names' },
   },
   {

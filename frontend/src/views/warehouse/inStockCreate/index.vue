@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-card title="入库创建">
+    <a-card title="入库单">
       <a-button
         slot="extra"
         type="primary"
@@ -92,11 +92,17 @@
             </a-table>
           </a-form-model>
         </a-spin>
-        <div style="margin-top: 32px;">
-          <a-popconfirm title="确定创建吗?" @confirm="create">
-            <a-button type="primary" :loading="loading">创建</a-button>
+        <div style="width: 100%;display: flex;justify-content: center;">
+          <div style="display: flex;justify-content: center;width: 100%;">
+          <div style="margin-top: 32px;">
+          <a-popconfirm title="确定保存吗?" @confirm="create">
+            <a-button type="primary" :loading="loading">保存</a-button>
           </a-popconfirm>
         </div>
+        </div>
+
+        </div>
+
       </section>
     </a-card>
   </div>
@@ -153,6 +159,12 @@ export default {
           key: "stock_in_quantity",
           width: 120,
           scopedSlots: { customRender: "stock_in_quantity" },
+        },
+        {
+          title: "待入库数量",
+          dataIndex: "remain_quantity",
+          key: "remain_quantity",
+          width: 120,
         },
         {
           title: "单位",
@@ -233,7 +245,7 @@ export default {
         .then((data) => {
           this.info = data;
           this.materialItems = data.stock_in_goods_items;
-        })
+        }) 
         .finally(() => {
           this.loading = false;
         });
