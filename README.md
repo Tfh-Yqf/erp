@@ -2,7 +2,7 @@
 * 开源的ERP系统，使用django+vue搭建，目前demo搭建在[erp.tanfuhua.com](https://erp.tanfuhua.com)上
 * 有产品管理、采购管理、生成管理、销售管理、财务管理、报表统计、系统管理板块，包含不同权限，覆盖绝大部分ERP的场景
 * [erp.tanfuhua.com](https://erp.tanfuhua.com)（用户名：管理员，密码：123456）
-
+![展示](img/show.png)
 ## 开发环境要求
 * Python版本为V3.9+ （推荐使用conda控制版本）
 * Django版本为V3.2+
