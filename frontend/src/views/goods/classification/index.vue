@@ -26,7 +26,7 @@
 
       <a-row style="margin-top: 12px;">
         <a-table size="small" :columns="columns" :dataSource="items" rowKey="id" :loading="loading" :pagination="pagination"
-          @change="tableChange">
+                 @change="tableChange">
           <div slot="is_active" slot-scope="value">
             <a-tag :color="value ? 'green' : 'red'">{{value ? '激活' : '冻结'}}</a-tag>
           </div>
@@ -51,144 +51,133 @@
 </template>
 
 <script>
-  import { exportExcel } from '@/utils/excel'
-  import { goodsClassificationExport } from '@/api/export'
-  import { goodsClassificationTemplate, goodsClassificationImport } from '@/api/import'
-  import { goodsClassificationList, goodsClassificationDestroy } from '@/api/goods'
-  import {get_goodscategory} from '@/api/new'
-  export default {
-    name: 'Warehouse',
-    components: {
-      FormModal: () => import('./FormModal.vue'),
-    },
-    data() {
-      return {
-        columns: [
-          {
-            title: '序号',
-            dataIndex: 'index',
-            key: 'index',
-            customRender: (value, item, index) => {
-              return index + 1
-            },
-          },
-          {
-            title: '分类名称',
-            dataIndex: 'name',
-            sorter: true,
-          },
-          {
-            title: '均价',
-            dataIndex: 'average_price',
-            sorter: true,
-          },
-          {
-            title: '备注',
-            dataIndex: 'remark'
-          },
-          {
-            title: '操作',
-            dataIndex: 'action',
-            scopedSlots: { customRender: 'action' },
-            width: '156px'
-          },
-        ],
-        searchForm: { search: '', page: 1, page_size: 16 },
-        pagination: { current: 1, total: 0, pageSize: 16 },
-        loading: false,
-        items: [],
+import { exportExcel } from '@/utils/excel'
+import { goodsClassificationExport } from '@/api/export'
+import { goodsClassificationTemplate, goodsClassificationImport } from '@/api/import'
+import { goodsClassificationList, goodsClassificationDestroy } from '@/api/goods'
 
-        visible: false,
-        targetItem: {},
-        form: {},
-        importLoading: false,
-      };
-    },
-    computed: {
-    },
-    methods: {
-      initialize() {
-        this.list();
-      },
-      list() {
-        this.loading = true;
-        // test
-        // var data = {"next":null,"previous":null,"count":7,"results":[{"id":5,"name":"建材类","remark":null,"team_id":1,"average_price":0.0},{"id":6,"name":"辅助材料类","remark":null,"team_id":1,"average_price":0.0},{"id":7,"name":"日常用品类","remark":null,"team_id":1,"average_price":0.0},{"id":9,"name":"装饰类","remark":"瓷砖等","team_id":1,"average_price":0.0},{"id":10,"name":"石材类","remark":null,"team_id":1,"average_price":0.0},{"id":11,"name":"油漆类","remark":null,"team_id":1,"average_price":0.0},{"id":13,"name":"固定资产类","remark":null,"team_id":1,"average_price":0.0}]};
-        // this.items = data.results;
+export default {
+  name: 'Warehouse',
+  components: {
+    FormModal: () => import('./FormModal.vue'),
+  },
+  data() {
+    return {
+      columns: [
+        {
+          title: '序号',
+          dataIndex: 'index',
+          key: 'index',
+          customRender: (value, item, index) => {
+            return index + 1
+          },
+        },
+        {
+          title: '分类名称',
+          dataIndex: 'name',
+          sorter: true,
+        },
+        {
+          title: '备注',
+          dataIndex: 'remark'
+        },
+        {
+          title: '操作',
+          dataIndex: 'action',
+          scopedSlots: { customRender: 'action' },
+          width: '156px'
+        },
+      ],
+      searchForm: { search: '', page: 1, page_size: 16 },
+      pagination: { current: 1, total: 0, pageSize: 16 },
+      loading: false,
+      items: [],
 
-        get_goodscategory(this.searchForm).then(data => {
-          this.pagination.total = data.count;
-          this.items = data.results;
-        }).finally(() => {
-          this.loading = false;
-        });
-      },
-      create(item) {
-        // this.items.splice(0, 0, item);
+      visible: false,
+      targetItem: {},
+      form: {},
+      importLoading: false,
+    };
+  },
+  computed: {
+  },
+  methods: {
+    initialize() {
+      this.list();
+    },
+    list() {
+      this.loading = true;
+      goodsClassificationList(this.searchForm).then(data => {
+        this.pagination.total = data.count;
+        this.items = data.results;
+      }).finally(() => {
+        this.loading = false;
+      });
+    },
+    create(item) {
+      // this.items.splice(0, 0, item);
+      this.list();
+    },
+    update(item) {
+      this.items.splice(this.items.findIndex(i => i.id == item.id), 1, item);
+    },
+    search() {
+      this.searchForm.page = 1;
+      this.pagination.current = 1;
+      this.list();
+    },
+    openFormModal(item) {
+      this.targetItem = { ...item };
+      this.visible = true;
+    },
+    destroy(id) {
+      goodsClassificationDestroy({ id }).then(() => {
+        // this.items.splice(this.items.findIndex(item => item.id == id), 1);
+        this.$message.success('删除成功');
         this.list();
-      },
-      update(item) {
-        this.items.splice(this.items.findIndex(i => i.id == item.id), 1, item);
-      },
-      search() {
-        this.searchForm.page = 1;
-        this.pagination.current = 1;
-        this.list();
-      },
-      openFormModal(item) {
-        if(item.average_price==null||item.average_price==undefined)
-          item = {...item,average_price:0}
-        this.targetItem = { ...item};
-        this.visible = true;
-      },
-      destroy(id) {
-        goodsClassificationDestroy({ id }).then(() => {
-          // this.items.splice(this.items.findIndex(item => item.id == id), 1);
-          this.$message.success('删除成功');
-          this.list();
-        });
-      },
-      exportExcel() {
-        goodsClassificationExport(this.searchForm).then(resp => {
-          exportExcel(resp.data, '产品分类列表');
-        }).catch(err => {
-          this.$message.error(err.response.data.error);
-        });
-      },
-      downloadTemplate () {
-        goodsClassificationTemplate().then(resp => {
-          exportExcel(resp.data, '产品分类导入模板');
-        }).catch(err => {
-          this.$message.error(err.response.data.error);
-        });
-      },
-      importExcel(item) {
-        let data = new FormData();
-        data.append('file', item.file);
-        this.importLoading = true;
-        setTimeout(() => {
-          goodsClassificationImport(data)
+      });
+    },
+    exportExcel() {
+      goodsClassificationExport(this.searchForm).then(resp => {
+        exportExcel(resp.data, '产品分类列表');
+      }).catch(err => {
+        this.$message.error(err.response.data.error);
+      });
+    },
+    downloadTemplate () {
+      goodsClassificationTemplate().then(resp => {
+        exportExcel(resp.data, '产品分类导入模板');
+      }).catch(err => {
+        this.$message.error(err.response.data.error);
+      });
+    },
+    importExcel(item) {
+      let data = new FormData();
+      data.append('file', item.file);
+      this.importLoading = true;
+      setTimeout(() => {
+        goodsClassificationImport(data)
             .then(() => {
               this.$message.success('导入成功');
               this.list();
             })
             .catch(err => {
-              this.$message.error(err.response.data.detail);
+              alert("导入错误:" + "\n" + err.response.data.join("\n"));
             })
             .finally(() => {
               this.importLoading = false;
             });
-        }, 1000);
-      },
-      tableChange(pagination, filters, sorter) {
-        this.searchForm.page = pagination.current;
-        this.pagination.current = pagination.current;
-        this.searchForm.ordering = `${sorter.order == 'descend' ? '-' : ''}${sorter.field}`;
-        this.list();
-      },
+      }, 1000);
     },
-    mounted() {
-      this.initialize();
+    tableChange(pagination, filters, sorter) {
+      this.searchForm.page = pagination.current;
+      this.pagination.current = pagination.current;
+      this.searchForm.ordering = `${sorter.order == 'descend' ? '-' : ''}${sorter.field}`;
+      this.list();
     },
-  }
+  },
+  mounted() {
+    this.initialize();
+  },
+}
 </script>

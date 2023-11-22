@@ -290,6 +290,7 @@
 <script>
 import Cookies from 'js-cookie'
 import { goodsInformationCreate, goodsInformationUpdate } from '@/api/goods'
+import config from "@/utils/config"
 function getBase64(file) {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -305,7 +306,7 @@ export default {
   data() {
     return {
       Cookies,
-      actionUrl:this.DjangoUrl+'api/goods_images/',
+      actionUrl:config.baseURL+'goods_images/',
       batchTitle: '管理批次',
       batchVisible: false,
       loading: false,

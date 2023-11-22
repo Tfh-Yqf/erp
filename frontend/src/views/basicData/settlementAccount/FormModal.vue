@@ -27,13 +27,13 @@
             <a-input v-model="form.remark" allowClear />
           </a-form-model-item>
           <a-form-model-item prop="is_active" label="状态">
-            <a-select v-model="form.is_active" style="width: 100%;">
+            <a-select v-model="form.is_active" style="width: 100%">
               <a-select-option :value="true">激活</a-select-option>
               <a-select-option :value="false">冻结</a-select-option>
             </a-select>
           </a-form-model-item>
-          <a-form-model-item prop="balance_amount" label="账户余额">
-            <a-input-number v-model="form.balance_amount" style="width: 100%;" />
+          <a-form-model-item prop="initial_balance_amount" label="初期余额">
+            <a-input-number v-model="form.initial_balance_amount" style="width: 100%" />
           </a-form-model-item>
         </a-form-model>
       </div>
@@ -43,7 +43,7 @@
 
 <script>
 import { settlementAccountCreate, settlementAccountUpdate } from "@/api/basicData";
-import {update_moeny} from '@/api/new'
+
 export default {
   name: "FormModal",
   props: ["visible", "form"],
@@ -58,8 +58,14 @@ export default {
         { id: "other", name: "其他" },
       ],
       rules: {
-        name: [{ required: true, message: "请输入账户名称", trigger: "change" }],
-        number: [{ required: true, message: "请输入账户编号", trigger: "change" }],
+        name: [
+          { required: true, message: "请输入账户名称", trigger: "change" },
+          { max: 64, message: "超出最大长度 (64)", trigger: "change" },
+        ],
+        number: [
+          { required: true, message: "请输入账户编号", trigger: "change" },
+          { max: 32, message: "超出最大长度 (32)", trigger: "change" },
+        ],
         initial_balance_amount: [
           { pattern: new RegExp(/^\d{0,14}(?:\.\d{0,2})?$/), message: "初期余额格式不正确", trigger: "change" },
         ],
@@ -74,19 +80,14 @@ export default {
           this.loading = true;
           let func = this.form.id ? settlementAccountUpdate : settlementAccountCreate;
           func(this.form)
-            .then((data) => {
-              this.$message.success(this.form.id ? "修改成功" : "新增成功");
-              var temp = {...data,...this.form};
-              console.log(temp);
-              update_moeny(temp).then(res=>{
-                console.log(res);
+              .then((data) => {
+                this.$message.success(this.form.id ? "修改成功" : "新增成功");
+                this.$emit(this.form.id ? "update" : "create", data);
+                this.cancel();
               })
-              this.$emit(this.form.id ? "update" : "create", data);
-              this.cancel();
-            })
-            .finally(() => {
-              this.loading = false;
-            });
+              .finally(() => {
+                this.loading = false;
+              });
         }
       });
     },

@@ -2,7 +2,7 @@ import { message } from "ant-design-vue";
 import Cookies from "js-cookie";
 import router from "@/router";
 import axios from "axios";
-
+import config from "./config"
 const GET_TOKEN_URL = "/user/get_token/";
 const REFRESH_TOKEN_URL = "/user/refresh_token/";
 const LOGIN_PATH = "/user/login";
@@ -10,9 +10,7 @@ let requestQueue = [],
   isRefreshing = false;
 
 const instance = axios.create({
-  // baseURL: "https://erp.tanfuhua.com/"+"/api/",  // 使用服务器的后端
-  // baseURL: "http://127.0.0.1:8000/" + "/api/", // 使用本地的后端 
-  baseURL: "/api/", // 部署用的后端 
+  baseURL: config.baseURL,
   timeout: 10000,
   headers: { "Content-Type": "application/json" },
 });

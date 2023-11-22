@@ -1,32 +1,33 @@
 ## ERP管理系统-代码运行说明
-
+开源的ERP系统，使用django+vue搭建，目前demo搭建在https://erp.tanfuhua.com上，有产品管理、采购管理、生成管理、销售管理、财务管理、报表统计、系统管理板块，包含不同权限，覆盖绝大部分ERP的场景（用户名：admin，密码：123456））
 
 ## 开发环境要求
-* Python版本为V3.9+
+* Python版本为V3.9+ （推荐使用conda控制版本）
 * Django版本为V3.2+
-* Django-rest-framework版本为V3.12+
-* Vue版本为2.6+
+* nodejs 为 12.13.1（推荐使用nvm 控制版本）
 * 数据库为MySQL 8.0+
-* 前端组件为AntD 1.x
-* 其他Python包可参考requirements.txt文件
 
 
-## 本地部署流程
+## 本地运行流程
 
-### 前端部署
+### 前端运行 nodejs 为 12.13.1
 
 ~~~
 # 安装yarn
 npm install yarn
 # yarn安装依赖包
 yarn install
+# 在utils/config.js里设置自己的后端地址-baseUrl
 # 前端 运行
 yarn serve
-# 前端 打包构建（打包前将utils/request.js里的baseurl按照注释指示的切换）
-yarn build
 ~~~
 
-### 后端部署
+#### 修改ProjectName
+~~~
+# 在frontend\src\main.js里可以修改ProjectName和OnwerName为你自己的项目名称
+~~~
+
+### 后端运行
 
 ~~~
 # 切换python环境
@@ -37,27 +38,26 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 python manage.py runserver
 ~~~
 
-### 数据库部署
+### 数据库设置
 
 1. 数据库字符集设置为 utf8mb4
 2. 创建 erp-db 数据库(先设置字符集, 再创建数据库)
     CREATE DATABASE erp_db;
-3. 迁移数据库
+3. configs/django.py里修改password,user,host，port（你的ip）字段
+4. 迁移数据库
     * python manage.py makemigrations
     * python manage.py migrate
-4. 创建用户
+5. 创建管理员用户
     * python manage.py runscript create_user
-5. 重置数据库
-    * 导出erp_db数据库的结构
-    * 删除数据库
-    * 重新创建erp_db数据库
-    * 执行上面的创建用户命令（编号请输入2，其他按照需求输入） python manage.py runscript create_user
-    * 重新初始化权限 python manage.py runscript init_permission (去system_permission表里看一下，确保id从0开始)
-    * 本地去打开menu.js最下面角色管理的注释，去页面里添加权限组
+6. 初始化样例数据（可选）
+    * python manage.py runscript create_test_data
+7. 初始化权限数据（可选）
+    * python manage.py runscript init_permission
 
-## 服务器部署流程
 
-### 后端django部署
+## 服务器部署流程（前端使用nginx，后端使用uwsgi）
+
+### 后端部署
 1. 配置 uwsgi
     pip install uwsgi
 2. 运行 uwsgi
@@ -81,12 +81,12 @@ gid=root
 max-requests = 1000
 ~~~
 
-### vue前端部署
+### 前端部署
 
 1. 配置 nginx(配置文件在 /configs/nginx)
 2. 构建前端文件
    进入 frontend 目录, yarn build
-3. 将dist文件上传至服务器
+3. 将dist文件上传至服务器(nginx里配置的目录)
 
 #### nginx配置参数
 ~~~
@@ -164,4 +164,44 @@ server
 }
 ~~~
 
-### 数据库部署流程同本地部署流程一致
+### 数据库部署流程同本地部署流程一致（注意确保configs/django.py里的数据库配置正确）
+
+### 界面截图
+首页
+![首页](img/shouye.png)
+报表
+![库存](https://gitee.com/himool/erp/raw/master/img/kucun.png)
+产品
+![产品](https://gitee.com/himool/erp/raw/master/img/%E4%BA%A7%E5%93%81.png)
+采购
+![采购](https://gitee.com/himool/erp/raw/master/img/%E9%87%87%E8%B4%AD.png)
+销售
+![销售](https://gitee.com/himool/erp/raw/master/img/%E9%94%80%E5%94%AE.png)
+生产
+![生产](https://gitee.com/himool/erp/raw/master/img/%E7%94%9F%E4%BA%A7.png)
+库存
+![库存](https://gitee.com/himool/erp/raw/master/img/%E5%BA%93%E5%AD%98.png)
+财务
+![财务](https://gitee.com/himool/erp/raw/master/img/%E8%B4%A2%E5%8A%A1.png)
+设置
+![设置](https://gitee.com/himool/erp/raw/master/img/%E8%AE%BE%E7%BD%AE.png)
+登录板块
+![登录板块](img/login.png)
+注册板块
+![注册板块](img/reg.png)
+首页板块
+![首页板块](img/shouye.png)
+产品板块
+![产品板块](/img/chanpin.png)
+采购管理
+![采购管理](/img/caigou.png)
+生产管理
+![生产管理](/img/shengchan.png)
+销售管理
+![销售管理](/img/xiaoshou.png)
+财务管理
+![财务管理](/img/caiwu.png)
+报表统计
+![报表统计](/img/baobiao.png)
+系统管理
+![系统管理](/img/juese.png)

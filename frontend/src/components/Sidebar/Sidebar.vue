@@ -7,7 +7,9 @@
     </div>
     <a-menu theme="light" mode="inline" :selectedKeys="selectedKeys" :openKeys="openKeys" :inline-collapsed="collapsed"
       :style="{width: collapsed ? '80px' : '256px'}" @click="switchView" @openChange="openChange">
-
+      <a-menu-item key="/home">
+        <a-icon type="home" /><span>数据看板</span>
+      </a-menu-item>
 
       <a-sub-menu v-for="menu in menus" :key="menu.key">
         <span slot="title">
@@ -15,9 +17,7 @@
         <a-menu-item v-for="submenu of menu.submenus" :key="submenu.key">{{submenu.name}}</a-menu-item>
       </a-sub-menu>
 
-      <a-menu-item key="/home">
-        <a-icon type="home" /><span>数据看板</span>
-      </a-menu-item>
+
     </a-menu>
 
     <!-- <div style="position: fixed; bottom: 0;">

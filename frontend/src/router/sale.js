@@ -5,11 +5,6 @@ export default {
   redirect: '/sale/sale_create',
   children: [
     {
-      path: 'sale_predict',
-      meta: { title: '销售预计', permission: 'sale_create' },
-      component: () => import('@/views/sale/salePredict/salePredict'),
-    },
-    {
       path: 'sale_create',
       meta: { title: '销售开单', permission: 'sale_create' },
       component: () => import('@/views/sale/saleCreate/index'),
