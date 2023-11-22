@@ -1,5 +1,7 @@
 ## ERP管理系统-代码运行说明
-开源的ERP系统，使用django+vue搭建，目前demo搭建在https://erp.tanfuhua.com上，有产品管理、采购管理、生成管理、销售管理、财务管理、报表统计、系统管理板块，包含不同权限，覆盖绝大部分ERP的场景（用户名：admin，密码：123456））
+* 开源的ERP系统，使用django+vue搭建，目前demo搭建在[erp.tanfuhua.com](https://erp.tanfuhua.com)上
+* 有产品管理、采购管理、生成管理、销售管理、财务管理、报表统计、系统管理板块，包含不同权限，覆盖绝大部分ERP的场景
+* [erp.tanfuhua.com](https://erp.tanfuhua.com)（用户名：管理员，密码：123456）
 
 ## 开发环境要求
 * Python版本为V3.9+ （推荐使用conda控制版本）
@@ -47,7 +49,7 @@ python manage.py runserver
 4. 迁移数据库
     * python manage.py makemigrations
     * python manage.py migrate
-5. 创建管理员用户
+5. 创建管理员用户（编号请输入为2）
     * python manage.py runscript create_user
 6. 初始化样例数据（可选）
     * python manage.py runscript create_test_data
