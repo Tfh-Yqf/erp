@@ -135,7 +135,7 @@
             this.items = resp.results;
             this.pagination.total = resp.count;
 
-            // var myChart = echarts.init(document.getElementById('xiaoshou_echarts'));
+            // var myChart = echarts.init.sql(document.getElementById('xiaoshou_echarts'));
             // myChart.setOption(xiaoshou_echarts_data(resp.results));
           }).finally(() => {
             this.loading = false;
@@ -145,7 +145,7 @@
             this.items = resp.results;
             this.pagination.total = resp.count;
 
-            // var myChart = echarts.init(document.getElementById('xiaoshou_echarts'));
+            // var myChart = echarts.init.sql(document.getElementById('xiaoshou_echarts'));
             // myChart.setOption(xiaoshou_echarts_data(resp.results));
           }).finally(() => {
             this.loading = false;

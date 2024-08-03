@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+drf-spectacular = "*"
+django-filter = "*"
+django-extensions = "*"
+django-debug-toolbar = "*"
+pillow = "*"
+pendulum = "*"
+number-precision = "*"
+openpyxl = "*"
+uvicorn = "*"
+gunicorn = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"

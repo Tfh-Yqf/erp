@@ -116,9 +116,9 @@ dmypy.json
 
 # Project
 .vscode/
-apps/*/migrations/*
-!apps/*/migrations/__init__.py
+django/apps/*/migrations/*
+!django/apps/*/migrations/__init__.py
 media/
-trash/*
-!trash/templates/
+django/trash/*
+!django/trash/templates/
 *.lock

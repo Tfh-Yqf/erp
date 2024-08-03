@@ -137,7 +137,7 @@
             this.items = resp.results;
             this.pagination.total = resp.count;
 
-            // var myChart = echarts.init(document.getElementById('caigou_echarts'));
+            // var myChart = echarts.init.sql(document.getElementById('caigou_echarts'));
             // myChart.setOption(caigou_echarts_data(resp.results));
           }).finally(() => {
             this.loading = false;
@@ -147,7 +147,7 @@
             this.items = resp.results;
             this.pagination.total = resp.count;
 
-            // var myChart = echarts.init(document.getElementById('caigou_echarts'));
+            // var myChart = echarts.init.sql(document.getElementById('caigou_echarts'));
             // myChart.setOption(caigou_echarts_data(resp.results));
           }).finally(() => {
             this.loading = false;

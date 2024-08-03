@@ -9,6 +9,17 @@
 * nodejs 为 12.13.1（推荐使用nvm 控制版本）
 * 数据库为MySQL 8.0+
 
+## 快捷部署-docker
+
+~~~
+# 输入以下命令构建镜像
+sudo docker-compose build
+# 查看已生成的镜像
+sudo docker images
+# 启动容器组服务
+sudo docker-compose up
+
+~~~
 
 ## 本地运行流程
 

@@ -1,0 +1,66 @@
+version: '3'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    env_file:
+      - ./mysql/.env # 使用了环境变量文件
+    volumes:
+      - db_vol:/var/lib/mysql:rw # 挂载数据库数据, 可读可写
+      - ./mysql/my.cnf:/etc/mysql/my.cnf # 挂载配置文件
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql # 挂载数据初始化sql脚本
+    ports:
+      - "3306:3306"
+    networks:
+      - db_network
+  web:
+    build:
+      context: ./frontend/
+    restart: always
+    volumes:
+      - ./frontend:/app
+      - static_vol:/app/dist
+    networks:
+      - db_network
+      - nginx_network
+  backend:
+    build: ./django
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./django:/app
+    depends_on:
+      - db
+    networks:
+      - db_network
+      - nginx_network
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    expose:
+      - "80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf # 挂载nginx配置文件
+      - ./nginx/log:/var/log/nginx # 挂载日志
+      - static_vol:/usr/share/nginx/html/static # 挂载静态文件
+    networks:
+      - nginx_network
+    depends_on:
+      - web
+      - backend
+    restart: always
+
+
+networks: # 自定义网络(默认桥接), 不使用links通信
+  db_network:
+    driver: bridge
+  nginx_network:
+    driver: bridge
+volumes: # 自定义数据卷
+  db_vol: #定义数据卷同步存放容器内mysql数据
+  static_vol: #定义数据卷同步存放web项目static文件夹的数据
+
