@@ -12,14 +12,9 @@
 ## 快捷部署-docker
 
 ~~~
-# 输入以下命令构建镜像
-sudo docker-compose build
-# 查看已生成的镜像
-sudo docker images
-# 启动容器组服务
-sudo docker-compose up
-
+docker-compose up --build
 ~~~
+访问 127.0.0.1:8080查看效果
 
 ## 本地运行流程
 
