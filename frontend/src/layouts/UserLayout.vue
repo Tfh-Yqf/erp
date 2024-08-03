@@ -40,7 +40,7 @@ export default {
 .background {
   min-height: 100%;
   padding: 10vh 0;
-  background: url("https://datastorage.tanfuhua.com/file/download/thumbFiles/backgroungd_1699318922426.jpg") ;
+  background: url("https://pic2.ziyuan.wang/user/tanfuhua/2024/08/v2-e2d0fa9819c540732a4e7e980d5b48a9_r_26ba0cd0fea17.jpg") ;
   background-size: 100% 100%;
 }
 
