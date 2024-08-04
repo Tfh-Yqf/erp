@@ -18,4 +18,5 @@ RUN sed -i 's/\r//' ./start.sh
 RUN chmod +x ./start.sh
 # 给start.sh可执行权限
 RUN chmod +x ./scripts/init_data.sh
+RUN chmod -R 777 ./logs/
 CMD ["sh", "-c", "[ ! -f /app/initialized ] && /app/scripts/init_data.sh; /bin/bash ./start.sh"]
