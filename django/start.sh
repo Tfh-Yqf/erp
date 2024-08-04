@@ -16,7 +16,7 @@ python manage.py migrate
 #python manage.py runscript create_user
 #python manage.py runscript create_test_data
 #python manage.py runscript init_permission
-python manage.py runserver 0.0.0.0:8000
-
+# python manage.py runserver 0.0.0.0:8000
+uwsgi --ini /app/configs/uwsgi.ini
 
 exec "$@"

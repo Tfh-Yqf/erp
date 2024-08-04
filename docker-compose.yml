@@ -11,7 +11,7 @@ services:
       - ./mysql/my.cnf:/etc/mysql/my.cnf # 挂载配置文件
       - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql # 挂载数据初始化sql脚本
     ports:
-      - "3306:3306"
+      - "3307:3306"
     networks:
       - db_network
   web:
@@ -27,8 +27,6 @@ services:
   backend:
     build: ./django
     restart: always
-    ports:
-      - "8000:8000"
     volumes:
       - ./django:/app
     depends_on:
@@ -36,6 +34,8 @@ services:
     networks:
       - db_network
       - nginx_network
+    ports:
+      - "8000:8000"
   nginx:
     build: ./nginx
     ports:

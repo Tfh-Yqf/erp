@@ -32,3 +32,4 @@ uritemplate==4.1.1
 uvicorn==0.16.0
 django-cors-headers==4.3.0
 mysqlclient==2.2.0
+uwsgi==2.0.18
