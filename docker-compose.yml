@@ -17,10 +17,8 @@ services:
   web:
     build:
       context: ./frontend/
-    restart: always
     volumes:
       - ./frontend:/app
-      - static_vol:/app/dist
     networks:
       - db_network
       - nginx_network
@@ -29,6 +27,7 @@ services:
     restart: always
     volumes:
       - ./django:/app
+      - ./uwsgi:/tmp
     depends_on:
       - db
     networks:
@@ -46,7 +45,7 @@ services:
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf # 挂载nginx配置文件
       - ./nginx/log:/var/log/nginx # 挂载日志
-      - static_vol:/usr/share/nginx/html/static # 挂载静态文件
+      - ./frontend:/usr/share/nginx/html # 挂载静态文件
     networks:
       - nginx_network
     depends_on:

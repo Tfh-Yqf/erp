@@ -1,4 +1,11 @@
 #!/bin/bash
+
+# Your initialization commands
+echo "Running initialization tasks..."
+
+
+
+#!/bin/bash
 # 从第一行到最后一行分别表示：
 # 1. 等待MySQL服务启动后再进行数据迁移。nc即netcat缩写
 # 2. 收集静态文件到根目录static文件夹，
@@ -13,8 +20,13 @@ done
 
 python manage.py makemigrations
 python manage.py migrate
+expect ./scripts/create_user.exp
+# python manage.py runscript create_user
+python manage.py runscript create_test_data
+python manage.py runscript init_permission
 
-uwsgi --ini /app/configs/uwsgi.ini&&
-tail -f /dev/null
+# Create a flag file to indicate initialization has been done
+touch /app/initialized
 
 exec "$@"
+

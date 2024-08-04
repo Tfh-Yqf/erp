@@ -1,0 +1,22 @@
+#!/usr/bin/expect
+
+set timeout -1
+
+spawn python manage.py runscript create_user
+
+expect "编号: "
+send "2\r"
+
+expect "用户名: "
+send "管理员\r"
+
+expect "密码: "
+send "123456\r"
+
+expect "名称: "
+send "管理员\r"
+
+expect "激活天数: "
+send "10000\r"
+
+expect eof
