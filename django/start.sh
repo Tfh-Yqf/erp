@@ -11,9 +11,6 @@ while ! nc -z db 3306 ; do
     sleep 3
 done
 
-python manage.py makemigrations
-python manage.py migrate
-
 uwsgi --ini /app/configs/uwsgi.ini&&
 tail -f /dev/null
 
