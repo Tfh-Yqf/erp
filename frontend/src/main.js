@@ -12,7 +12,7 @@ import htmlToPdf from "@/utils/htmlToPdf";
 
 import "ant-design-vue/dist/antd.less";
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = true;
 Vue.prototype.$functions = functions;
 Vue.use(VueRouter);
 Vue.use(Viser);
