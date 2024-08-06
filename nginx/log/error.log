@@ -1,0 +1,2762 @@
+2024/08/03 14:06:25 [emerg] 1#1: host not found in upstream "web:8000" in /etc/nginx/conf.d/nginx.conf:6
+2024/08/03 14:06:30 [notice] 1#1: using the "epoll" event method
+2024/08/03 14:06:30 [notice] 1#1: nginx/1.27.0
+2024/08/03 14:06:30 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/03 14:06:30 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/03 14:06:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 14:06:30 [notice] 1#1: start worker processes
+2024/08/03 14:06:30 [notice] 1#1: start worker process 20
+2024/08/03 14:06:30 [notice] 1#1: start worker process 21
+2024/08/03 14:06:30 [notice] 1#1: start worker process 22
+2024/08/03 14:06:30 [notice] 1#1: start worker process 23
+2024/08/03 14:06:30 [notice] 1#1: start worker process 24
+2024/08/03 14:06:30 [notice] 1#1: start worker process 25
+2024/08/03 14:06:30 [notice] 1#1: start worker process 26
+2024/08/03 14:06:30 [notice] 1#1: start worker process 27
+2024/08/03 14:06:30 [notice] 1#1: start worker process 28
+2024/08/03 14:06:30 [notice] 1#1: start worker process 29
+2024/08/03 14:06:30 [notice] 1#1: start worker process 30
+2024/08/03 14:06:30 [notice] 1#1: start worker process 31
+2024/08/03 14:06:30 [notice] 1#1: start worker process 32
+2024/08/03 14:06:30 [notice] 1#1: start worker process 33
+2024/08/03 14:06:30 [notice] 1#1: start worker process 34
+2024/08/03 14:06:30 [notice] 1#1: start worker process 35
+2024/08/03 14:07:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/03 14:07:55 [notice] 20#20: gracefully shutting down
+2024/08/03 14:07:55 [notice] 29#29: gracefully shutting down
+2024/08/03 14:07:55 [notice] 21#21: gracefully shutting down
+2024/08/03 14:07:55 [notice] 22#22: gracefully shutting down
+2024/08/03 14:07:55 [notice] 23#23: gracefully shutting down
+2024/08/03 14:07:55 [notice] 25#25: gracefully shutting down
+2024/08/03 14:07:55 [notice] 26#26: gracefully shutting down
+2024/08/03 14:07:55 [notice] 24#24: gracefully shutting down
+2024/08/03 14:07:55 [notice] 27#27: gracefully shutting down
+2024/08/03 14:07:55 [notice] 28#28: gracefully shutting down
+2024/08/03 14:07:55 [notice] 30#30: gracefully shutting down
+2024/08/03 14:07:55 [notice] 20#20: exiting
+2024/08/03 14:07:55 [notice] 31#31: gracefully shutting down
+2024/08/03 14:07:55 [notice] 32#32: gracefully shutting down
+2024/08/03 14:07:55 [notice] 33#33: gracefully shutting down
+2024/08/03 14:07:55 [notice] 34#34: gracefully shutting down
+2024/08/03 14:07:55 [notice] 35#35: gracefully shutting down
+2024/08/03 14:07:55 [notice] 29#29: exiting
+2024/08/03 14:07:55 [notice] 21#21: exiting
+2024/08/03 14:07:55 [notice] 22#22: exiting
+2024/08/03 14:07:55 [notice] 23#23: exiting
+2024/08/03 14:07:55 [notice] 25#25: exiting
+2024/08/03 14:07:55 [notice] 26#26: exiting
+2024/08/03 14:07:55 [notice] 24#24: exiting
+2024/08/03 14:07:55 [notice] 27#27: exiting
+2024/08/03 14:07:55 [notice] 28#28: exiting
+2024/08/03 14:07:55 [notice] 30#30: exiting
+2024/08/03 14:07:55 [notice] 20#20: exit
+2024/08/03 14:07:55 [notice] 31#31: exiting
+2024/08/03 14:07:55 [notice] 32#32: exiting
+2024/08/03 14:07:55 [notice] 33#33: exiting
+2024/08/03 14:07:55 [notice] 34#34: exiting
+2024/08/03 14:07:55 [notice] 35#35: exiting
+2024/08/03 14:07:55 [notice] 29#29: exit
+2024/08/03 14:07:55 [notice] 21#21: exit
+2024/08/03 14:07:55 [notice] 22#22: exit
+2024/08/03 14:07:55 [notice] 23#23: exit
+2024/08/03 14:07:55 [notice] 25#25: exit
+2024/08/03 14:07:55 [notice] 26#26: exit
+2024/08/03 14:07:55 [notice] 24#24: exit
+2024/08/03 14:07:55 [notice] 27#27: exit
+2024/08/03 14:07:55 [notice] 28#28: exit
+2024/08/03 14:07:55 [notice] 30#30: exit
+2024/08/03 14:07:55 [notice] 31#31: exit
+2024/08/03 14:07:55 [notice] 32#32: exit
+2024/08/03 14:07:55 [notice] 33#33: exit
+2024/08/03 14:07:55 [notice] 34#34: exit
+2024/08/03 14:07:55 [notice] 35#35: exit
+2024/08/03 14:07:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/08/03 14:07:55 [notice] 1#1: worker process 20 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 21 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 22 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 23 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 24 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 25 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 26 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 27 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 28 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 29 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 30 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 31 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 32 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 33 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: worker process 35 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:07:55 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/03 14:07:55 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/03 14:07:55 [notice] 1#1: worker process 34 exited with code 0
+2024/08/03 14:07:55 [notice] 1#1: exit
+2024/08/03 14:12:22 [notice] 1#1: using the "epoll" event method
+2024/08/03 14:12:22 [notice] 1#1: nginx/1.27.0
+2024/08/03 14:12:22 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/03 14:12:22 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/03 14:12:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 14:12:22 [notice] 1#1: start worker processes
+2024/08/03 14:12:22 [notice] 1#1: start worker process 20
+2024/08/03 14:12:22 [notice] 1#1: start worker process 21
+2024/08/03 14:12:22 [notice] 1#1: start worker process 22
+2024/08/03 14:12:22 [notice] 1#1: start worker process 23
+2024/08/03 14:12:22 [notice] 1#1: start worker process 24
+2024/08/03 14:12:22 [notice] 1#1: start worker process 25
+2024/08/03 14:12:22 [notice] 1#1: start worker process 26
+2024/08/03 14:12:22 [notice] 1#1: start worker process 27
+2024/08/03 14:12:22 [notice] 1#1: start worker process 28
+2024/08/03 14:12:22 [notice] 1#1: start worker process 29
+2024/08/03 14:12:22 [notice] 1#1: start worker process 30
+2024/08/03 14:12:22 [notice] 1#1: start worker process 31
+2024/08/03 14:12:22 [notice] 1#1: start worker process 32
+2024/08/03 14:12:22 [notice] 1#1: start worker process 33
+2024/08/03 14:12:22 [notice] 1#1: start worker process 34
+2024/08/03 14:12:22 [notice] 1#1: start worker process 35
+2024/08/03 14:17:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/03 14:17:56 [notice] 22#22: gracefully shutting down
+2024/08/03 14:17:56 [notice] 34#34: gracefully shutting down
+2024/08/03 14:17:56 [notice] 20#20: gracefully shutting down
+2024/08/03 14:17:56 [notice] 23#23: gracefully shutting down
+2024/08/03 14:17:56 [notice] 23#23: exiting
+2024/08/03 14:17:56 [notice] 21#21: gracefully shutting down
+2024/08/03 14:17:56 [notice] 24#24: gracefully shutting down
+2024/08/03 14:17:56 [notice] 25#25: gracefully shutting down
+2024/08/03 14:17:56 [notice] 27#27: gracefully shutting down
+2024/08/03 14:17:56 [notice] 26#26: gracefully shutting down
+2024/08/03 14:17:56 [notice] 28#28: gracefully shutting down
+2024/08/03 14:17:56 [notice] 29#29: gracefully shutting down
+2024/08/03 14:17:56 [notice] 31#31: gracefully shutting down
+2024/08/03 14:17:56 [notice] 30#30: gracefully shutting down
+2024/08/03 14:17:56 [notice] 32#32: gracefully shutting down
+2024/08/03 14:17:56 [notice] 33#33: gracefully shutting down
+2024/08/03 14:17:56 [notice] 33#33: exiting
+2024/08/03 14:17:56 [notice] 35#35: gracefully shutting down
+2024/08/03 14:17:56 [notice] 22#22: exiting
+2024/08/03 14:17:56 [notice] 34#34: exiting
+2024/08/03 14:17:56 [notice] 20#20: exiting
+2024/08/03 14:17:56 [notice] 23#23: exit
+2024/08/03 14:17:56 [notice] 21#21: exiting
+2024/08/03 14:17:56 [notice] 24#24: exiting
+2024/08/03 14:17:56 [notice] 25#25: exiting
+2024/08/03 14:17:56 [notice] 27#27: exiting
+2024/08/03 14:17:56 [notice] 26#26: exiting
+2024/08/03 14:17:56 [notice] 28#28: exiting
+2024/08/03 14:17:56 [notice] 29#29: exiting
+2024/08/03 14:17:56 [notice] 31#31: exiting
+2024/08/03 14:17:56 [notice] 30#30: exiting
+2024/08/03 14:17:56 [notice] 32#32: exiting
+2024/08/03 14:17:56 [notice] 33#33: exit
+2024/08/03 14:17:56 [notice] 35#35: exiting
+2024/08/03 14:17:56 [notice] 22#22: exit
+2024/08/03 14:17:56 [notice] 34#34: exit
+2024/08/03 14:17:56 [notice] 20#20: exit
+2024/08/03 14:17:56 [notice] 21#21: exit
+2024/08/03 14:17:56 [notice] 24#24: exit
+2024/08/03 14:17:56 [notice] 25#25: exit
+2024/08/03 14:17:56 [notice] 27#27: exit
+2024/08/03 14:17:56 [notice] 26#26: exit
+2024/08/03 14:17:56 [notice] 28#28: exit
+2024/08/03 14:17:56 [notice] 29#29: exit
+2024/08/03 14:17:56 [notice] 31#31: exit
+2024/08/03 14:17:56 [notice] 30#30: exit
+2024/08/03 14:17:56 [notice] 32#32: exit
+2024/08/03 14:17:56 [notice] 35#35: exit
+2024/08/03 14:17:56 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/03 14:17:56 [notice] 1#1: worker process 20 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 23 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 26 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 28 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 29 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 30 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 31 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 32 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 34 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 35 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:17:56 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/03 14:17:56 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/03 14:17:56 [notice] 1#1: worker process 21 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 22 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 25 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 27 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: worker process 33 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:17:56 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/03 14:17:56 [notice] 1#1: worker process 24 exited with code 0
+2024/08/03 14:17:56 [notice] 1#1: exit
+2024/08/03 14:23:10 [notice] 1#1: using the "epoll" event method
+2024/08/03 14:23:10 [notice] 1#1: nginx/1.27.0
+2024/08/03 14:23:10 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/03 14:23:10 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/03 14:23:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 14:23:10 [notice] 1#1: start worker processes
+2024/08/03 14:23:10 [notice] 1#1: start worker process 20
+2024/08/03 14:23:10 [notice] 1#1: start worker process 21
+2024/08/03 14:23:10 [notice] 1#1: start worker process 22
+2024/08/03 14:23:10 [notice] 1#1: start worker process 23
+2024/08/03 14:23:10 [notice] 1#1: start worker process 24
+2024/08/03 14:23:10 [notice] 1#1: start worker process 25
+2024/08/03 14:23:10 [notice] 1#1: start worker process 26
+2024/08/03 14:23:10 [notice] 1#1: start worker process 27
+2024/08/03 14:23:10 [notice] 1#1: start worker process 28
+2024/08/03 14:23:10 [notice] 1#1: start worker process 29
+2024/08/03 14:23:10 [notice] 1#1: start worker process 30
+2024/08/03 14:23:10 [notice] 1#1: start worker process 31
+2024/08/03 14:23:10 [notice] 1#1: start worker process 32
+2024/08/03 14:23:10 [notice] 1#1: start worker process 33
+2024/08/03 14:23:10 [notice] 1#1: start worker process 34
+2024/08/03 14:23:10 [notice] 1#1: start worker process 35
+2024/08/03 14:23:37 [error] 20#20: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "uwsgi://172.20.0.2:8000", host: "localhost"
+2024/08/03 14:23:40 [error] 20#20: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://172.20.0.2:8000", host: "localhost", referrer: "http://localhost/"
+2024/08/03 14:24:50 [error] 21#21: *3 connect() failed (113: No route to host) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "uwsgi://172.20.0.2:8000", host: "localhost"
+2024/08/03 14:24:53 [error] 21#21: *3 connect() failed (113: No route to host) while connecting to upstream, client: 172.20.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://172.20.0.2:8000", host: "localhost", referrer: "http://localhost/"
+2024/08/03 14:27:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/03 14:27:59 [notice] 20#20: gracefully shutting down
+2024/08/03 14:27:59 [notice] 27#27: gracefully shutting down
+2024/08/03 14:27:59 [notice] 21#21: gracefully shutting down
+2024/08/03 14:27:59 [notice] 22#22: gracefully shutting down
+2024/08/03 14:27:59 [notice] 23#23: gracefully shutting down
+2024/08/03 14:27:59 [notice] 23#23: exiting
+2024/08/03 14:27:59 [notice] 24#24: gracefully shutting down
+2024/08/03 14:27:59 [notice] 25#25: gracefully shutting down
+2024/08/03 14:27:59 [notice] 26#26: gracefully shutting down
+2024/08/03 14:27:59 [notice] 28#28: gracefully shutting down
+2024/08/03 14:27:59 [notice] 30#30: gracefully shutting down
+2024/08/03 14:27:59 [notice] 20#20: exiting
+2024/08/03 14:27:59 [notice] 31#31: gracefully shutting down
+2024/08/03 14:27:59 [notice] 31#31: exiting
+2024/08/03 14:27:59 [notice] 29#29: gracefully shutting down
+2024/08/03 14:27:59 [notice] 32#32: gracefully shutting down
+2024/08/03 14:27:59 [notice] 33#33: gracefully shutting down
+2024/08/03 14:27:59 [notice] 34#34: gracefully shutting down
+2024/08/03 14:27:59 [notice] 35#35: gracefully shutting down
+2024/08/03 14:27:59 [notice] 27#27: exiting
+2024/08/03 14:27:59 [notice] 21#21: exiting
+2024/08/03 14:27:59 [notice] 22#22: exiting
+2024/08/03 14:27:59 [notice] 23#23: exit
+2024/08/03 14:27:59 [notice] 24#24: exiting
+2024/08/03 14:27:59 [notice] 25#25: exiting
+2024/08/03 14:27:59 [notice] 26#26: exiting
+2024/08/03 14:27:59 [notice] 28#28: exiting
+2024/08/03 14:27:59 [notice] 30#30: exiting
+2024/08/03 14:27:59 [notice] 20#20: exit
+2024/08/03 14:27:59 [notice] 31#31: exit
+2024/08/03 14:27:59 [notice] 29#29: exiting
+2024/08/03 14:27:59 [notice] 32#32: exiting
+2024/08/03 14:27:59 [notice] 33#33: exiting
+2024/08/03 14:27:59 [notice] 34#34: exiting
+2024/08/03 14:27:59 [notice] 35#35: exiting
+2024/08/03 14:27:59 [notice] 27#27: exit
+2024/08/03 14:27:59 [notice] 21#21: exit
+2024/08/03 14:27:59 [notice] 22#22: exit
+2024/08/03 14:27:59 [notice] 24#24: exit
+2024/08/03 14:27:59 [notice] 25#25: exit
+2024/08/03 14:27:59 [notice] 26#26: exit
+2024/08/03 14:27:59 [notice] 28#28: exit
+2024/08/03 14:27:59 [notice] 30#30: exit
+2024/08/03 14:27:59 [notice] 29#29: exit
+2024/08/03 14:27:59 [notice] 32#32: exit
+2024/08/03 14:27:59 [notice] 33#33: exit
+2024/08/03 14:27:59 [notice] 34#34: exit
+2024/08/03 14:27:59 [notice] 35#35: exit
+2024/08/03 14:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/03 14:27:59 [notice] 1#1: worker process 20 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 27 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 33 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/03 14:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/08/03 14:27:59 [notice] 1#1: worker process 21 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 22 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 23 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 24 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 25 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 28 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 30 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 32 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 35 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/08/03 14:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/03 14:27:59 [notice] 1#1: worker process 31 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: worker process 34 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/08/03 14:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/03 14:27:59 [notice] 1#1: worker process 26 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/08/03 14:27:59 [notice] 1#1: worker process 29 exited with code 0
+2024/08/03 14:27:59 [notice] 1#1: exit
+2024/08/03 14:28:01 [emerg] 1#1: no port in upstream "django" in /etc/nginx/conf.d/nginx.conf:19
+2024/08/03 14:28:02 [emerg] 1#1: no port in upstream "django" in /etc/nginx/conf.d/nginx.conf:19
+2024/08/03 14:28:03 [emerg] 1#1: no port in upstream "django" in /etc/nginx/conf.d/nginx.conf:19
+2024/08/03 14:28:04 [emerg] 1#1: no port in upstream "django" in /etc/nginx/conf.d/nginx.conf:19
+2024/08/03 14:28:06 [emerg] 1#1: no port in upstream "django" in /etc/nginx/conf.d/nginx.conf:19
+2024/08/03 14:28:08 [emerg] 1#1: no port in upstream "django" in /etc/nginx/conf.d/nginx.conf:19
+2024/08/03 14:28:11 [emerg] 1#1: no port in upstream "django" in /etc/nginx/conf.d/nginx.conf:19
+2024/08/03 14:28:18 [emerg] 1#1: no port in upstream "django" in /etc/nginx/conf.d/nginx.conf:19
+2024/08/03 14:28:31 [notice] 1#1: using the "epoll" event method
+2024/08/03 14:28:31 [notice] 1#1: nginx/1.27.0
+2024/08/03 14:28:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/03 14:28:31 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/03 14:28:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 14:28:31 [notice] 1#1: start worker processes
+2024/08/03 14:28:31 [notice] 1#1: start worker process 20
+2024/08/03 14:28:31 [notice] 1#1: start worker process 21
+2024/08/03 14:28:31 [notice] 1#1: start worker process 22
+2024/08/03 14:28:31 [notice] 1#1: start worker process 23
+2024/08/03 14:28:31 [notice] 1#1: start worker process 24
+2024/08/03 14:28:31 [notice] 1#1: start worker process 25
+2024/08/03 14:28:31 [notice] 1#1: start worker process 26
+2024/08/03 14:28:31 [notice] 1#1: start worker process 27
+2024/08/03 14:28:31 [notice] 1#1: start worker process 28
+2024/08/03 14:28:31 [notice] 1#1: start worker process 29
+2024/08/03 14:28:31 [notice] 1#1: start worker process 30
+2024/08/03 14:28:31 [notice] 1#1: start worker process 31
+2024/08/03 14:28:31 [notice] 1#1: start worker process 32
+2024/08/03 14:28:31 [notice] 1#1: start worker process 33
+2024/08/03 14:28:31 [notice] 1#1: start worker process 34
+2024/08/03 14:28:31 [notice] 1#1: start worker process 35
+2024/08/03 14:28:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/03 14:28:38 [notice] 20#20: gracefully shutting down
+2024/08/03 14:28:38 [notice] 32#32: gracefully shutting down
+2024/08/03 14:28:38 [notice] 21#21: gracefully shutting down
+2024/08/03 14:28:38 [notice] 21#21: exiting
+2024/08/03 14:28:38 [notice] 22#22: gracefully shutting down
+2024/08/03 14:28:38 [notice] 23#23: gracefully shutting down
+2024/08/03 14:28:38 [notice] 24#24: gracefully shutting down
+2024/08/03 14:28:38 [notice] 25#25: gracefully shutting down
+2024/08/03 14:28:38 [notice] 26#26: gracefully shutting down
+2024/08/03 14:28:38 [notice] 27#27: gracefully shutting down
+2024/08/03 14:28:38 [notice] 28#28: gracefully shutting down
+2024/08/03 14:28:38 [notice] 29#29: gracefully shutting down
+2024/08/03 14:28:38 [notice] 30#30: gracefully shutting down
+2024/08/03 14:28:38 [notice] 33#33: gracefully shutting down
+2024/08/03 14:28:38 [notice] 31#31: gracefully shutting down
+2024/08/03 14:28:38 [notice] 20#20: exiting
+2024/08/03 14:28:38 [notice] 34#34: gracefully shutting down
+2024/08/03 14:28:38 [notice] 35#35: gracefully shutting down
+2024/08/03 14:28:38 [notice] 32#32: exiting
+2024/08/03 14:28:38 [notice] 21#21: exit
+2024/08/03 14:28:38 [notice] 22#22: exiting
+2024/08/03 14:28:38 [notice] 23#23: exiting
+2024/08/03 14:28:38 [notice] 24#24: exiting
+2024/08/03 14:28:38 [notice] 25#25: exiting
+2024/08/03 14:28:38 [notice] 26#26: exiting
+2024/08/03 14:28:38 [notice] 27#27: exiting
+2024/08/03 14:28:38 [notice] 28#28: exiting
+2024/08/03 14:28:38 [notice] 29#29: exiting
+2024/08/03 14:28:38 [notice] 30#30: exiting
+2024/08/03 14:28:38 [notice] 33#33: exiting
+2024/08/03 14:28:38 [notice] 31#31: exiting
+2024/08/03 14:28:38 [notice] 20#20: exit
+2024/08/03 14:28:38 [notice] 34#34: exiting
+2024/08/03 14:28:38 [notice] 35#35: exiting
+2024/08/03 14:28:38 [notice] 32#32: exit
+2024/08/03 14:28:38 [notice] 22#22: exit
+2024/08/03 14:28:38 [notice] 23#23: exit
+2024/08/03 14:28:38 [notice] 24#24: exit
+2024/08/03 14:28:38 [notice] 25#25: exit
+2024/08/03 14:28:38 [notice] 26#26: exit
+2024/08/03 14:28:38 [notice] 27#27: exit
+2024/08/03 14:28:38 [notice] 28#28: exit
+2024/08/03 14:28:38 [notice] 29#29: exit
+2024/08/03 14:28:38 [notice] 30#30: exit
+2024/08/03 14:28:38 [notice] 33#33: exit
+2024/08/03 14:28:38 [notice] 31#31: exit
+2024/08/03 14:28:38 [notice] 34#34: exit
+2024/08/03 14:28:38 [notice] 35#35: exit
+2024/08/03 14:28:38 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/03 14:28:38 [notice] 1#1: worker process 24 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: worker process 25 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: worker process 26 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: worker process 27 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: worker process 28 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: worker process 30 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: worker process 33 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: worker process 34 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:28:38 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/03 14:28:38 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/03 14:28:38 [notice] 1#1: worker process 20 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: worker process 22 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:28:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/08/03 14:28:38 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/08/03 14:28:38 [notice] 1#1: worker process 32 exited with code 0
+2024/08/03 14:28:38 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:28:39 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/03 14:28:39 [notice] 1#1: worker process 23 exited with code 0
+2024/08/03 14:28:39 [notice] 1#1: worker process 35 exited with code 0
+2024/08/03 14:28:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:28:39 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/08/03 14:28:39 [notice] 1#1: worker process 21 exited with code 0
+2024/08/03 14:28:39 [notice] 1#1: worker process 29 exited with code 0
+2024/08/03 14:28:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:28:39 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/08/03 14:28:39 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/08/03 14:28:39 [notice] 1#1: worker process 31 exited with code 0
+2024/08/03 14:28:39 [notice] 1#1: exit
+2024/08/03 14:29:48 [notice] 1#1: using the "epoll" event method
+2024/08/03 14:29:48 [notice] 1#1: nginx/1.27.0
+2024/08/03 14:29:48 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/03 14:29:48 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/03 14:29:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 14:29:48 [notice] 1#1: start worker processes
+2024/08/03 14:29:48 [notice] 1#1: start worker process 20
+2024/08/03 14:29:48 [notice] 1#1: start worker process 21
+2024/08/03 14:29:48 [notice] 1#1: start worker process 22
+2024/08/03 14:29:48 [notice] 1#1: start worker process 23
+2024/08/03 14:29:48 [notice] 1#1: start worker process 24
+2024/08/03 14:29:48 [notice] 1#1: start worker process 25
+2024/08/03 14:29:48 [notice] 1#1: start worker process 26
+2024/08/03 14:29:48 [notice] 1#1: start worker process 27
+2024/08/03 14:29:48 [notice] 1#1: start worker process 28
+2024/08/03 14:29:48 [notice] 1#1: start worker process 29
+2024/08/03 14:29:48 [notice] 1#1: start worker process 30
+2024/08/03 14:29:48 [notice] 1#1: start worker process 31
+2024/08/03 14:29:48 [notice] 1#1: start worker process 32
+2024/08/03 14:29:48 [notice] 1#1: start worker process 33
+2024/08/03 14:29:48 [notice] 1#1: start worker process 34
+2024/08/03 14:29:48 [notice] 1#1: start worker process 35
+2024/08/03 14:38:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/03 14:38:43 [notice] 20#20: gracefully shutting down
+2024/08/03 14:38:43 [notice] 28#28: gracefully shutting down
+2024/08/03 14:38:43 [notice] 21#21: gracefully shutting down
+2024/08/03 14:38:43 [notice] 22#22: gracefully shutting down
+2024/08/03 14:38:43 [notice] 23#23: gracefully shutting down
+2024/08/03 14:38:43 [notice] 24#24: gracefully shutting down
+2024/08/03 14:38:43 [notice] 25#25: gracefully shutting down
+2024/08/03 14:38:43 [notice] 26#26: gracefully shutting down
+2024/08/03 14:38:43 [notice] 27#27: gracefully shutting down
+2024/08/03 14:38:43 [notice] 29#29: gracefully shutting down
+2024/08/03 14:38:43 [notice] 20#20: exiting
+2024/08/03 14:38:43 [notice] 30#30: gracefully shutting down
+2024/08/03 14:38:43 [notice] 30#30: exiting
+2024/08/03 14:38:43 [notice] 31#31: gracefully shutting down
+2024/08/03 14:38:43 [notice] 32#32: gracefully shutting down
+2024/08/03 14:38:43 [notice] 33#33: gracefully shutting down
+2024/08/03 14:38:43 [notice] 34#34: gracefully shutting down
+2024/08/03 14:38:43 [notice] 35#35: gracefully shutting down
+2024/08/03 14:38:43 [notice] 28#28: exiting
+2024/08/03 14:38:43 [notice] 21#21: exiting
+2024/08/03 14:38:43 [notice] 22#22: exiting
+2024/08/03 14:38:43 [notice] 23#23: exiting
+2024/08/03 14:38:43 [notice] 24#24: exiting
+2024/08/03 14:38:43 [notice] 25#25: exiting
+2024/08/03 14:38:43 [notice] 26#26: exiting
+2024/08/03 14:38:43 [notice] 27#27: exiting
+2024/08/03 14:38:43 [notice] 29#29: exiting
+2024/08/03 14:38:43 [notice] 20#20: exit
+2024/08/03 14:38:43 [notice] 30#30: exit
+2024/08/03 14:38:43 [notice] 31#31: exiting
+2024/08/03 14:38:43 [notice] 32#32: exiting
+2024/08/03 14:38:43 [notice] 33#33: exiting
+2024/08/03 14:38:43 [notice] 34#34: exiting
+2024/08/03 14:38:43 [notice] 35#35: exiting
+2024/08/03 14:38:43 [notice] 28#28: exit
+2024/08/03 14:38:43 [notice] 21#21: exit
+2024/08/03 14:38:43 [notice] 22#22: exit
+2024/08/03 14:38:43 [notice] 23#23: exit
+2024/08/03 14:38:43 [notice] 24#24: exit
+2024/08/03 14:38:43 [notice] 25#25: exit
+2024/08/03 14:38:43 [notice] 26#26: exit
+2024/08/03 14:38:43 [notice] 27#27: exit
+2024/08/03 14:38:43 [notice] 29#29: exit
+2024/08/03 14:38:43 [notice] 31#31: exit
+2024/08/03 14:38:43 [notice] 32#32: exit
+2024/08/03 14:38:43 [notice] 33#33: exit
+2024/08/03 14:38:43 [notice] 34#34: exit
+2024/08/03 14:38:43 [notice] 35#35: exit
+2024/08/03 14:38:44 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/03 14:38:44 [notice] 1#1: worker process 24 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 34 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:38:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/03 14:38:44 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/03 14:38:44 [notice] 1#1: worker process 20 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 22 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 25 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 28 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 29 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 30 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 31 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 32 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 33 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:38:44 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/08/03 14:38:44 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/03 14:38:44 [notice] 1#1: worker process 21 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 23 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 26 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 27 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: worker process 35 exited with code 0
+2024/08/03 14:38:44 [notice] 1#1: exit
+2024/08/03 14:42:07 [notice] 1#1: using the "epoll" event method
+2024/08/03 14:42:07 [notice] 1#1: nginx/1.27.0
+2024/08/03 14:42:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/03 14:42:07 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/03 14:42:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 14:42:07 [notice] 1#1: start worker processes
+2024/08/03 14:42:07 [notice] 1#1: start worker process 20
+2024/08/03 14:42:07 [notice] 1#1: start worker process 21
+2024/08/03 14:42:07 [notice] 1#1: start worker process 22
+2024/08/03 14:42:07 [notice] 1#1: start worker process 23
+2024/08/03 14:42:07 [notice] 1#1: start worker process 24
+2024/08/03 14:42:07 [notice] 1#1: start worker process 25
+2024/08/03 14:42:07 [notice] 1#1: start worker process 26
+2024/08/03 14:42:07 [notice] 1#1: start worker process 27
+2024/08/03 14:42:07 [notice] 1#1: start worker process 28
+2024/08/03 14:42:07 [notice] 1#1: start worker process 29
+2024/08/03 14:42:07 [notice] 1#1: start worker process 30
+2024/08/03 14:42:07 [notice] 1#1: start worker process 31
+2024/08/03 14:42:07 [notice] 1#1: start worker process 32
+2024/08/03 14:42:07 [notice] 1#1: start worker process 33
+2024/08/03 14:42:07 [notice] 1#1: start worker process 34
+2024/08/03 14:42:07 [notice] 1#1: start worker process 35
+2024/08/03 14:43:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/03 14:43:22 [notice] 20#20: gracefully shutting down
+2024/08/03 14:43:22 [notice] 28#28: gracefully shutting down
+2024/08/03 14:43:22 [notice] 21#21: gracefully shutting down
+2024/08/03 14:43:22 [notice] 22#22: gracefully shutting down
+2024/08/03 14:43:22 [notice] 23#23: gracefully shutting down
+2024/08/03 14:43:22 [notice] 24#24: gracefully shutting down
+2024/08/03 14:43:22 [notice] 25#25: gracefully shutting down
+2024/08/03 14:43:22 [notice] 26#26: gracefully shutting down
+2024/08/03 14:43:22 [notice] 27#27: gracefully shutting down
+2024/08/03 14:43:22 [notice] 29#29: gracefully shutting down
+2024/08/03 14:43:22 [notice] 30#30: gracefully shutting down
+2024/08/03 14:43:22 [notice] 20#20: exiting
+2024/08/03 14:43:22 [notice] 31#31: gracefully shutting down
+2024/08/03 14:43:22 [notice] 32#32: gracefully shutting down
+2024/08/03 14:43:22 [notice] 34#34: gracefully shutting down
+2024/08/03 14:43:22 [notice] 35#35: gracefully shutting down
+2024/08/03 14:43:22 [notice] 28#28: exiting
+2024/08/03 14:43:22 [notice] 33#33: gracefully shutting down
+2024/08/03 14:43:22 [notice] 21#21: exiting
+2024/08/03 14:43:22 [notice] 22#22: exiting
+2024/08/03 14:43:22 [notice] 23#23: exiting
+2024/08/03 14:43:22 [notice] 24#24: exiting
+2024/08/03 14:43:22 [notice] 25#25: exiting
+2024/08/03 14:43:22 [notice] 26#26: exiting
+2024/08/03 14:43:22 [notice] 27#27: exiting
+2024/08/03 14:43:22 [notice] 29#29: exiting
+2024/08/03 14:43:22 [notice] 30#30: exiting
+2024/08/03 14:43:22 [notice] 20#20: exit
+2024/08/03 14:43:22 [notice] 31#31: exiting
+2024/08/03 14:43:22 [notice] 32#32: exiting
+2024/08/03 14:43:22 [notice] 34#34: exiting
+2024/08/03 14:43:22 [notice] 35#35: exiting
+2024/08/03 14:43:22 [notice] 28#28: exit
+2024/08/03 14:43:22 [notice] 33#33: exiting
+2024/08/03 14:43:22 [notice] 21#21: exit
+2024/08/03 14:43:22 [notice] 22#22: exit
+2024/08/03 14:43:22 [notice] 23#23: exit
+2024/08/03 14:43:22 [notice] 24#24: exit
+2024/08/03 14:43:22 [notice] 25#25: exit
+2024/08/03 14:43:22 [notice] 26#26: exit
+2024/08/03 14:43:22 [notice] 27#27: exit
+2024/08/03 14:43:22 [notice] 29#29: exit
+2024/08/03 14:43:22 [notice] 30#30: exit
+2024/08/03 14:43:22 [notice] 31#31: exit
+2024/08/03 14:43:22 [notice] 32#32: exit
+2024/08/03 14:43:22 [notice] 34#34: exit
+2024/08/03 14:43:22 [notice] 35#35: exit
+2024/08/03 14:43:22 [notice] 33#33: exit
+2024/08/03 14:43:22 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/03 14:43:22 [notice] 1#1: worker process 20 exited with code 0
+2024/08/03 14:43:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:43:22 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/08/03 14:43:22 [notice] 1#1: worker process 23 exited with code 0
+2024/08/03 14:43:22 [notice] 1#1: worker process 24 exited with code 0
+2024/08/03 14:43:22 [notice] 1#1: worker process 25 exited with code 0
+2024/08/03 14:43:22 [notice] 1#1: worker process 28 exited with code 0
+2024/08/03 14:43:22 [notice] 1#1: worker process 29 exited with code 0
+2024/08/03 14:43:22 [notice] 1#1: worker process 30 exited with code 0
+2024/08/03 14:43:22 [notice] 1#1: worker process 32 exited with code 0
+2024/08/03 14:43:22 [notice] 1#1: worker process 33 exited with code 0
+2024/08/03 14:43:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:43:22 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/03 14:43:23 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/03 14:43:23 [notice] 1#1: worker process 26 exited with code 0
+2024/08/03 14:43:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:43:23 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/08/03 14:43:23 [notice] 1#1: worker process 21 exited with code 0
+2024/08/03 14:43:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:43:23 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/03 14:43:23 [notice] 1#1: worker process 31 exited with code 0
+2024/08/03 14:43:23 [notice] 1#1: worker process 34 exited with code 0
+2024/08/03 14:43:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 14:43:23 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/03 14:43:23 [notice] 1#1: worker process 22 exited with code 0
+2024/08/03 14:43:23 [notice] 1#1: worker process 27 exited with code 0
+2024/08/03 14:43:23 [notice] 1#1: worker process 35 exited with code 0
+2024/08/03 14:43:23 [notice] 1#1: exit
+2024/08/03 14:54:22 [notice] 1#1: using the "epoll" event method
+2024/08/03 14:54:22 [notice] 1#1: nginx/1.27.0
+2024/08/03 14:54:22 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/03 14:54:22 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/03 14:54:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 14:54:22 [notice] 1#1: start worker processes
+2024/08/03 14:54:22 [notice] 1#1: start worker process 20
+2024/08/03 14:54:22 [notice] 1#1: start worker process 21
+2024/08/03 14:54:22 [notice] 1#1: start worker process 22
+2024/08/03 14:54:22 [notice] 1#1: start worker process 23
+2024/08/03 14:54:22 [notice] 1#1: start worker process 24
+2024/08/03 14:54:22 [notice] 1#1: start worker process 25
+2024/08/03 14:54:22 [notice] 1#1: start worker process 26
+2024/08/03 14:54:22 [notice] 1#1: start worker process 27
+2024/08/03 14:54:22 [notice] 1#1: start worker process 28
+2024/08/03 14:54:22 [notice] 1#1: start worker process 29
+2024/08/03 14:54:22 [notice] 1#1: start worker process 30
+2024/08/03 14:54:22 [notice] 1#1: start worker process 31
+2024/08/03 14:54:22 [notice] 1#1: start worker process 32
+2024/08/03 14:54:22 [notice] 1#1: start worker process 33
+2024/08/03 14:54:22 [notice] 1#1: start worker process 34
+2024/08/03 14:54:22 [notice] 1#1: start worker process 35
+2024/08/03 16:20:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/03 16:20:22 [notice] 20#20: gracefully shutting down
+2024/08/03 16:20:22 [notice] 30#30: gracefully shutting down
+2024/08/03 16:20:22 [notice] 21#21: gracefully shutting down
+2024/08/03 16:20:22 [notice] 22#22: gracefully shutting down
+2024/08/03 16:20:22 [notice] 23#23: gracefully shutting down
+2024/08/03 16:20:22 [notice] 24#24: gracefully shutting down
+2024/08/03 16:20:22 [notice] 25#25: gracefully shutting down
+2024/08/03 16:20:22 [notice] 26#26: gracefully shutting down
+2024/08/03 16:20:22 [notice] 20#20: exiting
+2024/08/03 16:20:22 [notice] 27#27: gracefully shutting down
+2024/08/03 16:20:22 [notice] 28#28: gracefully shutting down
+2024/08/03 16:20:22 [notice] 29#29: gracefully shutting down
+2024/08/03 16:20:22 [notice] 31#31: gracefully shutting down
+2024/08/03 16:20:22 [notice] 32#32: gracefully shutting down
+2024/08/03 16:20:22 [notice] 33#33: gracefully shutting down
+2024/08/03 16:20:22 [notice] 34#34: gracefully shutting down
+2024/08/03 16:20:22 [notice] 35#35: gracefully shutting down
+2024/08/03 16:20:22 [notice] 30#30: exiting
+2024/08/03 16:20:22 [notice] 21#21: exiting
+2024/08/03 16:20:22 [notice] 22#22: exiting
+2024/08/03 16:20:22 [notice] 23#23: exiting
+2024/08/03 16:20:22 [notice] 25#25: exiting
+2024/08/03 16:20:22 [notice] 24#24: exiting
+2024/08/03 16:20:22 [notice] 26#26: exiting
+2024/08/03 16:20:22 [notice] 27#27: exiting
+2024/08/03 16:20:22 [notice] 28#28: exiting
+2024/08/03 16:20:22 [notice] 20#20: exit
+2024/08/03 16:20:22 [notice] 29#29: exiting
+2024/08/03 16:20:22 [notice] 31#31: exiting
+2024/08/03 16:20:22 [notice] 30#30: exit
+2024/08/03 16:20:22 [notice] 32#32: exiting
+2024/08/03 16:20:22 [notice] 33#33: exiting
+2024/08/03 16:20:22 [notice] 21#21: exit
+2024/08/03 16:20:22 [notice] 34#34: exiting
+2024/08/03 16:20:22 [notice] 22#22: exit
+2024/08/03 16:20:22 [notice] 35#35: exiting
+2024/08/03 16:20:22 [notice] 23#23: exit
+2024/08/03 16:20:22 [notice] 25#25: exit
+2024/08/03 16:20:22 [notice] 24#24: exit
+2024/08/03 16:20:22 [notice] 27#27: exit
+2024/08/03 16:20:22 [notice] 26#26: exit
+2024/08/03 16:20:22 [notice] 28#28: exit
+2024/08/03 16:20:22 [notice] 29#29: exit
+2024/08/03 16:20:22 [notice] 31#31: exit
+2024/08/03 16:20:22 [notice] 32#32: exit
+2024/08/03 16:20:22 [notice] 33#33: exit
+2024/08/03 16:20:22 [notice] 34#34: exit
+2024/08/03 16:20:22 [notice] 35#35: exit
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/03 16:20:22 [notice] 1#1: worker process 27 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/08/03 16:20:22 [notice] 1#1: worker process 22 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: worker process 33 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/08/03 16:20:22 [notice] 1#1: worker process 21 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: worker process 23 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: worker process 24 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: worker process 26 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: worker process 28 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: worker process 29 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: worker process 31 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/03 16:20:22 [notice] 1#1: worker process 20 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: worker process 34 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/03 16:20:22 [notice] 1#1: worker process 30 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/03 16:20:22 [notice] 1#1: worker process 35 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/03 16:20:22 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/08/03 16:20:22 [notice] 1#1: worker process 25 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: worker process 32 exited with code 0
+2024/08/03 16:20:22 [notice] 1#1: exit
+2024/08/04 07:15:57 [notice] 1#1: using the "epoll" event method
+2024/08/04 07:15:57 [notice] 1#1: nginx/1.27.0
+2024/08/04 07:15:57 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 07:15:57 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 07:15:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 07:15:57 [notice] 1#1: start worker processes
+2024/08/04 07:15:57 [notice] 1#1: start worker process 20
+2024/08/04 07:15:57 [notice] 1#1: start worker process 21
+2024/08/04 07:15:57 [notice] 1#1: start worker process 22
+2024/08/04 07:15:57 [notice] 1#1: start worker process 23
+2024/08/04 07:15:57 [notice] 1#1: start worker process 24
+2024/08/04 07:15:57 [notice] 1#1: start worker process 25
+2024/08/04 07:15:57 [notice] 1#1: start worker process 26
+2024/08/04 07:15:57 [notice] 1#1: start worker process 27
+2024/08/04 07:15:57 [notice] 1#1: start worker process 28
+2024/08/04 07:15:57 [notice] 1#1: start worker process 29
+2024/08/04 07:15:57 [notice] 1#1: start worker process 30
+2024/08/04 07:15:57 [notice] 1#1: start worker process 31
+2024/08/04 07:15:57 [notice] 1#1: start worker process 32
+2024/08/04 07:15:57 [notice] 1#1: start worker process 33
+2024/08/04 07:15:57 [notice] 1#1: start worker process 34
+2024/08/04 07:15:57 [notice] 1#1: start worker process 35
+2024/08/04 07:19:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 07:19:30 [notice] 20#20: gracefully shutting down
+2024/08/04 07:19:30 [notice] 28#28: gracefully shutting down
+2024/08/04 07:19:30 [notice] 21#21: gracefully shutting down
+2024/08/04 07:19:30 [notice] 22#22: gracefully shutting down
+2024/08/04 07:19:30 [notice] 23#23: gracefully shutting down
+2024/08/04 07:19:30 [notice] 24#24: gracefully shutting down
+2024/08/04 07:19:30 [notice] 25#25: gracefully shutting down
+2024/08/04 07:19:30 [notice] 26#26: gracefully shutting down
+2024/08/04 07:19:30 [notice] 26#26: exiting
+2024/08/04 07:19:30 [notice] 27#27: gracefully shutting down
+2024/08/04 07:19:30 [notice] 29#29: gracefully shutting down
+2024/08/04 07:19:30 [notice] 20#20: exiting
+2024/08/04 07:19:30 [notice] 30#30: gracefully shutting down
+2024/08/04 07:19:30 [notice] 31#31: gracefully shutting down
+2024/08/04 07:19:30 [notice] 32#32: gracefully shutting down
+2024/08/04 07:19:30 [notice] 33#33: gracefully shutting down
+2024/08/04 07:19:30 [notice] 34#34: gracefully shutting down
+2024/08/04 07:19:30 [notice] 35#35: gracefully shutting down
+2024/08/04 07:19:30 [notice] 28#28: exiting
+2024/08/04 07:19:30 [notice] 21#21: exiting
+2024/08/04 07:19:30 [notice] 22#22: exiting
+2024/08/04 07:19:30 [notice] 23#23: exiting
+2024/08/04 07:19:30 [notice] 24#24: exiting
+2024/08/04 07:19:30 [notice] 25#25: exiting
+2024/08/04 07:19:30 [notice] 26#26: exit
+2024/08/04 07:19:30 [notice] 27#27: exiting
+2024/08/04 07:19:30 [notice] 29#29: exiting
+2024/08/04 07:19:30 [notice] 20#20: exit
+2024/08/04 07:19:30 [notice] 30#30: exiting
+2024/08/04 07:19:30 [notice] 31#31: exiting
+2024/08/04 07:19:30 [notice] 32#32: exiting
+2024/08/04 07:19:30 [notice] 33#33: exiting
+2024/08/04 07:19:30 [notice] 34#34: exiting
+2024/08/04 07:19:30 [notice] 35#35: exiting
+2024/08/04 07:19:30 [notice] 28#28: exit
+2024/08/04 07:19:30 [notice] 21#21: exit
+2024/08/04 07:19:30 [notice] 22#22: exit
+2024/08/04 07:19:30 [notice] 23#23: exit
+2024/08/04 07:19:30 [notice] 24#24: exit
+2024/08/04 07:19:30 [notice] 25#25: exit
+2024/08/04 07:19:30 [notice] 27#27: exit
+2024/08/04 07:19:30 [notice] 29#29: exit
+2024/08/04 07:19:30 [notice] 30#30: exit
+2024/08/04 07:19:30 [notice] 31#31: exit
+2024/08/04 07:19:30 [notice] 32#32: exit
+2024/08/04 07:19:30 [notice] 33#33: exit
+2024/08/04 07:19:30 [notice] 34#34: exit
+2024/08/04 07:19:30 [notice] 35#35: exit
+2024/08/04 07:19:30 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/08/04 07:19:30 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:19:30 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/04 07:19:30 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/04 07:19:30 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:19:30 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/04 07:19:30 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:19:30 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 07:19:30 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 07:19:30 [notice] 1#1: exit
+2024/08/04 07:45:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/conf.d/nginx.conf:39
+2024/08/04 07:45:50 [notice] 1#1: using the "epoll" event method
+2024/08/04 07:45:50 [notice] 1#1: nginx/1.27.0
+2024/08/04 07:45:50 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 07:45:50 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 07:45:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 07:45:50 [notice] 1#1: start worker processes
+2024/08/04 07:45:50 [notice] 1#1: start worker process 20
+2024/08/04 07:45:50 [notice] 1#1: start worker process 21
+2024/08/04 07:45:50 [notice] 1#1: start worker process 22
+2024/08/04 07:45:50 [notice] 1#1: start worker process 23
+2024/08/04 07:45:50 [notice] 1#1: start worker process 24
+2024/08/04 07:45:50 [notice] 1#1: start worker process 25
+2024/08/04 07:45:50 [notice] 1#1: start worker process 26
+2024/08/04 07:45:50 [notice] 1#1: start worker process 27
+2024/08/04 07:45:50 [notice] 1#1: start worker process 28
+2024/08/04 07:45:50 [notice] 1#1: start worker process 29
+2024/08/04 07:45:50 [notice] 1#1: start worker process 30
+2024/08/04 07:45:50 [notice] 1#1: start worker process 31
+2024/08/04 07:45:50 [notice] 1#1: start worker process 32
+2024/08/04 07:45:50 [notice] 1#1: start worker process 33
+2024/08/04 07:45:50 [notice] 1#1: start worker process 34
+2024/08/04 07:45:50 [notice] 1#1: start worker process 35
+2024/08/04 07:51:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 07:51:18 [notice] 20#20: gracefully shutting down
+2024/08/04 07:51:18 [notice] 27#27: gracefully shutting down
+2024/08/04 07:51:18 [notice] 21#21: gracefully shutting down
+2024/08/04 07:51:18 [notice] 22#22: gracefully shutting down
+2024/08/04 07:51:18 [notice] 23#23: gracefully shutting down
+2024/08/04 07:51:18 [notice] 24#24: gracefully shutting down
+2024/08/04 07:51:18 [notice] 25#25: gracefully shutting down
+2024/08/04 07:51:18 [notice] 26#26: gracefully shutting down
+2024/08/04 07:51:18 [notice] 28#28: gracefully shutting down
+2024/08/04 07:51:18 [notice] 20#20: exiting
+2024/08/04 07:51:18 [notice] 29#29: gracefully shutting down
+2024/08/04 07:51:18 [notice] 30#30: gracefully shutting down
+2024/08/04 07:51:18 [notice] 31#31: gracefully shutting down
+2024/08/04 07:51:18 [notice] 32#32: gracefully shutting down
+2024/08/04 07:51:18 [notice] 34#34: gracefully shutting down
+2024/08/04 07:51:18 [notice] 35#35: gracefully shutting down
+2024/08/04 07:51:18 [notice] 27#27: exiting
+2024/08/04 07:51:18 [notice] 33#33: gracefully shutting down
+2024/08/04 07:51:18 [notice] 21#21: exiting
+2024/08/04 07:51:18 [notice] 22#22: exiting
+2024/08/04 07:51:18 [notice] 23#23: exiting
+2024/08/04 07:51:18 [notice] 24#24: exiting
+2024/08/04 07:51:18 [notice] 25#25: exiting
+2024/08/04 07:51:18 [notice] 26#26: exiting
+2024/08/04 07:51:18 [notice] 28#28: exiting
+2024/08/04 07:51:18 [notice] 20#20: exit
+2024/08/04 07:51:18 [notice] 29#29: exiting
+2024/08/04 07:51:18 [notice] 30#30: exiting
+2024/08/04 07:51:18 [notice] 31#31: exiting
+2024/08/04 07:51:18 [notice] 32#32: exiting
+2024/08/04 07:51:18 [notice] 34#34: exiting
+2024/08/04 07:51:18 [notice] 35#35: exiting
+2024/08/04 07:51:18 [notice] 27#27: exit
+2024/08/04 07:51:18 [notice] 33#33: exiting
+2024/08/04 07:51:18 [notice] 21#21: exit
+2024/08/04 07:51:18 [notice] 22#22: exit
+2024/08/04 07:51:18 [notice] 23#23: exit
+2024/08/04 07:51:18 [notice] 24#24: exit
+2024/08/04 07:51:18 [notice] 25#25: exit
+2024/08/04 07:51:18 [notice] 26#26: exit
+2024/08/04 07:51:18 [notice] 28#28: exit
+2024/08/04 07:51:18 [notice] 29#29: exit
+2024/08/04 07:51:18 [notice] 30#30: exit
+2024/08/04 07:51:18 [notice] 31#31: exit
+2024/08/04 07:51:18 [notice] 32#32: exit
+2024/08/04 07:51:18 [notice] 34#34: exit
+2024/08/04 07:51:18 [notice] 35#35: exit
+2024/08/04 07:51:18 [notice] 33#33: exit
+2024/08/04 07:51:18 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/04 07:51:18 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:51:18 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 07:51:18 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/08/04 07:51:18 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:51:18 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/08/04 07:51:18 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:51:18 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 07:51:18 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 07:51:18 [notice] 1#1: exit
+2024/08/04 07:51:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/conf.d/nginx.conf:39
+2024/08/04 07:51:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/conf.d/nginx.conf:39
+2024/08/04 07:52:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/conf.d/nginx.conf:39
+2024/08/04 07:52:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/conf.d/nginx.conf:39
+2024/08/04 07:52:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/conf.d/nginx.conf:39
+2024/08/04 07:52:16 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/conf.d/nginx.conf:39
+2024/08/04 07:52:23 [notice] 1#1: using the "epoll" event method
+2024/08/04 07:52:23 [notice] 1#1: nginx/1.27.0
+2024/08/04 07:52:23 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 07:52:23 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 07:52:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 07:52:23 [notice] 1#1: start worker processes
+2024/08/04 07:52:23 [notice] 1#1: start worker process 20
+2024/08/04 07:52:23 [notice] 1#1: start worker process 21
+2024/08/04 07:52:23 [notice] 1#1: start worker process 22
+2024/08/04 07:52:23 [notice] 1#1: start worker process 23
+2024/08/04 07:52:23 [notice] 1#1: start worker process 24
+2024/08/04 07:52:23 [notice] 1#1: start worker process 25
+2024/08/04 07:52:23 [notice] 1#1: start worker process 26
+2024/08/04 07:52:23 [notice] 1#1: start worker process 27
+2024/08/04 07:52:23 [notice] 1#1: start worker process 28
+2024/08/04 07:52:23 [notice] 1#1: start worker process 29
+2024/08/04 07:52:23 [notice] 1#1: start worker process 30
+2024/08/04 07:52:23 [notice] 1#1: start worker process 31
+2024/08/04 07:52:23 [notice] 1#1: start worker process 32
+2024/08/04 07:52:23 [notice] 1#1: start worker process 33
+2024/08/04 07:52:23 [notice] 1#1: start worker process 34
+2024/08/04 07:52:23 [notice] 1#1: start worker process 35
+2024/08/04 07:52:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 07:52:33 [notice] 20#20: gracefully shutting down
+2024/08/04 07:52:33 [notice] 21#21: gracefully shutting down
+2024/08/04 07:52:33 [notice] 22#22: gracefully shutting down
+2024/08/04 07:52:33 [notice] 23#23: gracefully shutting down
+2024/08/04 07:52:33 [notice] 23#23: exiting
+2024/08/04 07:52:33 [notice] 24#24: gracefully shutting down
+2024/08/04 07:52:33 [notice] 25#25: gracefully shutting down
+2024/08/04 07:52:33 [notice] 26#26: gracefully shutting down
+2024/08/04 07:52:33 [notice] 27#27: gracefully shutting down
+2024/08/04 07:52:33 [notice] 27#27: exiting
+2024/08/04 07:52:33 [notice] 28#28: gracefully shutting down
+2024/08/04 07:52:33 [notice] 29#29: gracefully shutting down
+2024/08/04 07:52:33 [notice] 32#32: gracefully shutting down
+2024/08/04 07:52:33 [notice] 32#32: exiting
+2024/08/04 07:52:33 [notice] 20#20: exiting
+2024/08/04 07:52:33 [notice] 33#33: gracefully shutting down
+2024/08/04 07:52:33 [notice] 30#30: gracefully shutting down
+2024/08/04 07:52:33 [notice] 34#34: gracefully shutting down
+2024/08/04 07:52:33 [notice] 34#34: exiting
+2024/08/04 07:52:33 [notice] 31#31: gracefully shutting down
+2024/08/04 07:52:33 [notice] 35#35: gracefully shutting down
+2024/08/04 07:52:33 [notice] 21#21: exiting
+2024/08/04 07:52:33 [notice] 22#22: exiting
+2024/08/04 07:52:33 [notice] 23#23: exit
+2024/08/04 07:52:33 [notice] 24#24: exiting
+2024/08/04 07:52:33 [notice] 25#25: exiting
+2024/08/04 07:52:33 [notice] 26#26: exiting
+2024/08/04 07:52:33 [notice] 27#27: exit
+2024/08/04 07:52:33 [notice] 28#28: exiting
+2024/08/04 07:52:33 [notice] 29#29: exiting
+2024/08/04 07:52:33 [notice] 32#32: exit
+2024/08/04 07:52:33 [notice] 20#20: exit
+2024/08/04 07:52:33 [notice] 33#33: exiting
+2024/08/04 07:52:33 [notice] 30#30: exiting
+2024/08/04 07:52:33 [notice] 34#34: exit
+2024/08/04 07:52:33 [notice] 31#31: exiting
+2024/08/04 07:52:33 [notice] 35#35: exiting
+2024/08/04 07:52:33 [notice] 21#21: exit
+2024/08/04 07:52:33 [notice] 22#22: exit
+2024/08/04 07:52:33 [notice] 24#24: exit
+2024/08/04 07:52:33 [notice] 25#25: exit
+2024/08/04 07:52:33 [notice] 26#26: exit
+2024/08/04 07:52:33 [notice] 28#28: exit
+2024/08/04 07:52:33 [notice] 29#29: exit
+2024/08/04 07:52:33 [notice] 33#33: exit
+2024/08/04 07:52:33 [notice] 30#30: exit
+2024/08/04 07:52:33 [notice] 31#31: exit
+2024/08/04 07:52:33 [notice] 35#35: exit
+2024/08/04 07:52:33 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/08/04 07:52:33 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:52:33 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/04 07:52:33 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 07:52:33 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:52:33 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/04 07:52:33 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:52:33 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/08/04 07:52:33 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/08/04 07:52:33 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 07:52:33 [notice] 1#1: exit
+2024/08/04 07:55:00 [notice] 1#1: using the "epoll" event method
+2024/08/04 07:55:00 [notice] 1#1: nginx/1.27.0
+2024/08/04 07:55:00 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 07:55:00 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 07:55:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 07:55:00 [notice] 1#1: start worker processes
+2024/08/04 07:55:00 [notice] 1#1: start worker process 20
+2024/08/04 07:55:00 [notice] 1#1: start worker process 21
+2024/08/04 07:55:00 [notice] 1#1: start worker process 22
+2024/08/04 07:55:00 [notice] 1#1: start worker process 23
+2024/08/04 07:55:00 [notice] 1#1: start worker process 24
+2024/08/04 07:55:00 [notice] 1#1: start worker process 25
+2024/08/04 07:55:00 [notice] 1#1: start worker process 26
+2024/08/04 07:55:00 [notice] 1#1: start worker process 27
+2024/08/04 07:55:00 [notice] 1#1: start worker process 28
+2024/08/04 07:55:00 [notice] 1#1: start worker process 29
+2024/08/04 07:55:00 [notice] 1#1: start worker process 30
+2024/08/04 07:55:00 [notice] 1#1: start worker process 31
+2024/08/04 07:55:00 [notice] 1#1: start worker process 32
+2024/08/04 07:55:00 [notice] 1#1: start worker process 33
+2024/08/04 07:55:00 [notice] 1#1: start worker process 34
+2024/08/04 07:55:00 [notice] 1#1: start worker process 35
+2024/08/04 07:55:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 07:55:28 [notice] 20#20: gracefully shutting down
+2024/08/04 07:55:28 [notice] 33#33: gracefully shutting down
+2024/08/04 07:55:28 [notice] 21#21: gracefully shutting down
+2024/08/04 07:55:28 [notice] 21#21: exiting
+2024/08/04 07:55:28 [notice] 22#22: gracefully shutting down
+2024/08/04 07:55:28 [notice] 22#22: exiting
+2024/08/04 07:55:28 [notice] 23#23: gracefully shutting down
+2024/08/04 07:55:28 [notice] 24#24: gracefully shutting down
+2024/08/04 07:55:28 [notice] 25#25: gracefully shutting down
+2024/08/04 07:55:28 [notice] 27#27: gracefully shutting down
+2024/08/04 07:55:28 [notice] 26#26: gracefully shutting down
+2024/08/04 07:55:28 [notice] 28#28: gracefully shutting down
+2024/08/04 07:55:28 [notice] 29#29: gracefully shutting down
+2024/08/04 07:55:28 [notice] 30#30: gracefully shutting down
+2024/08/04 07:55:28 [notice] 31#31: gracefully shutting down
+2024/08/04 07:55:28 [notice] 32#32: gracefully shutting down
+2024/08/04 07:55:28 [notice] 20#20: exiting
+2024/08/04 07:55:28 [notice] 34#34: gracefully shutting down
+2024/08/04 07:55:28 [notice] 35#35: gracefully shutting down
+2024/08/04 07:55:28 [notice] 33#33: exiting
+2024/08/04 07:55:28 [notice] 21#21: exit
+2024/08/04 07:55:28 [notice] 22#22: exit
+2024/08/04 07:55:28 [notice] 23#23: exiting
+2024/08/04 07:55:28 [notice] 24#24: exiting
+2024/08/04 07:55:28 [notice] 25#25: exiting
+2024/08/04 07:55:28 [notice] 27#27: exiting
+2024/08/04 07:55:28 [notice] 26#26: exiting
+2024/08/04 07:55:28 [notice] 28#28: exiting
+2024/08/04 07:55:28 [notice] 29#29: exiting
+2024/08/04 07:55:28 [notice] 30#30: exiting
+2024/08/04 07:55:28 [notice] 31#31: exiting
+2024/08/04 07:55:28 [notice] 32#32: exiting
+2024/08/04 07:55:28 [notice] 20#20: exit
+2024/08/04 07:55:28 [notice] 34#34: exiting
+2024/08/04 07:55:28 [notice] 35#35: exiting
+2024/08/04 07:55:28 [notice] 33#33: exit
+2024/08/04 07:55:28 [notice] 23#23: exit
+2024/08/04 07:55:28 [notice] 24#24: exit
+2024/08/04 07:55:28 [notice] 25#25: exit
+2024/08/04 07:55:28 [notice] 27#27: exit
+2024/08/04 07:55:28 [notice] 26#26: exit
+2024/08/04 07:55:28 [notice] 28#28: exit
+2024/08/04 07:55:28 [notice] 29#29: exit
+2024/08/04 07:55:28 [notice] 30#30: exit
+2024/08/04 07:55:28 [notice] 31#31: exit
+2024/08/04 07:55:28 [notice] 32#32: exit
+2024/08/04 07:55:28 [notice] 34#34: exit
+2024/08/04 07:55:28 [notice] 35#35: exit
+2024/08/04 07:55:28 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/08/04 07:55:28 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:55:28 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/04 07:55:28 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:55:28 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 07:55:28 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 07:55:28 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/04 07:55:28 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/04 07:55:28 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 07:55:28 [notice] 1#1: exit
+2024/08/04 08:04:17 [notice] 1#1: using the "epoll" event method
+2024/08/04 08:04:17 [notice] 1#1: nginx/1.27.0
+2024/08/04 08:04:17 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 08:04:17 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 08:04:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 08:04:17 [notice] 1#1: start worker processes
+2024/08/04 08:04:17 [notice] 1#1: start worker process 20
+2024/08/04 08:04:17 [notice] 1#1: start worker process 21
+2024/08/04 08:04:17 [notice] 1#1: start worker process 22
+2024/08/04 08:04:17 [notice] 1#1: start worker process 23
+2024/08/04 08:04:17 [notice] 1#1: start worker process 24
+2024/08/04 08:04:17 [notice] 1#1: start worker process 25
+2024/08/04 08:04:17 [notice] 1#1: start worker process 26
+2024/08/04 08:04:17 [notice] 1#1: start worker process 27
+2024/08/04 08:04:17 [notice] 1#1: start worker process 28
+2024/08/04 08:04:17 [notice] 1#1: start worker process 29
+2024/08/04 08:04:17 [notice] 1#1: start worker process 30
+2024/08/04 08:04:17 [notice] 1#1: start worker process 31
+2024/08/04 08:04:17 [notice] 1#1: start worker process 32
+2024/08/04 08:04:17 [notice] 1#1: start worker process 33
+2024/08/04 08:04:17 [notice] 1#1: start worker process 34
+2024/08/04 08:04:17 [notice] 1#1: start worker process 35
+2024/08/04 08:14:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 08:14:43 [notice] 20#20: gracefully shutting down
+2024/08/04 08:14:43 [notice] 29#29: gracefully shutting down
+2024/08/04 08:14:43 [notice] 22#22: gracefully shutting down
+2024/08/04 08:14:43 [notice] 21#21: gracefully shutting down
+2024/08/04 08:14:43 [notice] 23#23: gracefully shutting down
+2024/08/04 08:14:43 [notice] 24#24: gracefully shutting down
+2024/08/04 08:14:43 [notice] 25#25: gracefully shutting down
+2024/08/04 08:14:43 [notice] 26#26: gracefully shutting down
+2024/08/04 08:14:43 [notice] 27#27: gracefully shutting down
+2024/08/04 08:14:43 [notice] 28#28: gracefully shutting down
+2024/08/04 08:14:43 [notice] 31#31: gracefully shutting down
+2024/08/04 08:14:43 [notice] 20#20: exiting
+2024/08/04 08:14:43 [notice] 32#32: gracefully shutting down
+2024/08/04 08:14:43 [notice] 30#30: gracefully shutting down
+2024/08/04 08:14:43 [notice] 35#35: gracefully shutting down
+2024/08/04 08:14:43 [notice] 33#33: gracefully shutting down
+2024/08/04 08:14:43 [notice] 34#34: gracefully shutting down
+2024/08/04 08:14:43 [notice] 29#29: exiting
+2024/08/04 08:14:43 [notice] 22#22: exiting
+2024/08/04 08:14:43 [notice] 21#21: exiting
+2024/08/04 08:14:43 [notice] 23#23: exiting
+2024/08/04 08:14:43 [notice] 24#24: exiting
+2024/08/04 08:14:43 [notice] 25#25: exiting
+2024/08/04 08:14:43 [notice] 26#26: exiting
+2024/08/04 08:14:43 [notice] 27#27: exiting
+2024/08/04 08:14:43 [notice] 28#28: exiting
+2024/08/04 08:14:43 [notice] 31#31: exiting
+2024/08/04 08:14:43 [notice] 20#20: exit
+2024/08/04 08:14:43 [notice] 32#32: exiting
+2024/08/04 08:14:43 [notice] 30#30: exiting
+2024/08/04 08:14:43 [notice] 35#35: exiting
+2024/08/04 08:14:43 [notice] 33#33: exiting
+2024/08/04 08:14:43 [notice] 34#34: exiting
+2024/08/04 08:14:43 [notice] 29#29: exit
+2024/08/04 08:14:43 [notice] 22#22: exit
+2024/08/04 08:14:43 [notice] 21#21: exit
+2024/08/04 08:14:43 [notice] 23#23: exit
+2024/08/04 08:14:43 [notice] 24#24: exit
+2024/08/04 08:14:43 [notice] 25#25: exit
+2024/08/04 08:14:43 [notice] 26#26: exit
+2024/08/04 08:14:43 [notice] 27#27: exit
+2024/08/04 08:14:43 [notice] 28#28: exit
+2024/08/04 08:14:43 [notice] 31#31: exit
+2024/08/04 08:14:43 [notice] 32#32: exit
+2024/08/04 08:14:43 [notice] 30#30: exit
+2024/08/04 08:14:43 [notice] 35#35: exit
+2024/08/04 08:14:43 [notice] 33#33: exit
+2024/08/04 08:14:43 [notice] 34#34: exit
+2024/08/04 08:14:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/04 08:14:44 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 08:14:44 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 08:14:44 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/04 08:14:44 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 08:14:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/04 08:14:44 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 08:14:44 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 08:14:44 [notice] 1#1: exit
+2024/08/04 08:16:46 [notice] 1#1: using the "epoll" event method
+2024/08/04 08:16:46 [notice] 1#1: nginx/1.27.0
+2024/08/04 08:16:46 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 08:16:46 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 08:16:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 08:16:46 [notice] 1#1: start worker processes
+2024/08/04 08:16:46 [notice] 1#1: start worker process 20
+2024/08/04 08:16:46 [notice] 1#1: start worker process 21
+2024/08/04 08:16:46 [notice] 1#1: start worker process 22
+2024/08/04 08:16:46 [notice] 1#1: start worker process 23
+2024/08/04 08:16:46 [notice] 1#1: start worker process 24
+2024/08/04 08:16:46 [notice] 1#1: start worker process 25
+2024/08/04 08:16:46 [notice] 1#1: start worker process 26
+2024/08/04 08:16:46 [notice] 1#1: start worker process 27
+2024/08/04 08:16:46 [notice] 1#1: start worker process 28
+2024/08/04 08:16:46 [notice] 1#1: start worker process 29
+2024/08/04 08:16:46 [notice] 1#1: start worker process 30
+2024/08/04 08:16:46 [notice] 1#1: start worker process 31
+2024/08/04 08:16:46 [notice] 1#1: start worker process 32
+2024/08/04 08:16:46 [notice] 1#1: start worker process 33
+2024/08/04 08:16:46 [notice] 1#1: start worker process 34
+2024/08/04 08:16:46 [notice] 1#1: start worker process 35
+2024/08/04 08:59:31 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.20.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 08:59:34 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.20.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 08:59:34 [error] 20#20: *1 open() "/usr/share/nginx/html/static/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2024/08/04 08:59:44 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.20.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:00:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:00:08 [notice] 20#20: gracefully shutting down
+2024/08/04 09:00:08 [notice] 21#21: gracefully shutting down
+2024/08/04 09:00:08 [notice] 22#22: gracefully shutting down
+2024/08/04 09:00:08 [notice] 22#22: exiting
+2024/08/04 09:00:08 [notice] 23#23: gracefully shutting down
+2024/08/04 09:00:08 [notice] 24#24: gracefully shutting down
+2024/08/04 09:00:08 [notice] 25#25: gracefully shutting down
+2024/08/04 09:00:08 [notice] 26#26: gracefully shutting down
+2024/08/04 09:00:08 [notice] 28#28: gracefully shutting down
+2024/08/04 09:00:08 [notice] 27#27: gracefully shutting down
+2024/08/04 09:00:08 [notice] 29#29: gracefully shutting down
+2024/08/04 09:00:08 [notice] 30#30: gracefully shutting down
+2024/08/04 09:00:08 [notice] 31#31: gracefully shutting down
+2024/08/04 09:00:08 [notice] 32#32: gracefully shutting down
+2024/08/04 09:00:08 [notice] 32#32: exiting
+2024/08/04 09:00:08 [notice] 34#34: gracefully shutting down
+2024/08/04 09:00:08 [notice] 35#35: gracefully shutting down
+2024/08/04 09:00:08 [notice] 33#33: gracefully shutting down
+2024/08/04 09:00:08 [notice] 20#20: exiting
+2024/08/04 09:00:08 [notice] 22#22: exit
+2024/08/04 09:00:08 [notice] 23#23: exiting
+2024/08/04 09:00:08 [notice] 24#24: exiting
+2024/08/04 09:00:08 [notice] 25#25: exiting
+2024/08/04 09:00:08 [notice] 26#26: exiting
+2024/08/04 09:00:08 [notice] 28#28: exiting
+2024/08/04 09:00:08 [notice] 27#27: exiting
+2024/08/04 09:00:08 [notice] 29#29: exiting
+2024/08/04 09:00:08 [notice] 30#30: exiting
+2024/08/04 09:00:08 [notice] 31#31: exiting
+2024/08/04 09:00:08 [notice] 32#32: exit
+2024/08/04 09:00:08 [notice] 34#34: exiting
+2024/08/04 09:00:08 [notice] 35#35: exiting
+2024/08/04 09:00:08 [notice] 33#33: exiting
+2024/08/04 09:00:08 [notice] 20#20: exit
+2024/08/04 09:00:08 [notice] 23#23: exit
+2024/08/04 09:00:08 [notice] 24#24: exit
+2024/08/04 09:00:08 [notice] 25#25: exit
+2024/08/04 09:00:08 [notice] 26#26: exit
+2024/08/04 09:00:08 [notice] 28#28: exit
+2024/08/04 09:00:08 [notice] 27#27: exit
+2024/08/04 09:00:08 [notice] 29#29: exit
+2024/08/04 09:00:08 [notice] 30#30: exit
+2024/08/04 09:00:08 [notice] 31#31: exit
+2024/08/04 09:00:08 [notice] 34#34: exit
+2024/08/04 09:00:08 [notice] 35#35: exit
+2024/08/04 09:00:08 [notice] 33#33: exit
+2024/08/04 09:00:08 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/08/04 09:00:08 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:00:08 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 09:00:08 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:00:08 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/04 09:00:08 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:00:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:04:16 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:04:16 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:04:16 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:04:16 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:04:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:04:16 [notice] 1#1: start worker processes
+2024/08/04 09:04:16 [notice] 1#1: start worker process 20
+2024/08/04 09:04:16 [notice] 1#1: start worker process 21
+2024/08/04 09:04:16 [notice] 1#1: start worker process 22
+2024/08/04 09:04:16 [notice] 1#1: start worker process 23
+2024/08/04 09:04:16 [notice] 1#1: start worker process 24
+2024/08/04 09:04:16 [notice] 1#1: start worker process 25
+2024/08/04 09:04:16 [notice] 1#1: start worker process 26
+2024/08/04 09:04:16 [notice] 1#1: start worker process 27
+2024/08/04 09:04:16 [notice] 1#1: start worker process 28
+2024/08/04 09:04:16 [notice] 1#1: start worker process 29
+2024/08/04 09:04:16 [notice] 1#1: start worker process 30
+2024/08/04 09:04:16 [notice] 1#1: start worker process 31
+2024/08/04 09:04:16 [notice] 1#1: start worker process 32
+2024/08/04 09:04:16 [notice] 1#1: start worker process 33
+2024/08/04 09:04:16 [notice] 1#1: start worker process 34
+2024/08/04 09:04:16 [notice] 1#1: start worker process 35
+2024/08/04 09:05:11 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:06:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:06:00 [notice] 20#20: gracefully shutting down
+2024/08/04 09:06:00 [notice] 25#25: gracefully shutting down
+2024/08/04 09:06:00 [notice] 21#21: gracefully shutting down
+2024/08/04 09:06:00 [notice] 22#22: gracefully shutting down
+2024/08/04 09:06:00 [notice] 22#22: exiting
+2024/08/04 09:06:00 [notice] 23#23: gracefully shutting down
+2024/08/04 09:06:00 [notice] 23#23: exiting
+2024/08/04 09:06:00 [notice] 24#24: gracefully shutting down
+2024/08/04 09:06:00 [notice] 26#26: gracefully shutting down
+2024/08/04 09:06:00 [notice] 27#27: gracefully shutting down
+2024/08/04 09:06:00 [notice] 28#28: gracefully shutting down
+2024/08/04 09:06:00 [notice] 20#20: exiting
+2024/08/04 09:06:00 [notice] 29#29: gracefully shutting down
+2024/08/04 09:06:00 [notice] 31#31: gracefully shutting down
+2024/08/04 09:06:00 [notice] 32#32: gracefully shutting down
+2024/08/04 09:06:00 [notice] 30#30: gracefully shutting down
+2024/08/04 09:06:00 [notice] 33#33: gracefully shutting down
+2024/08/04 09:06:00 [notice] 25#25: exiting
+2024/08/04 09:06:00 [notice] 34#34: gracefully shutting down
+2024/08/04 09:06:00 [notice] 34#34: exiting
+2024/08/04 09:06:00 [notice] 35#35: gracefully shutting down
+2024/08/04 09:06:00 [notice] 22#22: exit
+2024/08/04 09:06:00 [notice] 23#23: exit
+2024/08/04 09:06:00 [notice] 24#24: exiting
+2024/08/04 09:06:00 [notice] 26#26: exiting
+2024/08/04 09:06:00 [notice] 27#27: exiting
+2024/08/04 09:06:00 [notice] 28#28: exiting
+2024/08/04 09:06:00 [notice] 20#20: exit
+2024/08/04 09:06:00 [notice] 29#29: exiting
+2024/08/04 09:06:00 [notice] 31#31: exiting
+2024/08/04 09:06:00 [notice] 32#32: exiting
+2024/08/04 09:06:00 [notice] 30#30: exiting
+2024/08/04 09:06:00 [notice] 33#33: exiting
+2024/08/04 09:06:00 [notice] 25#25: exit
+2024/08/04 09:06:00 [notice] 34#34: exit
+2024/08/04 09:06:00 [notice] 35#35: exiting
+2024/08/04 09:06:00 [notice] 24#24: exit
+2024/08/04 09:06:00 [notice] 26#26: exit
+2024/08/04 09:06:00 [notice] 27#27: exit
+2024/08/04 09:06:00 [notice] 28#28: exit
+2024/08/04 09:06:00 [notice] 29#29: exit
+2024/08/04 09:06:00 [notice] 31#31: exit
+2024/08/04 09:06:00 [notice] 32#32: exit
+2024/08/04 09:06:00 [notice] 30#30: exit
+2024/08/04 09:06:00 [notice] 33#33: exit
+2024/08/04 09:06:00 [notice] 35#35: exit
+2024/08/04 09:06:00 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/04 09:06:00 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:06:00 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/04 09:06:00 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/04 09:06:00 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:06:00 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/04 09:06:00 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/08/04 09:06:00 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:06:00 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 09:06:00 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/04 09:06:00 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:06:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:06:51 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:06:51 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:06:51 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:06:51 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:06:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:06:51 [notice] 1#1: start worker processes
+2024/08/04 09:06:51 [notice] 1#1: start worker process 20
+2024/08/04 09:06:51 [notice] 1#1: start worker process 21
+2024/08/04 09:06:51 [notice] 1#1: start worker process 22
+2024/08/04 09:06:51 [notice] 1#1: start worker process 23
+2024/08/04 09:06:51 [notice] 1#1: start worker process 24
+2024/08/04 09:06:51 [notice] 1#1: start worker process 25
+2024/08/04 09:06:51 [notice] 1#1: start worker process 26
+2024/08/04 09:06:51 [notice] 1#1: start worker process 27
+2024/08/04 09:06:51 [notice] 1#1: start worker process 28
+2024/08/04 09:06:51 [notice] 1#1: start worker process 29
+2024/08/04 09:06:51 [notice] 1#1: start worker process 30
+2024/08/04 09:06:51 [notice] 1#1: start worker process 31
+2024/08/04 09:06:51 [notice] 1#1: start worker process 32
+2024/08/04 09:06:51 [notice] 1#1: start worker process 33
+2024/08/04 09:06:51 [notice] 1#1: start worker process 34
+2024/08/04 09:06:51 [notice] 1#1: start worker process 35
+2024/08/04 09:08:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:08:24 [notice] 20#20: gracefully shutting down
+2024/08/04 09:08:24 [notice] 29#29: gracefully shutting down
+2024/08/04 09:08:24 [notice] 22#22: gracefully shutting down
+2024/08/04 09:08:24 [notice] 21#21: gracefully shutting down
+2024/08/04 09:08:24 [notice] 21#21: exiting
+2024/08/04 09:08:24 [notice] 23#23: gracefully shutting down
+2024/08/04 09:08:24 [notice] 24#24: gracefully shutting down
+2024/08/04 09:08:24 [notice] 25#25: gracefully shutting down
+2024/08/04 09:08:24 [notice] 26#26: gracefully shutting down
+2024/08/04 09:08:24 [notice] 27#27: gracefully shutting down
+2024/08/04 09:08:24 [notice] 28#28: gracefully shutting down
+2024/08/04 09:08:24 [notice] 20#20: exiting
+2024/08/04 09:08:24 [notice] 30#30: gracefully shutting down
+2024/08/04 09:08:24 [notice] 31#31: gracefully shutting down
+2024/08/04 09:08:24 [notice] 32#32: gracefully shutting down
+2024/08/04 09:08:24 [notice] 33#33: gracefully shutting down
+2024/08/04 09:08:24 [notice] 34#34: gracefully shutting down
+2024/08/04 09:08:24 [notice] 29#29: exiting
+2024/08/04 09:08:24 [notice] 35#35: gracefully shutting down
+2024/08/04 09:08:24 [notice] 22#22: exiting
+2024/08/04 09:08:24 [notice] 21#21: exit
+2024/08/04 09:08:24 [notice] 23#23: exiting
+2024/08/04 09:08:24 [notice] 24#24: exiting
+2024/08/04 09:08:24 [notice] 25#25: exiting
+2024/08/04 09:08:24 [notice] 26#26: exiting
+2024/08/04 09:08:24 [notice] 27#27: exiting
+2024/08/04 09:08:24 [notice] 28#28: exiting
+2024/08/04 09:08:24 [notice] 20#20: exit
+2024/08/04 09:08:24 [notice] 30#30: exiting
+2024/08/04 09:08:24 [notice] 31#31: exiting
+2024/08/04 09:08:24 [notice] 32#32: exiting
+2024/08/04 09:08:24 [notice] 33#33: exiting
+2024/08/04 09:08:24 [notice] 34#34: exiting
+2024/08/04 09:08:24 [notice] 29#29: exit
+2024/08/04 09:08:24 [notice] 35#35: exiting
+2024/08/04 09:08:24 [notice] 22#22: exit
+2024/08/04 09:08:24 [notice] 23#23: exit
+2024/08/04 09:08:24 [notice] 24#24: exit
+2024/08/04 09:08:24 [notice] 25#25: exit
+2024/08/04 09:08:24 [notice] 26#26: exit
+2024/08/04 09:08:24 [notice] 27#27: exit
+2024/08/04 09:08:24 [notice] 28#28: exit
+2024/08/04 09:08:24 [notice] 30#30: exit
+2024/08/04 09:08:24 [notice] 31#31: exit
+2024/08/04 09:08:24 [notice] 32#32: exit
+2024/08/04 09:08:24 [notice] 33#33: exit
+2024/08/04 09:08:24 [notice] 34#34: exit
+2024/08/04 09:08:24 [notice] 35#35: exit
+2024/08/04 09:08:24 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/08/04 09:08:24 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:08:24 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 09:08:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/08/04 09:08:24 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:08:24 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/08/04 09:08:24 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:08:24 [notice] 1#1: exit
+2024/08/04 09:15:40 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:15:40 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:15:40 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:15:40 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:15:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:15:40 [notice] 1#1: start worker processes
+2024/08/04 09:15:40 [notice] 1#1: start worker process 20
+2024/08/04 09:15:40 [notice] 1#1: start worker process 21
+2024/08/04 09:15:40 [notice] 1#1: start worker process 22
+2024/08/04 09:15:40 [notice] 1#1: start worker process 23
+2024/08/04 09:15:40 [notice] 1#1: start worker process 24
+2024/08/04 09:15:40 [notice] 1#1: start worker process 25
+2024/08/04 09:15:40 [notice] 1#1: start worker process 26
+2024/08/04 09:15:40 [notice] 1#1: start worker process 27
+2024/08/04 09:15:40 [notice] 1#1: start worker process 28
+2024/08/04 09:15:40 [notice] 1#1: start worker process 29
+2024/08/04 09:15:40 [notice] 1#1: start worker process 30
+2024/08/04 09:15:40 [notice] 1#1: start worker process 31
+2024/08/04 09:15:40 [notice] 1#1: start worker process 32
+2024/08/04 09:15:40 [notice] 1#1: start worker process 33
+2024/08/04 09:15:40 [notice] 1#1: start worker process 34
+2024/08/04 09:15:40 [notice] 1#1: start worker process 35
+2024/08/04 09:16:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:16:05 [notice] 20#20: gracefully shutting down
+2024/08/04 09:16:05 [notice] 27#27: gracefully shutting down
+2024/08/04 09:16:05 [notice] 21#21: gracefully shutting down
+2024/08/04 09:16:05 [notice] 22#22: gracefully shutting down
+2024/08/04 09:16:05 [notice] 23#23: gracefully shutting down
+2024/08/04 09:16:05 [notice] 24#24: gracefully shutting down
+2024/08/04 09:16:05 [notice] 25#25: gracefully shutting down
+2024/08/04 09:16:05 [notice] 26#26: gracefully shutting down
+2024/08/04 09:16:05 [notice] 28#28: gracefully shutting down
+2024/08/04 09:16:05 [notice] 20#20: exiting
+2024/08/04 09:16:05 [notice] 29#29: gracefully shutting down
+2024/08/04 09:16:05 [notice] 29#29: exiting
+2024/08/04 09:16:05 [notice] 30#30: gracefully shutting down
+2024/08/04 09:16:05 [notice] 32#32: gracefully shutting down
+2024/08/04 09:16:05 [notice] 31#31: gracefully shutting down
+2024/08/04 09:16:05 [notice] 33#33: gracefully shutting down
+2024/08/04 09:16:05 [notice] 34#34: gracefully shutting down
+2024/08/04 09:16:05 [notice] 35#35: gracefully shutting down
+2024/08/04 09:16:05 [notice] 27#27: exiting
+2024/08/04 09:16:05 [notice] 21#21: exiting
+2024/08/04 09:16:05 [notice] 22#22: exiting
+2024/08/04 09:16:05 [notice] 23#23: exiting
+2024/08/04 09:16:05 [notice] 24#24: exiting
+2024/08/04 09:16:05 [notice] 25#25: exiting
+2024/08/04 09:16:05 [notice] 26#26: exiting
+2024/08/04 09:16:05 [notice] 28#28: exiting
+2024/08/04 09:16:05 [notice] 20#20: exit
+2024/08/04 09:16:05 [notice] 29#29: exit
+2024/08/04 09:16:05 [notice] 30#30: exiting
+2024/08/04 09:16:05 [notice] 32#32: exiting
+2024/08/04 09:16:05 [notice] 31#31: exiting
+2024/08/04 09:16:05 [notice] 33#33: exiting
+2024/08/04 09:16:05 [notice] 34#34: exiting
+2024/08/04 09:16:05 [notice] 35#35: exiting
+2024/08/04 09:16:05 [notice] 27#27: exit
+2024/08/04 09:16:05 [notice] 21#21: exit
+2024/08/04 09:16:05 [notice] 22#22: exit
+2024/08/04 09:16:05 [notice] 23#23: exit
+2024/08/04 09:16:05 [notice] 24#24: exit
+2024/08/04 09:16:05 [notice] 25#25: exit
+2024/08/04 09:16:05 [notice] 26#26: exit
+2024/08/04 09:16:05 [notice] 28#28: exit
+2024/08/04 09:16:05 [notice] 30#30: exit
+2024/08/04 09:16:05 [notice] 32#32: exit
+2024/08/04 09:16:05 [notice] 31#31: exit
+2024/08/04 09:16:05 [notice] 33#33: exit
+2024/08/04 09:16:05 [notice] 34#34: exit
+2024/08/04 09:16:05 [notice] 35#35: exit
+2024/08/04 09:16:05 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 09:16:05 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:16:05 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/08/04 09:16:05 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:16:05 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/04 09:16:05 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/04 09:16:05 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:16:05 [notice] 1#1: exit
+2024/08/04 09:17:00 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:17:00 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:17:00 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:17:00 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:17:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:17:00 [notice] 1#1: start worker processes
+2024/08/04 09:17:00 [notice] 1#1: start worker process 20
+2024/08/04 09:17:00 [notice] 1#1: start worker process 21
+2024/08/04 09:17:00 [notice] 1#1: start worker process 22
+2024/08/04 09:17:00 [notice] 1#1: start worker process 23
+2024/08/04 09:17:00 [notice] 1#1: start worker process 24
+2024/08/04 09:17:00 [notice] 1#1: start worker process 25
+2024/08/04 09:17:00 [notice] 1#1: start worker process 26
+2024/08/04 09:17:00 [notice] 1#1: start worker process 27
+2024/08/04 09:17:00 [notice] 1#1: start worker process 28
+2024/08/04 09:17:00 [notice] 1#1: start worker process 29
+2024/08/04 09:17:00 [notice] 1#1: start worker process 30
+2024/08/04 09:17:00 [notice] 1#1: start worker process 31
+2024/08/04 09:17:00 [notice] 1#1: start worker process 32
+2024/08/04 09:17:00 [notice] 1#1: start worker process 33
+2024/08/04 09:17:00 [notice] 1#1: start worker process 34
+2024/08/04 09:17:00 [notice] 1#1: start worker process 35
+2024/08/04 09:18:40 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:18:41 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:18:41 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:18:42 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:18:42 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:18:42 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:18:43 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:18:43 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:19:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:19:23 [notice] 20#20: gracefully shutting down
+2024/08/04 09:19:23 [notice] 27#27: gracefully shutting down
+2024/08/04 09:19:23 [notice] 21#21: gracefully shutting down
+2024/08/04 09:19:23 [notice] 22#22: gracefully shutting down
+2024/08/04 09:19:23 [notice] 23#23: gracefully shutting down
+2024/08/04 09:19:23 [notice] 24#24: gracefully shutting down
+2024/08/04 09:19:23 [notice] 25#25: gracefully shutting down
+2024/08/04 09:19:23 [notice] 26#26: gracefully shutting down
+2024/08/04 09:19:23 [notice] 28#28: gracefully shutting down
+2024/08/04 09:19:23 [notice] 29#29: gracefully shutting down
+2024/08/04 09:19:23 [notice] 20#20: exiting
+2024/08/04 09:19:23 [notice] 31#31: gracefully shutting down
+2024/08/04 09:19:23 [notice] 32#32: gracefully shutting down
+2024/08/04 09:19:23 [notice] 30#30: gracefully shutting down
+2024/08/04 09:19:23 [notice] 33#33: gracefully shutting down
+2024/08/04 09:19:23 [notice] 34#34: gracefully shutting down
+2024/08/04 09:19:23 [notice] 35#35: gracefully shutting down
+2024/08/04 09:19:23 [notice] 27#27: exiting
+2024/08/04 09:19:23 [notice] 22#22: exiting
+2024/08/04 09:19:23 [notice] 23#23: exiting
+2024/08/04 09:19:23 [notice] 24#24: exiting
+2024/08/04 09:19:23 [notice] 25#25: exiting
+2024/08/04 09:19:23 [notice] 26#26: exiting
+2024/08/04 09:19:23 [notice] 28#28: exiting
+2024/08/04 09:19:23 [notice] 29#29: exiting
+2024/08/04 09:19:23 [notice] 20#20: exit
+2024/08/04 09:19:23 [notice] 31#31: exiting
+2024/08/04 09:19:23 [notice] 32#32: exiting
+2024/08/04 09:19:23 [notice] 30#30: exiting
+2024/08/04 09:19:23 [notice] 33#33: exiting
+2024/08/04 09:19:23 [notice] 34#34: exiting
+2024/08/04 09:19:23 [notice] 35#35: exiting
+2024/08/04 09:19:23 [notice] 27#27: exit
+2024/08/04 09:19:23 [notice] 22#22: exit
+2024/08/04 09:19:23 [notice] 23#23: exit
+2024/08/04 09:19:23 [notice] 24#24: exit
+2024/08/04 09:19:23 [notice] 25#25: exit
+2024/08/04 09:19:23 [notice] 26#26: exit
+2024/08/04 09:19:23 [notice] 28#28: exit
+2024/08/04 09:19:23 [notice] 29#29: exit
+2024/08/04 09:19:23 [notice] 31#31: exit
+2024/08/04 09:19:23 [notice] 32#32: exit
+2024/08/04 09:19:23 [notice] 30#30: exit
+2024/08/04 09:19:23 [notice] 33#33: exit
+2024/08/04 09:19:23 [notice] 34#34: exit
+2024/08/04 09:19:23 [notice] 35#35: exit
+2024/08/04 09:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/08/04 09:19:23 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/04 09:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 09:19:23 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/08/04 09:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/08/04 09:19:23 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 09:19:23 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/04 09:19:23 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:19:23 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/04 09:19:23 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:19:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:20:31 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:20:31 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:20:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:20:31 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:20:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:20:31 [notice] 1#1: start worker processes
+2024/08/04 09:20:31 [notice] 1#1: start worker process 21
+2024/08/04 09:20:31 [notice] 1#1: start worker process 22
+2024/08/04 09:20:31 [notice] 1#1: start worker process 23
+2024/08/04 09:20:31 [notice] 1#1: start worker process 24
+2024/08/04 09:20:31 [notice] 1#1: start worker process 25
+2024/08/04 09:20:31 [notice] 1#1: start worker process 26
+2024/08/04 09:20:31 [notice] 1#1: start worker process 27
+2024/08/04 09:20:31 [notice] 1#1: start worker process 28
+2024/08/04 09:20:31 [notice] 1#1: start worker process 29
+2024/08/04 09:20:31 [notice] 1#1: start worker process 30
+2024/08/04 09:20:31 [notice] 1#1: start worker process 31
+2024/08/04 09:20:31 [notice] 1#1: start worker process 32
+2024/08/04 09:20:31 [notice] 1#1: start worker process 33
+2024/08/04 09:20:31 [notice] 1#1: start worker process 34
+2024/08/04 09:20:31 [notice] 1#1: start worker process 35
+2024/08/04 09:20:31 [notice] 1#1: start worker process 36
+2024/08/04 09:20:45 [error] 21#21: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.23.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:20:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:20:54 [notice] 21#21: gracefully shutting down
+2024/08/04 09:20:54 [notice] 27#27: gracefully shutting down
+2024/08/04 09:20:54 [notice] 22#22: gracefully shutting down
+2024/08/04 09:20:54 [notice] 23#23: gracefully shutting down
+2024/08/04 09:20:54 [notice] 24#24: gracefully shutting down
+2024/08/04 09:20:54 [notice] 25#25: gracefully shutting down
+2024/08/04 09:20:54 [notice] 26#26: gracefully shutting down
+2024/08/04 09:20:54 [notice] 28#28: gracefully shutting down
+2024/08/04 09:20:54 [notice] 29#29: gracefully shutting down
+2024/08/04 09:20:54 [notice] 30#30: gracefully shutting down
+2024/08/04 09:20:54 [notice] 30#30: exiting
+2024/08/04 09:20:54 [notice] 31#31: gracefully shutting down
+2024/08/04 09:20:54 [notice] 21#21: exiting
+2024/08/04 09:20:54 [notice] 32#32: gracefully shutting down
+2024/08/04 09:20:54 [notice] 33#33: gracefully shutting down
+2024/08/04 09:20:54 [notice] 35#35: gracefully shutting down
+2024/08/04 09:20:54 [notice] 36#36: gracefully shutting down
+2024/08/04 09:20:54 [notice] 34#34: gracefully shutting down
+2024/08/04 09:20:54 [notice] 27#27: exiting
+2024/08/04 09:20:54 [notice] 23#23: exiting
+2024/08/04 09:20:54 [notice] 24#24: exiting
+2024/08/04 09:20:54 [notice] 25#25: exiting
+2024/08/04 09:20:54 [notice] 26#26: exiting
+2024/08/04 09:20:54 [notice] 28#28: exiting
+2024/08/04 09:20:54 [notice] 29#29: exiting
+2024/08/04 09:20:54 [notice] 30#30: exit
+2024/08/04 09:20:54 [notice] 31#31: exiting
+2024/08/04 09:20:54 [notice] 21#21: exit
+2024/08/04 09:20:54 [notice] 32#32: exiting
+2024/08/04 09:20:54 [notice] 33#33: exiting
+2024/08/04 09:20:54 [notice] 35#35: exiting
+2024/08/04 09:20:54 [notice] 36#36: exiting
+2024/08/04 09:20:54 [notice] 34#34: exiting
+2024/08/04 09:20:54 [notice] 27#27: exit
+2024/08/04 09:20:54 [notice] 23#23: exit
+2024/08/04 09:20:54 [notice] 24#24: exit
+2024/08/04 09:20:54 [notice] 25#25: exit
+2024/08/04 09:20:54 [notice] 26#26: exit
+2024/08/04 09:20:54 [notice] 28#28: exit
+2024/08/04 09:20:54 [notice] 29#29: exit
+2024/08/04 09:20:54 [notice] 31#31: exit
+2024/08/04 09:20:54 [notice] 32#32: exit
+2024/08/04 09:20:54 [notice] 33#33: exit
+2024/08/04 09:20:54 [notice] 35#35: exit
+2024/08/04 09:20:54 [notice] 34#34: exit
+2024/08/04 09:20:54 [notice] 36#36: exit
+2024/08/04 09:20:54 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 09:20:54 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:20:54 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/08/04 09:20:54 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/08/04 09:20:54 [notice] 1#1: worker process 36 exited with code 0
+2024/08/04 09:20:54 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:21:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:22:16 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:22:16 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:22:16 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:22:16 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:22:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:22:16 [notice] 1#1: start worker processes
+2024/08/04 09:22:16 [notice] 1#1: start worker process 20
+2024/08/04 09:22:16 [notice] 1#1: start worker process 21
+2024/08/04 09:22:16 [notice] 1#1: start worker process 22
+2024/08/04 09:22:16 [notice] 1#1: start worker process 23
+2024/08/04 09:22:16 [notice] 1#1: start worker process 24
+2024/08/04 09:22:16 [notice] 1#1: start worker process 25
+2024/08/04 09:22:16 [notice] 1#1: start worker process 26
+2024/08/04 09:22:16 [notice] 1#1: start worker process 27
+2024/08/04 09:22:16 [notice] 1#1: start worker process 28
+2024/08/04 09:22:16 [notice] 1#1: start worker process 29
+2024/08/04 09:22:16 [notice] 1#1: start worker process 30
+2024/08/04 09:22:16 [notice] 1#1: start worker process 31
+2024/08/04 09:22:16 [notice] 1#1: start worker process 32
+2024/08/04 09:22:16 [notice] 1#1: start worker process 33
+2024/08/04 09:22:16 [notice] 1#1: start worker process 34
+2024/08/04 09:22:16 [notice] 1#1: start worker process 35
+2024/08/04 09:24:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:24:40 [notice] 20#20: gracefully shutting down
+2024/08/04 09:24:40 [notice] 29#29: gracefully shutting down
+2024/08/04 09:24:40 [notice] 21#21: gracefully shutting down
+2024/08/04 09:24:40 [notice] 21#21: exiting
+2024/08/04 09:24:40 [notice] 22#22: gracefully shutting down
+2024/08/04 09:24:40 [notice] 24#24: gracefully shutting down
+2024/08/04 09:24:40 [notice] 23#23: gracefully shutting down
+2024/08/04 09:24:40 [notice] 25#25: gracefully shutting down
+2024/08/04 09:24:40 [notice] 27#27: gracefully shutting down
+2024/08/04 09:24:40 [notice] 28#28: gracefully shutting down
+2024/08/04 09:24:40 [notice] 26#26: gracefully shutting down
+2024/08/04 09:24:40 [notice] 30#30: gracefully shutting down
+2024/08/04 09:24:40 [notice] 31#31: gracefully shutting down
+2024/08/04 09:24:40 [notice] 20#20: exiting
+2024/08/04 09:24:40 [notice] 32#32: gracefully shutting down
+2024/08/04 09:24:40 [notice] 33#33: gracefully shutting down
+2024/08/04 09:24:40 [notice] 33#33: exiting
+2024/08/04 09:24:40 [notice] 34#34: gracefully shutting down
+2024/08/04 09:24:40 [notice] 35#35: gracefully shutting down
+2024/08/04 09:24:40 [notice] 29#29: exiting
+2024/08/04 09:24:40 [notice] 21#21: exit
+2024/08/04 09:24:40 [notice] 22#22: exiting
+2024/08/04 09:24:40 [notice] 24#24: exiting
+2024/08/04 09:24:40 [notice] 23#23: exiting
+2024/08/04 09:24:40 [notice] 25#25: exiting
+2024/08/04 09:24:40 [notice] 27#27: exiting
+2024/08/04 09:24:40 [notice] 28#28: exiting
+2024/08/04 09:24:40 [notice] 26#26: exiting
+2024/08/04 09:24:40 [notice] 30#30: exiting
+2024/08/04 09:24:40 [notice] 31#31: exiting
+2024/08/04 09:24:40 [notice] 20#20: exit
+2024/08/04 09:24:40 [notice] 32#32: exiting
+2024/08/04 09:24:40 [notice] 33#33: exit
+2024/08/04 09:24:40 [notice] 34#34: exiting
+2024/08/04 09:24:40 [notice] 35#35: exiting
+2024/08/04 09:24:40 [notice] 29#29: exit
+2024/08/04 09:24:40 [notice] 22#22: exit
+2024/08/04 09:24:40 [notice] 24#24: exit
+2024/08/04 09:24:40 [notice] 23#23: exit
+2024/08/04 09:24:40 [notice] 25#25: exit
+2024/08/04 09:24:40 [notice] 27#27: exit
+2024/08/04 09:24:40 [notice] 28#28: exit
+2024/08/04 09:24:40 [notice] 26#26: exit
+2024/08/04 09:24:40 [notice] 30#30: exit
+2024/08/04 09:24:40 [notice] 31#31: exit
+2024/08/04 09:24:40 [notice] 32#32: exit
+2024/08/04 09:24:40 [notice] 34#34: exit
+2024/08/04 09:24:40 [notice] 35#35: exit
+2024/08/04 09:24:40 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/04 09:24:40 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:24:40 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 09:24:40 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/04 09:24:40 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:24:40 [notice] 1#1: exit
+2024/08/04 09:26:52 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:26:52 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:26:52 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:26:52 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:26:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:26:52 [notice] 1#1: start worker processes
+2024/08/04 09:26:52 [notice] 1#1: start worker process 20
+2024/08/04 09:26:52 [notice] 1#1: start worker process 21
+2024/08/04 09:26:52 [notice] 1#1: start worker process 22
+2024/08/04 09:26:52 [notice] 1#1: start worker process 23
+2024/08/04 09:26:52 [notice] 1#1: start worker process 24
+2024/08/04 09:26:52 [notice] 1#1: start worker process 25
+2024/08/04 09:26:52 [notice] 1#1: start worker process 26
+2024/08/04 09:26:52 [notice] 1#1: start worker process 27
+2024/08/04 09:26:52 [notice] 1#1: start worker process 28
+2024/08/04 09:26:52 [notice] 1#1: start worker process 29
+2024/08/04 09:26:52 [notice] 1#1: start worker process 30
+2024/08/04 09:26:52 [notice] 1#1: start worker process 31
+2024/08/04 09:26:52 [notice] 1#1: start worker process 32
+2024/08/04 09:26:52 [notice] 1#1: start worker process 33
+2024/08/04 09:26:52 [notice] 1#1: start worker process 34
+2024/08/04 09:26:52 [notice] 1#1: start worker process 35
+2024/08/04 09:28:01 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.24.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:32:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:32:02 [notice] 20#20: gracefully shutting down
+2024/08/04 09:32:02 [notice] 26#26: gracefully shutting down
+2024/08/04 09:32:02 [notice] 21#21: gracefully shutting down
+2024/08/04 09:32:02 [notice] 22#22: gracefully shutting down
+2024/08/04 09:32:02 [notice] 23#23: gracefully shutting down
+2024/08/04 09:32:02 [notice] 25#25: gracefully shutting down
+2024/08/04 09:32:02 [notice] 24#24: gracefully shutting down
+2024/08/04 09:32:02 [notice] 27#27: gracefully shutting down
+2024/08/04 09:32:02 [notice] 28#28: gracefully shutting down
+2024/08/04 09:32:02 [notice] 20#20: exiting
+2024/08/04 09:32:02 [notice] 30#30: gracefully shutting down
+2024/08/04 09:32:02 [notice] 29#29: gracefully shutting down
+2024/08/04 09:32:02 [notice] 31#31: gracefully shutting down
+2024/08/04 09:32:02 [notice] 33#33: gracefully shutting down
+2024/08/04 09:32:02 [notice] 34#34: gracefully shutting down
+2024/08/04 09:32:02 [notice] 32#32: gracefully shutting down
+2024/08/04 09:32:02 [notice] 35#35: gracefully shutting down
+2024/08/04 09:32:02 [notice] 26#26: exiting
+2024/08/04 09:32:02 [notice] 21#21: exiting
+2024/08/04 09:32:02 [notice] 22#22: exiting
+2024/08/04 09:32:02 [notice] 23#23: exiting
+2024/08/04 09:32:02 [notice] 25#25: exiting
+2024/08/04 09:32:02 [notice] 24#24: exiting
+2024/08/04 09:32:02 [notice] 27#27: exiting
+2024/08/04 09:32:02 [notice] 28#28: exiting
+2024/08/04 09:32:02 [notice] 20#20: exit
+2024/08/04 09:32:02 [notice] 30#30: exiting
+2024/08/04 09:32:02 [notice] 29#29: exiting
+2024/08/04 09:32:02 [notice] 31#31: exiting
+2024/08/04 09:32:02 [notice] 33#33: exiting
+2024/08/04 09:32:02 [notice] 34#34: exiting
+2024/08/04 09:32:02 [notice] 32#32: exiting
+2024/08/04 09:32:02 [notice] 35#35: exiting
+2024/08/04 09:32:02 [notice] 26#26: exit
+2024/08/04 09:32:02 [notice] 21#21: exit
+2024/08/04 09:32:02 [notice] 22#22: exit
+2024/08/04 09:32:02 [notice] 23#23: exit
+2024/08/04 09:32:02 [notice] 25#25: exit
+2024/08/04 09:32:02 [notice] 24#24: exit
+2024/08/04 09:32:02 [notice] 27#27: exit
+2024/08/04 09:32:02 [notice] 28#28: exit
+2024/08/04 09:32:02 [notice] 30#30: exit
+2024/08/04 09:32:02 [notice] 29#29: exit
+2024/08/04 09:32:02 [notice] 31#31: exit
+2024/08/04 09:32:02 [notice] 33#33: exit
+2024/08/04 09:32:02 [notice] 34#34: exit
+2024/08/04 09:32:02 [notice] 32#32: exit
+2024/08/04 09:32:02 [notice] 35#35: exit
+2024/08/04 09:32:02 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/04 09:32:02 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:32:02 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/04 09:32:02 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/04 09:32:02 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:32:02 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/08/04 09:32:02 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/04 09:32:02 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:32:02 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/08/04 09:32:02 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:32:02 [notice] 1#1: exit
+2024/08/04 09:32:31 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:32:31 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:32:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:32:31 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:32:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:32:31 [notice] 1#1: start worker processes
+2024/08/04 09:32:31 [notice] 1#1: start worker process 21
+2024/08/04 09:32:31 [notice] 1#1: start worker process 22
+2024/08/04 09:32:31 [notice] 1#1: start worker process 23
+2024/08/04 09:32:31 [notice] 1#1: start worker process 24
+2024/08/04 09:32:31 [notice] 1#1: start worker process 25
+2024/08/04 09:32:31 [notice] 1#1: start worker process 26
+2024/08/04 09:32:31 [notice] 1#1: start worker process 27
+2024/08/04 09:32:31 [notice] 1#1: start worker process 28
+2024/08/04 09:32:31 [notice] 1#1: start worker process 29
+2024/08/04 09:32:31 [notice] 1#1: start worker process 30
+2024/08/04 09:32:31 [notice] 1#1: start worker process 31
+2024/08/04 09:32:31 [notice] 1#1: start worker process 32
+2024/08/04 09:32:31 [notice] 1#1: start worker process 33
+2024/08/04 09:32:31 [notice] 1#1: start worker process 34
+2024/08/04 09:32:31 [notice] 1#1: start worker process 35
+2024/08/04 09:32:31 [notice] 1#1: start worker process 36
+2024/08/04 09:33:02 [error] 21#21: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.26.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:33:03 [error] 21#21: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.26.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:33:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:33:06 [notice] 21#21: gracefully shutting down
+2024/08/04 09:33:06 [notice] 29#29: gracefully shutting down
+2024/08/04 09:33:06 [notice] 22#22: gracefully shutting down
+2024/08/04 09:33:06 [notice] 23#23: gracefully shutting down
+2024/08/04 09:33:06 [notice] 24#24: gracefully shutting down
+2024/08/04 09:33:06 [notice] 25#25: gracefully shutting down
+2024/08/04 09:33:06 [notice] 26#26: gracefully shutting down
+2024/08/04 09:33:06 [notice] 27#27: gracefully shutting down
+2024/08/04 09:33:06 [notice] 28#28: gracefully shutting down
+2024/08/04 09:33:06 [notice] 28#28: exiting
+2024/08/04 09:33:06 [notice] 30#30: gracefully shutting down
+2024/08/04 09:33:06 [notice] 31#31: gracefully shutting down
+2024/08/04 09:33:06 [notice] 32#32: gracefully shutting down
+2024/08/04 09:33:06 [notice] 33#33: gracefully shutting down
+2024/08/04 09:33:06 [notice] 34#34: gracefully shutting down
+2024/08/04 09:33:06 [notice] 34#34: exiting
+2024/08/04 09:33:06 [notice] 21#21: exiting
+2024/08/04 09:33:06 [notice] 36#36: gracefully shutting down
+2024/08/04 09:33:06 [notice] 35#35: gracefully shutting down
+2024/08/04 09:33:06 [notice] 29#29: exiting
+2024/08/04 09:33:06 [notice] 23#23: exiting
+2024/08/04 09:33:06 [notice] 24#24: exiting
+2024/08/04 09:33:06 [notice] 25#25: exiting
+2024/08/04 09:33:06 [notice] 26#26: exiting
+2024/08/04 09:33:06 [notice] 27#27: exiting
+2024/08/04 09:33:06 [notice] 28#28: exit
+2024/08/04 09:33:06 [notice] 30#30: exiting
+2024/08/04 09:33:06 [notice] 31#31: exiting
+2024/08/04 09:33:06 [notice] 32#32: exiting
+2024/08/04 09:33:06 [notice] 33#33: exiting
+2024/08/04 09:33:06 [notice] 34#34: exit
+2024/08/04 09:33:06 [notice] 21#21: exit
+2024/08/04 09:33:06 [notice] 36#36: exiting
+2024/08/04 09:33:06 [notice] 35#35: exiting
+2024/08/04 09:33:06 [notice] 29#29: exit
+2024/08/04 09:33:06 [notice] 23#23: exit
+2024/08/04 09:33:06 [notice] 24#24: exit
+2024/08/04 09:33:06 [notice] 25#25: exit
+2024/08/04 09:33:06 [notice] 26#26: exit
+2024/08/04 09:33:06 [notice] 27#27: exit
+2024/08/04 09:33:06 [notice] 30#30: exit
+2024/08/04 09:33:06 [notice] 31#31: exit
+2024/08/04 09:33:06 [notice] 32#32: exit
+2024/08/04 09:33:06 [notice] 33#33: exit
+2024/08/04 09:33:06 [notice] 36#36: exit
+2024/08/04 09:33:06 [notice] 35#35: exit
+2024/08/04 09:33:06 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 09:33:06 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:33:06 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2024/08/04 09:33:06 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 36 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:33:06 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/08/04 09:33:06 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/04 09:33:06 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:33:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/04 09:33:06 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:33:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:33:06 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/08/04 09:34:31 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:34:31 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:34:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:34:31 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:34:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:34:31 [notice] 1#1: start worker processes
+2024/08/04 09:34:31 [notice] 1#1: start worker process 20
+2024/08/04 09:34:31 [notice] 1#1: start worker process 21
+2024/08/04 09:34:31 [notice] 1#1: start worker process 22
+2024/08/04 09:34:31 [notice] 1#1: start worker process 23
+2024/08/04 09:34:31 [notice] 1#1: start worker process 24
+2024/08/04 09:34:31 [notice] 1#1: start worker process 25
+2024/08/04 09:34:31 [notice] 1#1: start worker process 26
+2024/08/04 09:34:31 [notice] 1#1: start worker process 27
+2024/08/04 09:34:31 [notice] 1#1: start worker process 28
+2024/08/04 09:34:31 [notice] 1#1: start worker process 29
+2024/08/04 09:34:31 [notice] 1#1: start worker process 30
+2024/08/04 09:34:31 [notice] 1#1: start worker process 31
+2024/08/04 09:34:31 [notice] 1#1: start worker process 32
+2024/08/04 09:34:31 [notice] 1#1: start worker process 33
+2024/08/04 09:34:31 [notice] 1#1: start worker process 34
+2024/08/04 09:34:31 [notice] 1#1: start worker process 35
+2024/08/04 09:35:36 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:35:43 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:42:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:42:10 [notice] 20#20: gracefully shutting down
+2024/08/04 09:42:10 [notice] 27#27: gracefully shutting down
+2024/08/04 09:42:10 [notice] 21#21: gracefully shutting down
+2024/08/04 09:42:10 [notice] 22#22: gracefully shutting down
+2024/08/04 09:42:10 [notice] 23#23: gracefully shutting down
+2024/08/04 09:42:10 [notice] 23#23: exiting
+2024/08/04 09:42:10 [notice] 24#24: gracefully shutting down
+2024/08/04 09:42:10 [notice] 25#25: gracefully shutting down
+2024/08/04 09:42:10 [notice] 26#26: gracefully shutting down
+2024/08/04 09:42:10 [notice] 28#28: gracefully shutting down
+2024/08/04 09:42:10 [notice] 29#29: gracefully shutting down
+2024/08/04 09:42:10 [notice] 30#30: gracefully shutting down
+2024/08/04 09:42:10 [notice] 31#31: gracefully shutting down
+2024/08/04 09:42:10 [notice] 20#20: exiting
+2024/08/04 09:42:10 [notice] 32#32: gracefully shutting down
+2024/08/04 09:42:10 [notice] 33#33: gracefully shutting down
+2024/08/04 09:42:10 [notice] 34#34: gracefully shutting down
+2024/08/04 09:42:10 [notice] 35#35: gracefully shutting down
+2024/08/04 09:42:10 [notice] 27#27: exiting
+2024/08/04 09:42:10 [notice] 21#21: exiting
+2024/08/04 09:42:10 [notice] 22#22: exiting
+2024/08/04 09:42:10 [notice] 23#23: exit
+2024/08/04 09:42:10 [notice] 24#24: exiting
+2024/08/04 09:42:10 [notice] 25#25: exiting
+2024/08/04 09:42:10 [notice] 26#26: exiting
+2024/08/04 09:42:10 [notice] 28#28: exiting
+2024/08/04 09:42:10 [notice] 29#29: exiting
+2024/08/04 09:42:10 [notice] 30#30: exiting
+2024/08/04 09:42:10 [notice] 31#31: exiting
+2024/08/04 09:42:10 [notice] 20#20: exit
+2024/08/04 09:42:10 [notice] 32#32: exiting
+2024/08/04 09:42:10 [notice] 33#33: exiting
+2024/08/04 09:42:10 [notice] 34#34: exiting
+2024/08/04 09:42:10 [notice] 35#35: exiting
+2024/08/04 09:42:10 [notice] 27#27: exit
+2024/08/04 09:42:10 [notice] 21#21: exit
+2024/08/04 09:42:10 [notice] 22#22: exit
+2024/08/04 09:42:10 [notice] 24#24: exit
+2024/08/04 09:42:10 [notice] 25#25: exit
+2024/08/04 09:42:10 [notice] 26#26: exit
+2024/08/04 09:42:10 [notice] 28#28: exit
+2024/08/04 09:42:10 [notice] 29#29: exit
+2024/08/04 09:42:10 [notice] 30#30: exit
+2024/08/04 09:42:10 [notice] 31#31: exit
+2024/08/04 09:42:10 [notice] 32#32: exit
+2024/08/04 09:42:10 [notice] 33#33: exit
+2024/08/04 09:42:10 [notice] 34#34: exit
+2024/08/04 09:42:10 [notice] 35#35: exit
+2024/08/04 09:42:10 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/04 09:42:10 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:42:10 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 09:42:10 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/08/04 09:42:10 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:42:10 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/04 09:42:10 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:42:10 [notice] 1#1: exit
+2024/08/04 09:49:33 [notice] 1#1: using the "epoll" event method
+2024/08/04 09:49:33 [notice] 1#1: nginx/1.27.0
+2024/08/04 09:49:33 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 09:49:33 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 09:49:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 09:49:33 [notice] 1#1: start worker processes
+2024/08/04 09:49:33 [notice] 1#1: start worker process 20
+2024/08/04 09:49:33 [notice] 1#1: start worker process 21
+2024/08/04 09:49:33 [notice] 1#1: start worker process 22
+2024/08/04 09:49:33 [notice] 1#1: start worker process 23
+2024/08/04 09:49:33 [notice] 1#1: start worker process 24
+2024/08/04 09:49:33 [notice] 1#1: start worker process 25
+2024/08/04 09:49:33 [notice] 1#1: start worker process 26
+2024/08/04 09:49:33 [notice] 1#1: start worker process 27
+2024/08/04 09:49:33 [notice] 1#1: start worker process 28
+2024/08/04 09:49:33 [notice] 1#1: start worker process 29
+2024/08/04 09:49:33 [notice] 1#1: start worker process 30
+2024/08/04 09:49:33 [notice] 1#1: start worker process 31
+2024/08/04 09:49:33 [notice] 1#1: start worker process 32
+2024/08/04 09:49:33 [notice] 1#1: start worker process 33
+2024/08/04 09:49:33 [notice] 1#1: start worker process 34
+2024/08/04 09:49:33 [notice] 1#1: start worker process 35
+2024/08/04 09:51:14 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:51:16 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:51:16 [error] 20#20: *1 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:57:26 [emerg] 51#51: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2024/08/04 09:57:26 [notice] 51#51: try again to bind() after 500ms
+2024/08/04 09:57:26 [emerg] 51#51: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2024/08/04 09:57:26 [notice] 51#51: try again to bind() after 500ms
+2024/08/04 09:57:26 [emerg] 51#51: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2024/08/04 09:57:26 [notice] 51#51: try again to bind() after 500ms
+2024/08/04 09:57:26 [emerg] 51#51: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2024/08/04 09:57:26 [notice] 51#51: try again to bind() after 500ms
+2024/08/04 09:57:26 [emerg] 51#51: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2024/08/04 09:57:26 [notice] 51#51: try again to bind() after 500ms
+2024/08/04 09:57:26 [emerg] 51#51: still could not bind()
+2024/08/04 09:57:54 [error] 22#22: *3 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:57:55 [error] 22#22: *3 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:57:55 [error] 22#22: *3 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8080"
+2024/08/04 09:57:58 [error] 24#24: *5 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 09:57:59 [error] 24#24: *5 open() "/usr/share/nginx/html/static/favicon.ico" failed (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/"
+2024/08/04 09:58:00 [error] 24#24: *5 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 09:58:01 [error] 24#24: *5 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 09:58:01 [error] 24#24: *5 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 09:58:01 [error] 24#24: *5 directory index of "/usr/share/nginx/html/static/" is forbidden, client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 09:58:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 09:58:32 [notice] 20#20: gracefully shutting down
+2024/08/04 09:58:32 [notice] 21#21: gracefully shutting down
+2024/08/04 09:58:32 [notice] 21#21: exiting
+2024/08/04 09:58:32 [notice] 22#22: gracefully shutting down
+2024/08/04 09:58:32 [notice] 23#23: gracefully shutting down
+2024/08/04 09:58:32 [notice] 24#24: gracefully shutting down
+2024/08/04 09:58:32 [notice] 25#25: gracefully shutting down
+2024/08/04 09:58:32 [notice] 27#27: gracefully shutting down
+2024/08/04 09:58:32 [notice] 26#26: gracefully shutting down
+2024/08/04 09:58:32 [notice] 20#20: exiting
+2024/08/04 09:58:32 [notice] 29#29: gracefully shutting down
+2024/08/04 09:58:32 [notice] 28#28: gracefully shutting down
+2024/08/04 09:58:32 [notice] 32#32: gracefully shutting down
+2024/08/04 09:58:32 [notice] 32#32: exiting
+2024/08/04 09:58:32 [notice] 30#30: gracefully shutting down
+2024/08/04 09:58:32 [notice] 33#33: gracefully shutting down
+2024/08/04 09:58:32 [notice] 31#31: gracefully shutting down
+2024/08/04 09:58:32 [notice] 31#31: exiting
+2024/08/04 09:58:32 [notice] 34#34: gracefully shutting down
+2024/08/04 09:58:32 [notice] 35#35: gracefully shutting down
+2024/08/04 09:58:32 [notice] 21#21: exit
+2024/08/04 09:58:32 [notice] 22#22: exiting
+2024/08/04 09:58:32 [notice] 24#24: exiting
+2024/08/04 09:58:32 [notice] 27#27: exiting
+2024/08/04 09:58:32 [notice] 26#26: exiting
+2024/08/04 09:58:32 [notice] 20#20: exit
+2024/08/04 09:58:32 [notice] 29#29: exiting
+2024/08/04 09:58:32 [notice] 28#28: exiting
+2024/08/04 09:58:32 [notice] 32#32: exit
+2024/08/04 09:58:32 [notice] 30#30: exiting
+2024/08/04 09:58:32 [notice] 33#33: exiting
+2024/08/04 09:58:32 [notice] 31#31: exit
+2024/08/04 09:58:32 [notice] 34#34: exiting
+2024/08/04 09:58:32 [notice] 35#35: exiting
+2024/08/04 09:58:32 [notice] 22#22: exit
+2024/08/04 09:58:32 [notice] 24#24: exit
+2024/08/04 09:58:32 [notice] 27#27: exit
+2024/08/04 09:58:32 [notice] 26#26: exit
+2024/08/04 09:58:32 [notice] 29#29: exit
+2024/08/04 09:58:32 [notice] 28#28: exit
+2024/08/04 09:58:32 [notice] 30#30: exit
+2024/08/04 09:58:32 [notice] 33#33: exit
+2024/08/04 09:58:32 [notice] 34#34: exit
+2024/08/04 09:58:32 [notice] 35#35: exit
+2024/08/04 09:58:32 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 09:58:32 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:58:32 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/08/04 09:58:32 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/08/04 09:58:32 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:58:32 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/04 09:58:32 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/04 09:58:32 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:58:32 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 09:58:32 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/04 09:58:32 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 09:58:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 09:58:32 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/04 10:00:48 [notice] 1#1: using the "epoll" event method
+2024/08/04 10:00:48 [notice] 1#1: nginx/1.27.0
+2024/08/04 10:00:48 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 10:00:48 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 10:00:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 10:00:48 [notice] 1#1: start worker processes
+2024/08/04 10:00:48 [notice] 1#1: start worker process 20
+2024/08/04 10:00:48 [notice] 1#1: start worker process 21
+2024/08/04 10:00:48 [notice] 1#1: start worker process 22
+2024/08/04 10:00:48 [notice] 1#1: start worker process 23
+2024/08/04 10:00:48 [notice] 1#1: start worker process 24
+2024/08/04 10:00:48 [notice] 1#1: start worker process 25
+2024/08/04 10:00:48 [notice] 1#1: start worker process 26
+2024/08/04 10:00:48 [notice] 1#1: start worker process 27
+2024/08/04 10:00:48 [notice] 1#1: start worker process 28
+2024/08/04 10:00:48 [notice] 1#1: start worker process 29
+2024/08/04 10:00:48 [notice] 1#1: start worker process 30
+2024/08/04 10:00:48 [notice] 1#1: start worker process 31
+2024/08/04 10:00:48 [notice] 1#1: start worker process 32
+2024/08/04 10:00:48 [notice] 1#1: start worker process 33
+2024/08/04 10:00:48 [notice] 1#1: start worker process 34
+2024/08/04 10:00:48 [notice] 1#1: start worker process 35
+2024/08/04 10:02:44 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:02:44 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:02:46 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:02:47 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:02:47 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:02:48 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:02:48 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:02:48 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:02:49 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:03:10 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:03:10 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:03:11 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:03:11 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:03:11 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:03:11 [error] 20#20: *1 "/usr/share/nginx/html/static/index.php" is not found (2: No such file or directory), client: 172.28.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2024/08/04 10:06:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 10:06:08 [notice] 20#20: gracefully shutting down
+2024/08/04 10:06:08 [notice] 28#28: gracefully shutting down
+2024/08/04 10:06:08 [notice] 21#21: gracefully shutting down
+2024/08/04 10:06:08 [notice] 22#22: gracefully shutting down
+2024/08/04 10:06:08 [notice] 23#23: gracefully shutting down
+2024/08/04 10:06:08 [notice] 25#25: gracefully shutting down
+2024/08/04 10:06:08 [notice] 24#24: gracefully shutting down
+2024/08/04 10:06:08 [notice] 24#24: exiting
+2024/08/04 10:06:08 [notice] 26#26: gracefully shutting down
+2024/08/04 10:06:08 [notice] 27#27: gracefully shutting down
+2024/08/04 10:06:08 [notice] 29#29: gracefully shutting down
+2024/08/04 10:06:08 [notice] 20#20: exiting
+2024/08/04 10:06:08 [notice] 30#30: gracefully shutting down
+2024/08/04 10:06:08 [notice] 31#31: gracefully shutting down
+2024/08/04 10:06:08 [notice] 32#32: gracefully shutting down
+2024/08/04 10:06:08 [notice] 33#33: gracefully shutting down
+2024/08/04 10:06:08 [notice] 33#33: exiting
+2024/08/04 10:06:08 [notice] 34#34: gracefully shutting down
+2024/08/04 10:06:08 [notice] 34#34: exiting
+2024/08/04 10:06:08 [notice] 35#35: gracefully shutting down
+2024/08/04 10:06:08 [notice] 28#28: exiting
+2024/08/04 10:06:08 [notice] 21#21: exiting
+2024/08/04 10:06:08 [notice] 22#22: exiting
+2024/08/04 10:06:08 [notice] 23#23: exiting
+2024/08/04 10:06:08 [notice] 25#25: exiting
+2024/08/04 10:06:08 [notice] 24#24: exit
+2024/08/04 10:06:08 [notice] 26#26: exiting
+2024/08/04 10:06:08 [notice] 27#27: exiting
+2024/08/04 10:06:08 [notice] 29#29: exiting
+2024/08/04 10:06:08 [notice] 20#20: exit
+2024/08/04 10:06:08 [notice] 30#30: exiting
+2024/08/04 10:06:08 [notice] 31#31: exiting
+2024/08/04 10:06:08 [notice] 32#32: exiting
+2024/08/04 10:06:08 [notice] 33#33: exit
+2024/08/04 10:06:08 [notice] 34#34: exit
+2024/08/04 10:06:08 [notice] 35#35: exiting
+2024/08/04 10:06:08 [notice] 28#28: exit
+2024/08/04 10:06:08 [notice] 21#21: exit
+2024/08/04 10:06:08 [notice] 22#22: exit
+2024/08/04 10:06:08 [notice] 23#23: exit
+2024/08/04 10:06:08 [notice] 25#25: exit
+2024/08/04 10:06:08 [notice] 26#26: exit
+2024/08/04 10:06:08 [notice] 27#27: exit
+2024/08/04 10:06:08 [notice] 29#29: exit
+2024/08/04 10:06:08 [notice] 30#30: exit
+2024/08/04 10:06:08 [notice] 31#31: exit
+2024/08/04 10:06:08 [notice] 32#32: exit
+2024/08/04 10:06:08 [notice] 35#35: exit
+2024/08/04 10:06:08 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/04 10:06:08 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:06:08 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/08/04 10:06:08 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/08/04 10:06:08 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:06:08 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 10:06:08 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:06:08 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 10:06:08 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:06:08 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/04 10:06:08 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/04 10:06:08 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:06:08 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/08/04 10:06:08 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:06:08 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/08/04 10:06:08 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 10:06:08 [notice] 1#1: exit
+2024/08/04 10:08:24 [notice] 1#1: using the "epoll" event method
+2024/08/04 10:08:24 [notice] 1#1: nginx/1.27.0
+2024/08/04 10:08:24 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 10:08:24 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 10:08:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 10:08:24 [notice] 1#1: start worker processes
+2024/08/04 10:08:24 [notice] 1#1: start worker process 20
+2024/08/04 10:08:24 [notice] 1#1: start worker process 21
+2024/08/04 10:08:24 [notice] 1#1: start worker process 22
+2024/08/04 10:08:24 [notice] 1#1: start worker process 23
+2024/08/04 10:08:24 [notice] 1#1: start worker process 24
+2024/08/04 10:08:24 [notice] 1#1: start worker process 25
+2024/08/04 10:08:24 [notice] 1#1: start worker process 26
+2024/08/04 10:08:24 [notice] 1#1: start worker process 27
+2024/08/04 10:08:24 [notice] 1#1: start worker process 28
+2024/08/04 10:08:24 [notice] 1#1: start worker process 29
+2024/08/04 10:08:24 [notice] 1#1: start worker process 30
+2024/08/04 10:08:24 [notice] 1#1: start worker process 31
+2024/08/04 10:08:24 [notice] 1#1: start worker process 32
+2024/08/04 10:08:24 [notice] 1#1: start worker process 33
+2024/08/04 10:08:24 [notice] 1#1: start worker process 34
+2024/08/04 10:08:24 [notice] 1#1: start worker process 35
+2024/08/04 10:14:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 10:14:09 [notice] 20#20: gracefully shutting down
+2024/08/04 10:14:09 [notice] 31#31: gracefully shutting down
+2024/08/04 10:14:09 [notice] 21#21: gracefully shutting down
+2024/08/04 10:14:09 [notice] 22#22: gracefully shutting down
+2024/08/04 10:14:09 [notice] 23#23: gracefully shutting down
+2024/08/04 10:14:09 [notice] 23#23: exiting
+2024/08/04 10:14:09 [notice] 24#24: gracefully shutting down
+2024/08/04 10:14:09 [notice] 25#25: gracefully shutting down
+2024/08/04 10:14:09 [notice] 26#26: gracefully shutting down
+2024/08/04 10:14:09 [notice] 27#27: gracefully shutting down
+2024/08/04 10:14:09 [notice] 28#28: gracefully shutting down
+2024/08/04 10:14:09 [notice] 29#29: gracefully shutting down
+2024/08/04 10:14:09 [notice] 30#30: gracefully shutting down
+2024/08/04 10:14:09 [notice] 32#32: gracefully shutting down
+2024/08/04 10:14:09 [notice] 20#20: exiting
+2024/08/04 10:14:09 [notice] 33#33: gracefully shutting down
+2024/08/04 10:14:09 [notice] 34#34: gracefully shutting down
+2024/08/04 10:14:09 [notice] 35#35: gracefully shutting down
+2024/08/04 10:14:09 [notice] 31#31: exiting
+2024/08/04 10:14:09 [notice] 21#21: exiting
+2024/08/04 10:14:09 [notice] 22#22: exiting
+2024/08/04 10:14:09 [notice] 23#23: exit
+2024/08/04 10:14:09 [notice] 24#24: exiting
+2024/08/04 10:14:09 [notice] 25#25: exiting
+2024/08/04 10:14:09 [notice] 26#26: exiting
+2024/08/04 10:14:09 [notice] 27#27: exiting
+2024/08/04 10:14:09 [notice] 28#28: exiting
+2024/08/04 10:14:09 [notice] 29#29: exiting
+2024/08/04 10:14:09 [notice] 30#30: exiting
+2024/08/04 10:14:09 [notice] 32#32: exiting
+2024/08/04 10:14:09 [notice] 20#20: exit
+2024/08/04 10:14:09 [notice] 33#33: exiting
+2024/08/04 10:14:09 [notice] 34#34: exiting
+2024/08/04 10:14:09 [notice] 35#35: exiting
+2024/08/04 10:14:09 [notice] 31#31: exit
+2024/08/04 10:14:09 [notice] 21#21: exit
+2024/08/04 10:14:09 [notice] 22#22: exit
+2024/08/04 10:14:09 [notice] 24#24: exit
+2024/08/04 10:14:09 [notice] 25#25: exit
+2024/08/04 10:14:09 [notice] 26#26: exit
+2024/08/04 10:14:09 [notice] 27#27: exit
+2024/08/04 10:14:09 [notice] 28#28: exit
+2024/08/04 10:14:09 [notice] 29#29: exit
+2024/08/04 10:14:09 [notice] 30#30: exit
+2024/08/04 10:14:09 [notice] 32#32: exit
+2024/08/04 10:14:09 [notice] 33#33: exit
+2024/08/04 10:14:09 [notice] 34#34: exit
+2024/08/04 10:14:09 [notice] 35#35: exit
+2024/08/04 10:14:09 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/08/04 10:14:09 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:14:09 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/08/04 10:14:09 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/04 10:14:09 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 10:14:09 [notice] 1#1: exit
+2024/08/04 10:15:58 [notice] 1#1: using the "epoll" event method
+2024/08/04 10:15:58 [notice] 1#1: nginx/1.27.0
+2024/08/04 10:15:58 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 10:15:58 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 10:15:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 10:15:58 [notice] 1#1: start worker processes
+2024/08/04 10:15:58 [notice] 1#1: start worker process 20
+2024/08/04 10:15:58 [notice] 1#1: start worker process 21
+2024/08/04 10:15:58 [notice] 1#1: start worker process 22
+2024/08/04 10:15:58 [notice] 1#1: start worker process 23
+2024/08/04 10:15:58 [notice] 1#1: start worker process 24
+2024/08/04 10:15:58 [notice] 1#1: start worker process 25
+2024/08/04 10:15:58 [notice] 1#1: start worker process 26
+2024/08/04 10:15:58 [notice] 1#1: start worker process 27
+2024/08/04 10:15:58 [notice] 1#1: start worker process 28
+2024/08/04 10:15:58 [notice] 1#1: start worker process 29
+2024/08/04 10:15:58 [notice] 1#1: start worker process 30
+2024/08/04 10:15:58 [notice] 1#1: start worker process 31
+2024/08/04 10:15:58 [notice] 1#1: start worker process 32
+2024/08/04 10:15:58 [notice] 1#1: start worker process 33
+2024/08/04 10:15:58 [notice] 1#1: start worker process 34
+2024/08/04 10:15:58 [notice] 1#1: start worker process 35
+2024/08/04 10:17:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 10:17:49 [notice] 20#20: gracefully shutting down
+2024/08/04 10:17:49 [notice] 28#28: gracefully shutting down
+2024/08/04 10:17:49 [notice] 21#21: gracefully shutting down
+2024/08/04 10:17:49 [notice] 22#22: gracefully shutting down
+2024/08/04 10:17:49 [notice] 23#23: gracefully shutting down
+2024/08/04 10:17:49 [notice] 24#24: gracefully shutting down
+2024/08/04 10:17:49 [notice] 25#25: gracefully shutting down
+2024/08/04 10:17:49 [notice] 26#26: gracefully shutting down
+2024/08/04 10:17:49 [notice] 27#27: gracefully shutting down
+2024/08/04 10:17:49 [notice] 29#29: gracefully shutting down
+2024/08/04 10:17:49 [notice] 30#30: gracefully shutting down
+2024/08/04 10:17:49 [notice] 31#31: gracefully shutting down
+2024/08/04 10:17:49 [notice] 32#32: gracefully shutting down
+2024/08/04 10:17:49 [notice] 20#20: exiting
+2024/08/04 10:17:49 [notice] 33#33: gracefully shutting down
+2024/08/04 10:17:49 [notice] 34#34: gracefully shutting down
+2024/08/04 10:17:49 [notice] 35#35: gracefully shutting down
+2024/08/04 10:17:49 [notice] 28#28: exiting
+2024/08/04 10:17:49 [notice] 21#21: exiting
+2024/08/04 10:17:49 [notice] 22#22: exiting
+2024/08/04 10:17:49 [notice] 23#23: exiting
+2024/08/04 10:17:49 [notice] 24#24: exiting
+2024/08/04 10:17:49 [notice] 25#25: exiting
+2024/08/04 10:17:49 [notice] 26#26: exiting
+2024/08/04 10:17:49 [notice] 27#27: exiting
+2024/08/04 10:17:49 [notice] 29#29: exiting
+2024/08/04 10:17:49 [notice] 30#30: exiting
+2024/08/04 10:17:49 [notice] 31#31: exiting
+2024/08/04 10:17:49 [notice] 32#32: exiting
+2024/08/04 10:17:49 [notice] 20#20: exit
+2024/08/04 10:17:49 [notice] 33#33: exiting
+2024/08/04 10:17:49 [notice] 34#34: exiting
+2024/08/04 10:17:49 [notice] 35#35: exiting
+2024/08/04 10:17:49 [notice] 28#28: exit
+2024/08/04 10:17:49 [notice] 21#21: exit
+2024/08/04 10:17:49 [notice] 22#22: exit
+2024/08/04 10:17:49 [notice] 23#23: exit
+2024/08/04 10:17:49 [notice] 24#24: exit
+2024/08/04 10:17:49 [notice] 25#25: exit
+2024/08/04 10:17:49 [notice] 26#26: exit
+2024/08/04 10:17:49 [notice] 27#27: exit
+2024/08/04 10:17:49 [notice] 29#29: exit
+2024/08/04 10:17:49 [notice] 30#30: exit
+2024/08/04 10:17:49 [notice] 31#31: exit
+2024/08/04 10:17:49 [notice] 32#32: exit
+2024/08/04 10:17:49 [notice] 33#33: exit
+2024/08/04 10:17:49 [notice] 34#34: exit
+2024/08/04 10:17:49 [notice] 35#35: exit
+2024/08/04 10:17:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/08/04 10:17:50 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:17:50 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/08/04 10:17:50 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/04 10:17:50 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:17:50 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 10:17:50 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/08/04 10:17:50 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 10:17:50 [notice] 1#1: exit
+2024/08/04 10:18:17 [notice] 1#1: using the "epoll" event method
+2024/08/04 10:18:17 [notice] 1#1: nginx/1.27.0
+2024/08/04 10:18:17 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 10:18:17 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 10:18:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 10:18:17 [notice] 1#1: start worker processes
+2024/08/04 10:18:17 [notice] 1#1: start worker process 20
+2024/08/04 10:18:17 [notice] 1#1: start worker process 21
+2024/08/04 10:18:17 [notice] 1#1: start worker process 22
+2024/08/04 10:18:17 [notice] 1#1: start worker process 23
+2024/08/04 10:18:17 [notice] 1#1: start worker process 24
+2024/08/04 10:18:17 [notice] 1#1: start worker process 25
+2024/08/04 10:18:17 [notice] 1#1: start worker process 26
+2024/08/04 10:18:17 [notice] 1#1: start worker process 27
+2024/08/04 10:18:17 [notice] 1#1: start worker process 28
+2024/08/04 10:18:17 [notice] 1#1: start worker process 29
+2024/08/04 10:18:17 [notice] 1#1: start worker process 30
+2024/08/04 10:18:17 [notice] 1#1: start worker process 31
+2024/08/04 10:18:17 [notice] 1#1: start worker process 32
+2024/08/04 10:18:17 [notice] 1#1: start worker process 33
+2024/08/04 10:18:17 [notice] 1#1: start worker process 34
+2024/08/04 10:18:17 [notice] 1#1: start worker process 35
+2024/08/04 10:22:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 10:22:26 [notice] 20#20: gracefully shutting down
+2024/08/04 10:22:26 [notice] 31#31: gracefully shutting down
+2024/08/04 10:22:26 [notice] 22#22: gracefully shutting down
+2024/08/04 10:22:26 [notice] 21#21: gracefully shutting down
+2024/08/04 10:22:26 [notice] 23#23: gracefully shutting down
+2024/08/04 10:22:26 [notice] 24#24: gracefully shutting down
+2024/08/04 10:22:26 [notice] 25#25: gracefully shutting down
+2024/08/04 10:22:26 [notice] 26#26: gracefully shutting down
+2024/08/04 10:22:26 [notice] 27#27: gracefully shutting down
+2024/08/04 10:22:26 [notice] 28#28: gracefully shutting down
+2024/08/04 10:22:26 [notice] 29#29: gracefully shutting down
+2024/08/04 10:22:26 [notice] 30#30: gracefully shutting down
+2024/08/04 10:22:26 [notice] 32#32: gracefully shutting down
+2024/08/04 10:22:26 [notice] 33#33: gracefully shutting down
+2024/08/04 10:22:26 [notice] 20#20: exiting
+2024/08/04 10:22:26 [notice] 34#34: gracefully shutting down
+2024/08/04 10:22:26 [notice] 35#35: gracefully shutting down
+2024/08/04 10:22:26 [notice] 31#31: exiting
+2024/08/04 10:22:26 [notice] 22#22: exiting
+2024/08/04 10:22:26 [notice] 21#21: exiting
+2024/08/04 10:22:26 [notice] 23#23: exiting
+2024/08/04 10:22:26 [notice] 24#24: exiting
+2024/08/04 10:22:26 [notice] 25#25: exiting
+2024/08/04 10:22:26 [notice] 26#26: exiting
+2024/08/04 10:22:26 [notice] 27#27: exiting
+2024/08/04 10:22:26 [notice] 28#28: exiting
+2024/08/04 10:22:26 [notice] 29#29: exiting
+2024/08/04 10:22:26 [notice] 30#30: exiting
+2024/08/04 10:22:26 [notice] 32#32: exiting
+2024/08/04 10:22:26 [notice] 33#33: exiting
+2024/08/04 10:22:26 [notice] 20#20: exit
+2024/08/04 10:22:26 [notice] 34#34: exiting
+2024/08/04 10:22:26 [notice] 35#35: exiting
+2024/08/04 10:22:26 [notice] 31#31: exit
+2024/08/04 10:22:26 [notice] 22#22: exit
+2024/08/04 10:22:26 [notice] 21#21: exit
+2024/08/04 10:22:26 [notice] 23#23: exit
+2024/08/04 10:22:26 [notice] 24#24: exit
+2024/08/04 10:22:26 [notice] 25#25: exit
+2024/08/04 10:22:26 [notice] 26#26: exit
+2024/08/04 10:22:26 [notice] 27#27: exit
+2024/08/04 10:22:26 [notice] 28#28: exit
+2024/08/04 10:22:26 [notice] 29#29: exit
+2024/08/04 10:22:26 [notice] 30#30: exit
+2024/08/04 10:22:26 [notice] 32#32: exit
+2024/08/04 10:22:26 [notice] 33#33: exit
+2024/08/04 10:22:26 [notice] 34#34: exit
+2024/08/04 10:22:26 [notice] 35#35: exit
+2024/08/04 10:22:26 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/08/04 10:22:26 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:22:26 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/08/04 10:22:26 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:22:26 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/08/04 10:22:26 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:22:26 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/08/04 10:22:26 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/08/04 10:22:26 [notice] 1#1: worker process 20 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:22:26 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/08/04 10:22:26 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 10:22:26 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/04 10:22:26 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 10:22:26 [notice] 1#1: exit
+2024/08/04 12:53:31 [notice] 1#1: using the "epoll" event method
+2024/08/04 12:53:31 [notice] 1#1: nginx/1.27.0
+2024/08/04 12:53:31 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/08/04 12:53:31 [notice] 1#1: OS: Linux 5.15.153.1-microsoft-standard-WSL2
+2024/08/04 12:53:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/04 12:53:31 [notice] 1#1: start worker processes
+2024/08/04 12:53:31 [notice] 1#1: start worker process 21
+2024/08/04 12:53:31 [notice] 1#1: start worker process 22
+2024/08/04 12:53:31 [notice] 1#1: start worker process 23
+2024/08/04 12:53:31 [notice] 1#1: start worker process 24
+2024/08/04 12:53:31 [notice] 1#1: start worker process 25
+2024/08/04 12:53:31 [notice] 1#1: start worker process 26
+2024/08/04 12:53:31 [notice] 1#1: start worker process 27
+2024/08/04 12:53:31 [notice] 1#1: start worker process 28
+2024/08/04 12:53:31 [notice] 1#1: start worker process 29
+2024/08/04 12:53:31 [notice] 1#1: start worker process 30
+2024/08/04 12:53:31 [notice] 1#1: start worker process 31
+2024/08/04 12:53:31 [notice] 1#1: start worker process 32
+2024/08/04 12:53:31 [notice] 1#1: start worker process 33
+2024/08/04 12:53:31 [notice] 1#1: start worker process 34
+2024/08/04 12:53:31 [notice] 1#1: start worker process 35
+2024/08/04 12:53:31 [notice] 1#1: start worker process 36
+2024/08/04 12:54:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/08/04 12:54:28 [notice] 21#21: gracefully shutting down
+2024/08/04 12:54:28 [notice] 31#31: gracefully shutting down
+2024/08/04 12:54:28 [notice] 22#22: gracefully shutting down
+2024/08/04 12:54:28 [notice] 23#23: gracefully shutting down
+2024/08/04 12:54:28 [notice] 24#24: gracefully shutting down
+2024/08/04 12:54:28 [notice] 24#24: exiting
+2024/08/04 12:54:28 [notice] 25#25: gracefully shutting down
+2024/08/04 12:54:28 [notice] 26#26: gracefully shutting down
+2024/08/04 12:54:28 [notice] 27#27: gracefully shutting down
+2024/08/04 12:54:28 [notice] 28#28: gracefully shutting down
+2024/08/04 12:54:28 [notice] 29#29: gracefully shutting down
+2024/08/04 12:54:28 [notice] 30#30: gracefully shutting down
+2024/08/04 12:54:28 [notice] 21#21: exiting
+2024/08/04 12:54:28 [notice] 32#32: gracefully shutting down
+2024/08/04 12:54:28 [notice] 33#33: gracefully shutting down
+2024/08/04 12:54:28 [notice] 34#34: gracefully shutting down
+2024/08/04 12:54:28 [notice] 35#35: gracefully shutting down
+2024/08/04 12:54:28 [notice] 36#36: gracefully shutting down
+2024/08/04 12:54:28 [notice] 31#31: exiting
+2024/08/04 12:54:28 [notice] 22#22: exiting
+2024/08/04 12:54:28 [notice] 23#23: exiting
+2024/08/04 12:54:28 [notice] 24#24: exit
+2024/08/04 12:54:28 [notice] 25#25: exiting
+2024/08/04 12:54:28 [notice] 26#26: exiting
+2024/08/04 12:54:28 [notice] 27#27: exiting
+2024/08/04 12:54:28 [notice] 28#28: exiting
+2024/08/04 12:54:28 [notice] 29#29: exiting
+2024/08/04 12:54:28 [notice] 30#30: exiting
+2024/08/04 12:54:28 [notice] 21#21: exit
+2024/08/04 12:54:28 [notice] 32#32: exiting
+2024/08/04 12:54:28 [notice] 33#33: exiting
+2024/08/04 12:54:28 [notice] 34#34: exiting
+2024/08/04 12:54:28 [notice] 35#35: exiting
+2024/08/04 12:54:28 [notice] 36#36: exiting
+2024/08/04 12:54:28 [notice] 31#31: exit
+2024/08/04 12:54:28 [notice] 22#22: exit
+2024/08/04 12:54:28 [notice] 23#23: exit
+2024/08/04 12:54:28 [notice] 25#25: exit
+2024/08/04 12:54:28 [notice] 26#26: exit
+2024/08/04 12:54:28 [notice] 27#27: exit
+2024/08/04 12:54:28 [notice] 28#28: exit
+2024/08/04 12:54:28 [notice] 29#29: exit
+2024/08/04 12:54:28 [notice] 30#30: exit
+2024/08/04 12:54:28 [notice] 32#32: exit
+2024/08/04 12:54:28 [notice] 33#33: exit
+2024/08/04 12:54:28 [notice] 34#34: exit
+2024/08/04 12:54:28 [notice] 35#35: exit
+2024/08/04 12:54:28 [notice] 36#36: exit
+2024/08/04 12:54:28 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/08/04 12:54:28 [notice] 1#1: worker process 23 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 25 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 28 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 33 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 12:54:28 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/08/04 12:54:28 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/08/04 12:54:28 [notice] 1#1: worker process 22 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 24 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 29 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 30 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 32 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 34 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 35 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 36 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 12:54:28 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/08/04 12:54:28 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/08/04 12:54:28 [notice] 1#1: worker process 21 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 26 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/08/04 12:54:28 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/08/04 12:54:28 [notice] 1#1: worker process 27 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: worker process 31 exited with code 0
+2024/08/04 12:54:28 [notice] 1#1: exit
