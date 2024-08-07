@@ -1,0 +1,65 @@
+begin*** Starting uWSGI 2.0.18 (64bit) on [Wed Aug  7 18:01:36 2024] ***
+compiled with version: 12.2.0 on 07 August 2024 17:58:47
+os: Linux-5.4.0-73-generic #82-Ubuntu SMP Wed Apr 14 17:39:42 UTC 2021
+nodename: 9495163e7475
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36699 (port auto-assigned) fd 3
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55bd3e935c60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/logging/config.py", line 564, in configure
+    handler = self.configure_handler(handlers[name])
+  File "/usr/local/lib/python3.9/logging/config.py", line 745, in configure_handler
+    result = factory(**kwargs)
+  File "/usr/local/lib/python3.9/logging/handlers.py", line 211, in __init__
+    BaseRotatingHandler.__init__(self, filename, 'a', encoding=encoding,
+  File "/usr/local/lib/python3.9/logging/handlers.py", line 58, in __init__
+    logging.FileHandler.__init__(self, filename, mode=mode,
+  File "/usr/local/lib/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/local/lib/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+PermissionError: [Errno 13] Permission denied: '/app/logs/debug.log'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/project/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/log.py", line 75, in configure_logging
+    logging_config_func(logging_settings)
+  File "/usr/local/lib/python3.9/logging/config.py", line 809, in dictConfig
+    dictConfigClass(config).configure()
+  File "/usr/local/lib/python3.9/logging/config.py", line 571, in configure
+    raise ValueError('Unable to configure handler '
+ValueError: Unable to configure handler 'file'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 35, cores: 2)
+spawned uWSGI http 1 (pid: 36)
+--- no python application found, check your startup logs for errors ---
+[pid: 35|app: -1|req: -1/1] 172.19.0.4 () {46 vars in 1600 bytes} [Thu Aug  8 02:06:31 2024] GET /api/user/info/ => generated 21 bytes in 0 msecs (HTTP/1.0 500) 2 headers in 83 bytes (0 switches on core 0)

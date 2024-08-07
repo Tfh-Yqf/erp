@@ -10,9 +10,8 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple && \
     apt update && \
     apt install -y netcat-openbsd expect && \
-    mkdir -p /app/logs && \
-    touch /app/logs/debug.log /app/logs/error.log && \
     chmod 777 /app/logs/debug.log /app/logs/error.log && \
+    touch /app/logs/debug.log /app/logs/error.log && \
     chmod 777 /app/scripts/init_data.sh && \
     sed -i 's/\r//' ./start.sh && \
     chmod +x ./start.sh
