@@ -1,0 +1,672 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 07:52:28 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 07:45:24
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 7292ba0453ab
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41979 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x562ea5fc9650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562ea5fc9650 pid: 11 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 12, cores: 2)
+spawned uWSGI http 1 (pid: 13)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 07:55:08 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 07:54:43
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 54cdd457ed44
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41971 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x557d9829f650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557d9829f650 pid: 13 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13)
+spawned uWSGI worker 1 (pid: 14, cores: 2)
+spawned uWSGI http 1 (pid: 16)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 08:04:21 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 08:03:47
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: a4999770dbc4
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33359 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55ea8a75e650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ea8a75e650 pid: 11 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 12, cores: 2)
+spawned uWSGI http 1 (pid: 14)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 08:17:30 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 08:16:25
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 50e1d80edccc
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38021 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x555e416e0650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x555e416e0650 pid: 11 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 12, cores: 2)
+spawned uWSGI http 1 (pid: 14)
+Not Found: /
+[pid: 12|app: 0|req: 1/1] 172.21.0.1 () {52 vars in 1189 bytes} [Sun Aug  4 16:59:20 2024] GET / => generated 179 bytes in 743 msecs (HTTP/1.1 404) 6 headers in 172 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 12|app: 0|req: 2/2] 172.21.0.1 () {50 vars in 1121 bytes} [Sun Aug  4 16:59:21 2024] GET /favicon.ico => generated 179 bytes in 25 msecs (HTTP/1.1 404) 6 headers in 172 bytes (1 switches on core 1)
+Not Found: /
+[pid: 12|app: 0|req: 3/3] 172.21.0.1 () {54 vars in 1220 bytes} [Sun Aug  4 16:59:22 2024] GET / => generated 179 bytes in 1 msecs (HTTP/1.1 404) 6 headers in 172 bytes (1 switches on core 0)
+Not Found: /
+[pid: 12|app: 0|req: 4/4] 172.21.0.1 () {54 vars in 1220 bytes} [Sun Aug  4 16:59:26 2024] GET / => generated 179 bytes in 1 msecs (HTTP/1.1 404) 6 headers in 172 bytes (1 switches on core 1)
+Not Found: /
+[pid: 12|app: 0|req: 5/5] 172.21.0.1 () {52 vars in 1189 bytes} [Sun Aug  4 16:59:39 2024] GET / => generated 179 bytes in 1 msecs (HTTP/1.1 404) 6 headers in 172 bytes (1 switches on core 0)
+Not Found: /api
+[pid: 12|app: 0|req: 6/6] 172.21.0.1 () {52 vars in 1195 bytes} [Sun Aug  4 16:59:42 2024] GET /api => generated 179 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 172 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 09:04:23 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 09:03:31
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 303afc259f8e
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42855 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55aea3062650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55aea3062650 pid: 13 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13)
+spawned uWSGI worker 1 (pid: 14, cores: 2)
+spawned uWSGI http 1 (pid: 16)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 09:06:58 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 09:06:31
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 8c1a2e66b925
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37409 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x5574fa973650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5574fa973650 pid: 13 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13)
+spawned uWSGI worker 1 (pid: 14, cores: 2)
+spawned uWSGI http 1 (pid: 16)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 09:15:52 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 09:15:15
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: cf00820e0a7d
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40923 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x561a4150e650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561a4150e650 pid: 20 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20)
+spawned uWSGI worker 1 (pid: 21, cores: 2)
+spawned uWSGI http 1 (pid: 23)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 09:17:13 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 09:16:40
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 3205c191648a
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33795 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55b4e81af650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b4e81af650 pid: 20 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20)
+spawned uWSGI worker 1 (pid: 21, cores: 2)
+spawned uWSGI http 1 (pid: 23)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 09:20:44 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 09:20:09
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 53507084cb2c
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40061 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x561818630650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561818630650 pid: 20 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20)
+spawned uWSGI worker 1 (pid: 21, cores: 2)
+spawned uWSGI http 1 (pid: 23)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 09:22:29 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 09:21:57
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: bf54785f8868
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36495 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55795ef5a650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55795ef5a650 pid: 20 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20)
+spawned uWSGI worker 1 (pid: 21, cores: 2)
+spawned uWSGI http 1 (pid: 23)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 09:27:17 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 09:26:24
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: f45b62ec4d8e
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43803 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x557c74671650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557c74671650 pid: 28 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28)
+spawned uWSGI worker 1 (pid: 29, cores: 2)
+spawned uWSGI http 1 (pid: 31)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 09:35:42 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 09:34:04
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 99f668fe3d72
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33315 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55cc48454650
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55cc48454650 pid: 28 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28)
+spawned uWSGI worker 1 (pid: 29, cores: 2)
+spawned uWSGI http 1 (pid: 31)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 09:49:40 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 09:49:10
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 0a1364ee356a
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39775 (port auto-assigned) fd 3
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x556064a60bf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556064a60bf0 pid: 13 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13)
+spawned uWSGI worker 1 (pid: 14, cores: 2)
+spawned uWSGI http 1 (pid: 16)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 10:00:55 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 10:00:27
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 1ffa5523f0e9
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36975 (port auto-assigned) fd 3
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55c4d5cb1bf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c4d5cb1bf0 pid: 14 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14)
+spawned uWSGI worker 1 (pid: 15, cores: 2)
+spawned uWSGI http 1 (pid: 17)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 10:08:31 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 10:08:04
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 4e06d102e6df
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40201 (port auto-assigned) fd 3
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x56039707fbf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56039707fbf0 pid: 14 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14)
+spawned uWSGI worker 1 (pid: 15, cores: 2)
+spawned uWSGI http 1 (pid: 17)
+Bad Request: /api/user/get_token/
+[pid: 15|app: 0|req: 1/1] 172.28.0.4 () {60 vars in 1026 bytes} [Sun Aug  4 18:12:22 2024] POST /api/user/get_token/ => generated 45 bytes in 680 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 0)
+Bad Request: /api/user/get_token/
+[pid: 15|app: 0|req: 2/2] 172.28.0.4 () {60 vars in 1026 bytes} [Sun Aug  4 18:12:34 2024] POST /api/user/get_token/ => generated 45 bytes in 1 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 1)
+Bad Request: /api/user/get_token/
+[pid: 15|app: 0|req: 3/3] 172.28.0.4 () {60 vars in 1026 bytes} [Sun Aug  4 18:12:38 2024] POST /api/user/get_token/ => generated 28 bytes in 94 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 0)
+Bad Request: /api/user/get_token/
+[pid: 15|app: 0|req: 4/4] 172.28.0.4 () {60 vars in 1026 bytes} [Sun Aug  4 18:12:49 2024] POST /api/user/get_token/ => generated 28 bytes in 4 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 1)
+Bad Request: /api/user/get_token/
+[pid: 15|app: 0|req: 5/5] 172.28.0.4 () {60 vars in 1026 bytes} [Sun Aug  4 18:13:02 2024] POST /api/user/get_token/ => generated 28 bytes in 4 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 0)
+Bad Request: /api/user/get_token/
+[pid: 15|app: 0|req: 6/6] 172.28.0.4 () {60 vars in 1026 bytes} [Sun Aug  4 18:13:10 2024] POST /api/user/get_token/ => generated 28 bytes in 4 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 1)
+Bad Request: /api/user/get_token/
+[pid: 15|app: 0|req: 7/7] 172.28.0.4 () {60 vars in 1026 bytes} [Sun Aug  4 18:13:11 2024] POST /api/user/get_token/ => generated 28 bytes in 4 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 0)
+pbkdf2_sha256$260000$YtSYyeEboMMVUY0UjfHbat$d4xdmV+zPpFdVICvxwPHFUrf4Tn+7FaT03wKty/Lvy4=
+[pid: 15|app: 0|req: 8/8] 172.28.0.4 () {60 vars in 1026 bytes} [Sun Aug  4 18:13:29 2024] POST /api/user/get_token/ => generated 483 bytes in 130 msecs (HTTP/1.0 200) 9 headers in 302 bytes (1 switches on core 1)
+[pid: 15|app: 0|req: 9/9] 172.28.0.4 () {58 vars in 1673 bytes} [Sun Aug  4 18:13:29 2024] GET /api/user/info/ => generated 85 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 15|app: 0|req: 10/10] 172.28.0.4 () {58 vars in 1724 bytes} [Sun Aug  4 18:13:29 2024] GET /api/clients/?search=&page=1&page_size=16 => generated 260 bytes in 11 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 15|app: 0|req: 11/11] 172.28.0.4 () {58 vars in 1728 bytes} [Sun Aug  4 18:13:32 2024] GET /api/suppliers/?search=&page=1&page_size=16 => generated 257 bytes in 18 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 15|app: 0|req: 12/12] 172.28.0.4 () {58 vars in 1730 bytes} [Sun Aug  4 18:13:33 2024] GET /api/warehouses/?search=&page=1&page_size=16 => generated 172 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 10:16:05 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 10:15:34
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 52c0f10baca7
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41429 (port auto-assigned) fd 3
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55f8392e7bf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55f8392e7bf0 pid: 14 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14)
+spawned uWSGI worker 1 (pid: 15, cores: 2)
+spawned uWSGI http 1 (pid: 16)
+pbkdf2_sha256$260000$U5u9INEeiaLhHTHlm39Eym$fWmWyHWUci4HNFcz6p+DGrL9ZFOHJQ86ciU+N78U8fg=
+[pid: 15|app: 0|req: 1/1] 172.31.0.4 () {58 vars in 1217 bytes} [Sun Aug  4 18:17:31 2024] POST /api/user/get_token/ => generated 483 bytes in 841 msecs (HTTP/1.0 200) 9 headers in 302 bytes (1 switches on core 0)
+pbkdf2_sha256$260000$hFKdcyaMNLMiAuXRngKa4p$h2NdZVGHMODtI6ksIQzv4RcHmsuJ1Ynms6y8v0DQeEQ=
+[pid: 15|app: 0|req: 2/2] 172.31.0.4 () {58 vars in 1693 bytes} [Sun Aug  4 18:17:32 2024] POST /api/user/get_token/ => generated 483 bytes in 117 msecs (HTTP/1.0 200) 9 headers in 302 bytes (1 switches on core 1)
+[pid: 15|app: 0|req: 3/3] 172.31.0.4 () {54 vars in 1851 bytes} [Sun Aug  4 18:17:33 2024] GET /api/user/info/ => generated 85 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 15|app: 0|req: 4/4] 172.31.0.4 () {54 vars in 1902 bytes} [Sun Aug  4 18:17:33 2024] GET /api/clients/?search=&page=1&page_size=16 => generated 260 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 15|app: 0|req: 5/5] 172.31.0.4 () {54 vars in 1906 bytes} [Sun Aug  4 18:17:36 2024] GET /api/suppliers/?search=&page=1&page_size=16 => generated 257 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 10:18:24 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 10:15:34
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 52c0f10baca7
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36519 (port auto-assigned) fd 3
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x559147e2fbf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559147e2fbf0 pid: 14 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14)
+spawned uWSGI worker 1 (pid: 15, cores: 2)
+spawned uWSGI http 1 (pid: 17)
+[pid: 15|app: 0|req: 1/1] 172.31.0.4 () {54 vars in 1849 bytes} [Sun Aug  4 18:18:27 2024] GET /api/user/info/ => generated 85 bytes in 797 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-04 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-05 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-04 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-05 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-07-28 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-05 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+[pid: 15|app: 0|req: 3/2] 172.31.0.4 () {54 vars in 1939 bytes} [Sun Aug  4 18:18:28 2024] GET /api/sales_trends/?start_date=2024-07-28&end_date=2024-08-05 => generated 2 bytes in 27 msecs (HTTP/1.0 200) 7 headers in 205 bytes (1 switches on core 0)
+[pid: 15|app: 0|req: 4/3] 172.31.0.4 () {54 vars in 1945 bytes} [Sun Aug  4 18:18:28 2024] GET /api/sales_hot_goods/?start_date=2024-07-28&end_date=2024-08-05 => generated 2 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 205 bytes (1 switches on core 0)
+[pid: 15|app: 0|req: 4/4] 172.31.0.4 () {54 vars in 1858 bytes} [Sun Aug  4 18:18:28 2024] GET /api/home_overview/ => generated 216 bytes in 52 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 15|app: 0|req: 5/5] 172.31.0.4 () {54 vars in 1851 bytes} [Sun Aug  4 18:22:19 2024] GET /api/user/info/ => generated 85 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 15|app: 0|req: 6/6] 172.31.0.4 () {54 vars in 1859 bytes} [Sun Aug  4 18:22:19 2024] GET /api/home_overview/ => generated 216 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 15|app: 0|req: 8/7] 172.31.0.4 () {54 vars in 1940 bytes} [Sun Aug  4 18:22:19 2024] GET /api/sales_trends/?start_date=2024-07-28&end_date=2024-08-05 => generated 2 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 205 bytes (1 switches on core 0)
+[pid: 15|app: 0|req: 8/8] 172.31.0.4 () {54 vars in 1946 bytes} [Sun Aug  4 18:22:19 2024] GET /api/sales_hot_goods/?start_date=2024-07-28&end_date=2024-08-05 => generated 2 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 205 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 12:53:50 2024] ***
+compiled with version: 12.2.0 on 04 August 2024 12:53:07
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 9dceb3df1dc8
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33653 (port auto-assigned) fd 3
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x5563318a1bf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5563318a1bf0 pid: 25 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25)
+spawned uWSGI worker 1 (pid: 26, cores: 2)
+spawned uWSGI http 1 (pid: 28)
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Aug  7 10:31:39 2024] ***
+compiled with version: 12.2.0 on 07 August 2024 10:31:08
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 7295d0ef1844
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 33
+setuid() to 33
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42841 (port auto-assigned) fd 3
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55d595506bf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d595506bf0 pid: 11 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11)
+spawned uWSGI worker 1 (pid: 12, cores: 2)
+spawned uWSGI http 1 (pid: 14)
