@@ -2,7 +2,7 @@ version: '3'
 
 services:
   db:
-    image: registry.cn-hangzhou.aliyuncs.com/tfh/mysql
+    image: registry.cn-hangzhou.aliyuncs.com/tfh/mysql:8.0
     restart: always
     env_file:
       - ./mysql/.env # 使用了环境变量文件
