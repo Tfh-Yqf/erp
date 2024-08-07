@@ -215,6 +215,14 @@ LOGGING = {
         'console': {
             'level': 'INFO',
             'class': 'logging.StreamHandler',
+        },
+ 	'file': {
+            'level': 'ERROR',
+            'class': 'logging.handlers.TimedRotatingFileHandler',
+            'filename': BASE_DIR / 'logs/debug.log',
+            'when': 'D',
+            'interval': 1,
+            'backupCount': 100,
         }
     },
     'loggers': {
