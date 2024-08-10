@@ -63,9 +63,6 @@ export default {
       code_interval: null
     };
   },
-  mounted() {
-
-  },
   methods: {
 
     initialize() {
