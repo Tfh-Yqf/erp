@@ -11,13 +11,7 @@ module.exports = {
         deleteOriginalAssets: false,
         minRatio: 0.8,
       }),
-    ],
-    externals: {
-      'vue': 'Vue',
-      'axios': 'axios',
-      'ant-design-vue': 'ant-design-vue',
-      'echarts': 'echarts'
-    }
+    ]
   },
   css: {
     loaderOptions: {
