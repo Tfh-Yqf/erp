@@ -1,6 +1,4 @@
 <template>
-
-
   <div>
     <div>
       <a-form-model ref="form" :model="form" :rules="rules" :label-col="{ span: 5 }" :wrapper-col="{ span: 14 }">
