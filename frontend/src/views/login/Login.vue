@@ -80,6 +80,7 @@ export default {
           this.isLoading = true;
           console.log(this.form);
           getToken(this.form).then(data => {
+            this.$message.success('登录成功');
             Cookies.set('access', data.access);
             Cookies.set('refresh', data.refresh);
             this.$router.push('/basicData/client');
