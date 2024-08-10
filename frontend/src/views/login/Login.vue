@@ -64,7 +64,6 @@ export default {
     };
   },
   methods: {
-
     initialize() {
       document.onkeypress = (e) => {
         let code = document.all ? event.keyCode : e.which;
