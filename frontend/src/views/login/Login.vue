@@ -18,11 +18,7 @@
         <a-button type="primary" size="large" :loading="isLoading" style="width: 100%;" @click="login">登录</a-button>
       </a-col>
     </a-row>
-
-
   </div>
-
-
 </template>
 
 <script>
