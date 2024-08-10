@@ -1,0 +1,936 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 18:43:18 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 18:42:49
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: c386ccfe11b5
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39277 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x557ff398d5f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x557ff398d5f0 pid: 20 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20)
+spawned uWSGI worker 1 (pid: 21, cores: 2)
+spawned uWSGI http 1 (pid: 23)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 18:44:33 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 18:44:00
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 2307b0f5f201
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35053 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55c7a46105f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c7a46105f0 pid: 20 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20)
+spawned uWSGI worker 1 (pid: 21, cores: 2)
+spawned uWSGI http 1 (pid: 22)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 18:46:21 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 18:45:30
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: fe24f23a4272
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46009 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x5593228d05f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5593228d05f0 pid: 32 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32)
+spawned uWSGI worker 1 (pid: 33, cores: 2)
+spawned uWSGI http 1 (pid: 35)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 18:49:06 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 18:48:16
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 481be2895026
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37157 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x558fbd07b5f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x558fbd07b5f0 pid: 26 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26)
+spawned uWSGI worker 1 (pid: 27, cores: 2)
+spawned uWSGI http 1 (pid: 29)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 18:51:53 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 18:49:38
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 4fd0adb4e206
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33067 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x5628aaf625f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5628aaf625f0 pid: 40 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 40)
+spawned uWSGI worker 1 (pid: 41, cores: 2)
+spawned uWSGI http 1 (pid: 43)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 18:55:55 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 18:55:17
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: cc6ebf1c562b
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42115 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x563eec0985f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563eec0985f0 pid: 30 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 30)
+spawned uWSGI worker 1 (pid: 31, cores: 2)
+spawned uWSGI http 1 (pid: 32)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 18:59:18 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 18:57:28
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: b0e412ab5281
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40875 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x5616127a55f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5616127a55f0 pid: 38 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 38)
+spawned uWSGI worker 1 (pid: 39, cores: 2)
+spawned uWSGI http 1 (pid: 41)
+[pid: 39|app: 0|req: 1/1] 192.168.112.4 () {50 vars in 832 bytes} [Sat Aug 10 02:59:45 2024] OPTIONS /api/user/info/ => generated 0 bytes in 3 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+Unauthorized: /api/user/info/
+[pid: 39|app: 0|req: 2/2] 192.168.112.4 () {54 vars in 1168 bytes} [Sat Aug 10 02:59:45 2024] GET /api/user/info/ => generated 25 bytes in 731 msecs (HTTP/1.0 401) 9 headers in 308 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 3/3] 192.168.112.4 () {50 vars in 850 bytes} [Sat Aug 10 02:59:45 2024] OPTIONS /api/user/refresh_token/ => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 4/4] 192.168.112.4 () {56 vars in 983 bytes} [Sat Aug 10 02:59:45 2024] POST /api/user/refresh_token/ => generated 241 bytes in 1 msecs (HTTP/1.0 200) 9 headers in 302 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 5/5] 192.168.112.4 () {54 vars in 1169 bytes} [Sat Aug 10 02:59:45 2024] GET /api/user/info/ => generated 85 bytes in 26 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 6/6] 192.168.112.4 () {50 vars in 849 bytes} [Sat Aug 10 02:59:45 2024] OPTIONS /api/collection_orders/ => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 7/7] 192.168.112.4 () {50 vars in 843 bytes} [Sat Aug 10 02:59:45 2024] OPTIONS /api/payment_orders/ => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 8/8] 192.168.112.4 () {50 vars in 948 bytes} [Sat Aug 10 02:59:45 2024] OPTIONS /api/finance_statistics/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 10/9] 192.168.112.4 () {50 vars in 960 bytes} [Sat Aug 10 02:59:45 2024] OPTIONS /api/purchase_payment_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 10/10] 192.168.112.4 () {50 vars in 960 bytes} [Sat Aug 10 02:59:45 2024] OPTIONS /api/sales_collection_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 39|app: 0|req: 12/11] 192.168.112.4 () {54 vars in 1185 bytes} [Sat Aug 10 02:59:45 2024] GET /api/collection_orders/ => generated 52 bytes in 18 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 13/12] 192.168.112.4 () {54 vars in 1179 bytes} [Sat Aug 10 02:59:45 2024] GET /api/payment_orders/ => generated 52 bytes in 6 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesReturnOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesReturnOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'apps.purchase.models.PurchaseOrder'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseReturnOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseReturnOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 39|app: 0|req: 14/13] 192.168.112.4 () {54 vars in 1296 bytes} [Sat Aug 10 02:59:45 2024] GET /api/purchase_payment_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 52 bytes in 27 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField ChargeOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField ChargeOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 39|app: 0|req: 15/14] 192.168.112.4 () {54 vars in 1284 bytes} [Sat Aug 10 02:59:45 2024] GET /api/finance_statistics/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 178 bytes in 58 msecs (HTTP/1.0 200) 9 headers in 299 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'apps.sales.models.SalesOrder'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[pid: 39|app: 0|req: 15/15] 192.168.112.4 () {54 vars in 1296 bytes} [Sat Aug 10 02:59:45 2024] GET /api/sales_collection_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 52 bytes in 9 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 17/16] 192.168.112.4 () {50 vars in 992 bytes} [Sat Aug 10 02:59:47 2024] OPTIONS /api/purchase_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 17/17] 192.168.112.4 () {50 vars in 986 bytes} [Sat Aug 10 02:59:47 2024] OPTIONS /api/purchase_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 18/18] 192.168.112.4 () {50 vars in 894 bytes} [Sat Aug 10 02:59:47 2024] OPTIONS /api/goods_categories/options/?page_size=99999 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+[pid: 39|app: 0|req: 20/19] 192.168.112.4 () {54 vars in 1230 bytes} [Sat Aug 10 02:59:47 2024] GET /api/goods_categories/options/?page_size=99999 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 21/20] 192.168.112.4 () {54 vars in 1328 bytes} [Sat Aug 10 02:59:47 2024] GET /api/purchase_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 57 bytes in 10 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'apps.purchase.models.PurchaseGoods'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[pid: 39|app: 0|req: 21/21] 192.168.112.4 () {54 vars in 1322 bytes} [Sat Aug 10 02:59:47 2024] GET /api/purchase_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 23/22] 192.168.112.4 () {50 vars in 876 bytes} [Sat Aug 10 02:59:49 2024] OPTIONS /api/inventories/?page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 23/23] 192.168.112.4 () {50 vars in 882 bytes} [Sat Aug 10 02:59:49 2024] OPTIONS /api/warehouses/options/?page_size=99999 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 25/24] 192.168.112.4 () {54 vars in 1218 bytes} [Sat Aug 10 02:59:49 2024] GET /api/warehouses/options/?page_size=99999 => generated 52 bytes in 9 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 25/25] 192.168.112.4 () {54 vars in 1212 bytes} [Sat Aug 10 02:59:49 2024] GET /api/inventories/?page=1&page_size=16 => generated 52 bytes in 9 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 26/26] 192.168.112.4 () {50 vars in 843 bytes} [Sat Aug 10 02:59:52 2024] OPTIONS /api/user/get_token/ => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+pbkdf2_sha256$260000$xBsQRfbjO9a8c0VF1GAcTZ$Y3CxF1tSBqPNWhzy+/4ieej0dh5QK2ACBwSJVQwCfls=
+[pid: 39|app: 0|req: 27/27] 192.168.112.4 () {56 vars in 975 bytes} [Sat Aug 10 02:59:52 2024] POST /api/user/get_token/ => generated 483 bytes in 125 msecs (HTTP/1.0 200) 9 headers in 302 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 28/28] 192.168.112.4 () {54 vars in 1169 bytes} [Sat Aug 10 02:59:53 2024] GET /api/user/info/ => generated 85 bytes in 4 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 29/29] 192.168.112.4 () {50 vars in 884 bytes} [Sat Aug 10 02:59:53 2024] OPTIONS /api/clients/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 30/30] 192.168.112.4 () {54 vars in 1220 bytes} [Sat Aug 10 02:59:53 2024] GET /api/clients/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 31/31] 192.168.112.4 () {54 vars in 886 bytes} [Sat Aug 10 02:59:59 2024] OPTIONS /api/user/info/ => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 32/32] 192.168.112.4 () {58 vars in 1222 bytes} [Sat Aug 10 02:59:59 2024] GET /api/user/info/ => generated 85 bytes in 5 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 33/33] 192.168.112.4 () {54 vars in 937 bytes} [Sat Aug 10 02:59:59 2024] OPTIONS /api/clients/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 34/34] 192.168.112.4 () {58 vars in 1273 bytes} [Sat Aug 10 02:59:59 2024] GET /api/clients/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 35/35] 192.168.112.4 () {54 vars in 943 bytes} [Sat Aug 10 03:00:02 2024] OPTIONS /api/warehouses/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 36/36] 192.168.112.4 () {58 vars in 1279 bytes} [Sat Aug 10 03:00:02 2024] GET /api/warehouses/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 37/37] 192.168.112.4 () {54 vars in 941 bytes} [Sat Aug 10 03:00:07 2024] OPTIONS /api/suppliers/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 38/38] 192.168.112.4 () {58 vars in 1277 bytes} [Sat Aug 10 03:00:07 2024] GET /api/suppliers/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 39/39] 192.168.112.4 () {54 vars in 937 bytes} [Sat Aug 10 03:00:08 2024] OPTIONS /api/clients/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 40/40] 192.168.112.4 () {58 vars in 1273 bytes} [Sat Aug 10 03:00:08 2024] GET /api/clients/?search=&page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 41/41] 192.168.112.4 () {54 vars in 939 bytes} [Sat Aug 10 03:00:09 2024] OPTIONS /api/accounts/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 42/42] 192.168.112.4 () {58 vars in 1275 bytes} [Sat Aug 10 03:00:09 2024] GET /api/accounts/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 44/43] 192.168.112.4 () {54 vars in 1039 bytes} [Sat Aug 10 03:00:11 2024] OPTIONS /api/sales_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 44/44] 192.168.112.4 () {54 vars in 1033 bytes} [Sat Aug 10 03:00:11 2024] OPTIONS /api/sales_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 45/45] 192.168.112.4 () {54 vars in 947 bytes} [Sat Aug 10 03:00:11 2024] OPTIONS /api/goods_categories/options/?page_size=99999 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+[pid: 39|app: 0|req: 46/46] 192.168.112.4 () {58 vars in 1375 bytes} [Sat Aug 10 03:00:11 2024] GET /api/sales_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 57 bytes in 8 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 48/47] 192.168.112.4 () {58 vars in 1283 bytes} [Sat Aug 10 03:00:11 2024] GET /api/goods_categories/options/?page_size=99999 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'apps.sales.models.SalesGoods'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[pid: 39|app: 0|req: 48/48] 192.168.112.4 () {58 vars in 1369 bytes} [Sat Aug 10 03:00:11 2024] GET /api/sales_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 52 bytes in 11 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 50/49] 192.168.112.4 () {54 vars in 1039 bytes} [Sat Aug 10 03:00:12 2024] OPTIONS /api/purchase_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 50/50] 192.168.112.4 () {54 vars in 1045 bytes} [Sat Aug 10 03:00:12 2024] OPTIONS /api/purchase_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 51/51] 192.168.112.4 () {54 vars in 947 bytes} [Sat Aug 10 03:00:12 2024] OPTIONS /api/goods_categories/options/?page_size=99999 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 53/52] 192.168.112.4 () {58 vars in 1375 bytes} [Sat Aug 10 03:00:12 2024] GET /api/purchase_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 54/53] 192.168.112.4 () {58 vars in 1381 bytes} [Sat Aug 10 03:00:12 2024] GET /api/purchase_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 57 bytes in 11 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 54/54] 192.168.112.4 () {58 vars in 1283 bytes} [Sat Aug 10 03:00:12 2024] GET /api/goods_categories/options/?page_size=99999 => generated 52 bytes in 5 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 56/55] 192.168.112.4 () {54 vars in 929 bytes} [Sat Aug 10 03:00:13 2024] OPTIONS /api/inventories/?page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 56/56] 192.168.112.4 () {54 vars in 935 bytes} [Sat Aug 10 03:00:13 2024] OPTIONS /api/warehouses/options/?page_size=99999 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 58/57] 192.168.112.4 () {58 vars in 1264 bytes} [Sat Aug 10 03:00:13 2024] GET /api/inventories/?page=1&page_size=16 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 58/58] 192.168.112.4 () {58 vars in 1270 bytes} [Sat Aug 10 03:00:13 2024] GET /api/warehouses/options/?page_size=99999 => generated 52 bytes in 9 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 60/59] 192.168.112.4 () {54 vars in 901 bytes} [Sat Aug 10 03:00:13 2024] OPTIONS /api/collection_orders/ => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 60/60] 192.168.112.4 () {54 vars in 896 bytes} [Sat Aug 10 03:00:13 2024] OPTIONS /api/payment_orders/ => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 62/61] 192.168.112.4 () {54 vars in 1001 bytes} [Sat Aug 10 03:00:13 2024] OPTIONS /api/finance_statistics/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 62/62] 192.168.112.4 () {54 vars in 1013 bytes} [Sat Aug 10 03:00:13 2024] OPTIONS /api/purchase_payment_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 63/63] 192.168.112.4 () {54 vars in 1013 bytes} [Sat Aug 10 03:00:13 2024] OPTIONS /api/sales_collection_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 65/64] 192.168.112.4 () {58 vars in 1238 bytes} [Sat Aug 10 03:00:13 2024] GET /api/collection_orders/ => generated 52 bytes in 9 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 66/65] 192.168.112.4 () {58 vars in 1232 bytes} [Sat Aug 10 03:00:13 2024] GET /api/payment_orders/ => generated 52 bytes in 11 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 67/66] 192.168.112.4 () {58 vars in 1349 bytes} [Sat Aug 10 03:00:13 2024] GET /api/purchase_payment_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 52 bytes in 10 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 68/67] 192.168.112.4 () {58 vars in 1337 bytes} [Sat Aug 10 03:00:13 2024] GET /api/finance_statistics/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 178 bytes in 15 msecs (HTTP/1.0 200) 9 headers in 299 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 68/68] 192.168.112.4 () {58 vars in 1349 bytes} [Sat Aug 10 03:00:13 2024] GET /api/sales_collection_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 69/69] 192.168.112.4 () {54 vars in 935 bytes} [Sat Aug 10 03:00:14 2024] OPTIONS /api/batchs/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 70/70] 192.168.112.4 () {58 vars in 1271 bytes} [Sat Aug 10 03:00:14 2024] GET /api/batchs/?search=&page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 72/71] 192.168.112.4 () {54 vars in 1033 bytes} [Sat Aug 10 03:00:41 2024] OPTIONS /api/sales_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 72/72] 192.168.112.4 () {54 vars in 1039 bytes} [Sat Aug 10 03:00:41 2024] OPTIONS /api/sales_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 73/73] 192.168.112.4 () {54 vars in 947 bytes} [Sat Aug 10 03:00:41 2024] OPTIONS /api/goods_categories/options/?page_size=99999 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 75/74] 192.168.112.4 () {58 vars in 1369 bytes} [Sat Aug 10 03:00:41 2024] GET /api/sales_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 52 bytes in 10 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 76/75] 192.168.112.4 () {58 vars in 1375 bytes} [Sat Aug 10 03:00:41 2024] GET /api/sales_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 57 bytes in 12 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 76/76] 192.168.112.4 () {58 vars in 1283 bytes} [Sat Aug 10 03:00:41 2024] GET /api/goods_categories/options/?page_size=99999 => generated 52 bytes in 4 msecs (HTTP/1.0 200) 9 headers in 298 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 77/77] 192.168.112.4 () {54 vars in 936 bytes} [Sat Aug 10 03:00:46 2024] OPTIONS /api/clients/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 78/78] 192.168.112.4 () {58 vars in 1273 bytes} [Sat Aug 10 03:00:46 2024] GET /api/clients/?search=&page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 79/79] 192.168.112.4 () {54 vars in 941 bytes} [Sat Aug 10 03:00:47 2024] OPTIONS /api/suppliers/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 80/80] 192.168.112.4 () {58 vars in 1277 bytes} [Sat Aug 10 03:00:47 2024] GET /api/suppliers/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 0)
+[pid: 39|app: 0|req: 81/81] 192.168.112.4 () {54 vars in 943 bytes} [Sat Aug 10 03:00:47 2024] OPTIONS /api/warehouses/?search=&page=1&page_size=16 => generated 0 bytes in 0 msecs (HTTP/1.0 200) 8 headers in 408 bytes (1 switches on core 1)
+[pid: 39|app: 0|req: 82/82] 192.168.112.4 () {58 vars in 1279 bytes} [Sat Aug 10 03:00:47 2024] GET /api/warehouses/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 9 headers in 304 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 19:08:59 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 19:07:10
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: f33dee4ea1f7
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39101 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55ab098a95f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ab098a95f0 pid: 34 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34)
+spawned uWSGI worker 1 (pid: 35, cores: 2)
+spawned uWSGI http 1 (pid: 37)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 19:13:29 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 19:12:56
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: fad4fcd15286
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34057 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55b30f2c75f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b30f2c75f0 pid: 20 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20)
+spawned uWSGI worker 1 (pid: 21, cores: 2)
+spawned uWSGI http 1 (pid: 23)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 19:15:56 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 19:14:05
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: fbbc2907f281
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46267 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x5622930d45f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5622930d45f0 pid: 36 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 36)
+spawned uWSGI worker 1 (pid: 37, cores: 2)
+spawned uWSGI http 1 (pid: 39)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Aug  9 19:19:24 2024] ***
+compiled with version: 12.2.0 on 09 August 2024 19:17:36
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 89e89d7b2bac
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39219 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55e7c31cc5f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55e7c31cc5f0 pid: 34 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34)
+spawned uWSGI worker 1 (pid: 35, cores: 2)
+spawned uWSGI http 1 (pid: 37)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 02:56:54 2024] ***
+compiled with version: 12.2.0 on 10 August 2024 02:55:09
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 7555b83757bd
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37369 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55cdca9df5f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55cdca9df5f0 pid: 33 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33)
+spawned uWSGI worker 1 (pid: 34, cores: 2)
+spawned uWSGI http 1 (pid: 35)
+Bad Request: /api/user/get_token/
+[pid: 34|app: 0|req: 1/1] 172.19.0.4 () {62 vars in 1172 bytes} [Sat Aug 10 10:57:50 2024] POST /api/user/get_token/ => generated 28 bytes in 678 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 0)
+Bad Request: /api/user/get_token/
+[pid: 34|app: 0|req: 2/2] 172.19.0.4 () {62 vars in 1171 bytes} [Sat Aug 10 10:57:55 2024] POST /api/user/get_token/ => generated 28 bytes in 4 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 1)
+Bad Request: /api/user/get_token/
+[pid: 34|app: 0|req: 3/3] 172.19.0.4 () {62 vars in 1171 bytes} [Sat Aug 10 10:58:06 2024] POST /api/user/get_token/ => generated 28 bytes in 5 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 0)
+Bad Request: /api/user/get_token/
+[pid: 34|app: 0|req: 4/4] 172.19.0.4 () {62 vars in 1172 bytes} [Sat Aug 10 10:58:13 2024] POST /api/user/get_token/ => generated 28 bytes in 3 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 1)
+Bad Request: /api/user/get_token/
+[pid: 34|app: 0|req: 5/5] 172.19.0.4 () {62 vars in 1172 bytes} [Sat Aug 10 10:58:16 2024] POST /api/user/get_token/ => generated 28 bytes in 3 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 03:02:04 2024] ***
+compiled with version: 12.2.0 on 10 August 2024 03:01:32
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 6b022a0c9594
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39309 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55fa7d0c45f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55fa7d0c45f0 pid: 20 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20)
+spawned uWSGI worker 1 (pid: 21, cores: 2)
+spawned uWSGI http 1 (pid: 23)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 03:04:50 2024] ***
+compiled with version: 12.2.0 on 10 August 2024 03:02:49
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 1825471b441c
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42981 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55eef825e5f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55eef825e5f0 pid: 35 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 35)
+spawned uWSGI worker 1 (pid: 36, cores: 2)
+spawned uWSGI http 1 (pid: 38)
+Bad Request: /api/user/get_token/
+[pid: 36|app: 0|req: 1/1] 172.22.0.4 () {62 vars in 1172 bytes} [Sat Aug 10 11:06:38 2024] POST /api/user/get_token/ => generated 28 bytes in 671 msecs (HTTP/1.0 400) 9 headers in 310 bytes (1 switches on core 0)
+pbkdf2_sha256$260000$bYnNTiPBIizkMaZLTFGcwj$eUxZprce6lmvkKa92YT9Li5ue5NgmWaNhZaKWfjphLU=
+[pid: 36|app: 0|req: 2/2] 172.22.0.4 () {62 vars in 1172 bytes} [Sat Aug 10 11:07:09 2024] POST /api/user/get_token/ => generated 483 bytes in 123 msecs (HTTP/1.0 200) 9 headers in 302 bytes (1 switches on core 1)
+[pid: 36|app: 0|req: 3/3] 172.22.0.4 () {58 vars in 1806 bytes} [Sat Aug 10 11:07:09 2024] GET /api/user/info/ => generated 85 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 4/4] 172.22.0.4 () {58 vars in 1857 bytes} [Sat Aug 10 11:07:09 2024] GET /api/clients/?search=&page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 36|app: 0|req: 5/5] 172.22.0.4 () {58 vars in 1859 bytes} [Sat Aug 10 11:07:16 2024] GET /api/accounts/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 6/6] 172.22.0.4 () {58 vars in 1853 bytes} [Sat Aug 10 11:07:21 2024] GET /api/goods/?search=&page=1&page_size=16 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 36|app: 0|req: 7/7] 172.22.0.4 () {58 vars in 1939 bytes} [Sat Aug 10 11:07:22 2024] GET /api/batchs/?search=&page=1&page_size=16&has_stock=true&is_expiration_warning=true => generated 52 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 8/8] 172.22.0.4 () {58 vars in 1875 bytes} [Sat Aug 10 11:07:23 2024] GET /api/goods_categories/?search=&page=1&page_size=16 => generated 52 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 36|app: 0|req: 9/9] 172.22.0.4 () {58 vars in 1853 bytes} [Sat Aug 10 11:07:23 2024] GET /api/goods/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 36|app: 0|req: 10/10] 172.22.0.4 () {58 vars in 1865 bytes} [Sat Aug 10 11:07:24 2024] GET /api/goods_units/?search=&page=1&page_size=16 => generated 52 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 03:10:51 2024] ***
+compiled with version: 12.2.0 on 10 August 2024 03:09:06
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 6f7615066c7a
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34225 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x556c227085f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556c227085f0 pid: 34 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34)
+spawned uWSGI worker 1 (pid: 35, cores: 2)
+spawned uWSGI http 1 (pid: 37)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 03:12:48 2024] ***
+compiled with version: 12.2.0 on 10 August 2024 03:12:15
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 75965fa158b4
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42145 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55e848fc75f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55e848fc75f0 pid: 20 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20)
+spawned uWSGI worker 1 (pid: 21, cores: 2)
+spawned uWSGI http 1 (pid: 23)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 03:15:59 2024] ***
+compiled with version: 12.2.0 on 10 August 2024 03:14:13
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 6f7dcb947eeb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44539 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x564c0d66b5f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x564c0d66b5f0 pid: 34 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 34)
+spawned uWSGI worker 1 (pid: 35, cores: 2)
+spawned uWSGI http 1 (pid: 37)
+pbkdf2_sha256$260000$0OJo6RIuYRckuoIdk0ZBGf$CCyPLU8pkfi3W/qxBXjpTjokHGoCStcxypi/r4rvCME=
+[pid: 35|app: 0|req: 1/1] 172.29.0.4 () {62 vars in 1171 bytes} [Sat Aug 10 11:16:16 2024] POST /api/user/get_token/ => generated 483 bytes in 790 msecs (HTTP/1.0 200) 9 headers in 302 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 2/2] 172.29.0.4 () {58 vars in 1805 bytes} [Sat Aug 10 11:16:17 2024] GET /api/user/info/ => generated 85 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 3/3] 172.29.0.4 () {58 vars in 1856 bytes} [Sat Aug 10 11:16:17 2024] GET /api/clients/?search=&page=1&page_size=16 => generated 260 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 4/4] 172.29.0.4 () {58 vars in 1861 bytes} [Sat Aug 10 11:16:18 2024] GET /api/suppliers/?search=&page=1&page_size=16 => generated 257 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 5/5] 172.29.0.4 () {58 vars in 1863 bytes} [Sat Aug 10 11:16:19 2024] GET /api/warehouses/?search=&page=1&page_size=16 => generated 172 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 6/6] 172.29.0.4 () {58 vars in 1859 bytes} [Sat Aug 10 11:16:19 2024] GET /api/accounts/?search=&page=1&page_size=16 => generated 276 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 7/7] 172.29.0.4 () {58 vars in 1867 bytes} [Sat Aug 10 11:16:20 2024] GET /api/charge_items/?search=&page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'apps.sales.models.SalesGoods'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[pid: 35|app: 0|req: 9/8] 172.29.0.4 () {58 vars in 1953 bytes} [Sat Aug 10 11:16:21 2024] GET /api/sales_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 52 bytes in 45 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 9/9] 172.29.0.4 () {58 vars in 1959 bytes} [Sat Aug 10 11:16:21 2024] GET /api/sales_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 57 bytes in 45 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 10/10] 172.29.0.4 () {58 vars in 1867 bytes} [Sat Aug 10 11:16:21 2024] GET /api/goods_categories/options/?page_size=99999 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+[pid: 35|app: 0|req: 11/11] 172.29.0.4 () {58 vars in 1964 bytes} [Sat Aug 10 11:16:21 2024] GET /api/purchase_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 57 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'apps.purchase.models.PurchaseGoods'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[pid: 35|app: 0|req: 13/12] 172.29.0.4 () {58 vars in 1958 bytes} [Sat Aug 10 11:16:21 2024] GET /api/purchase_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 52 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 13/13] 172.29.0.4 () {58 vars in 1867 bytes} [Sat Aug 10 11:16:21 2024] GET /api/goods_categories/options/?page_size=99999 => generated 52 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 15/14] 172.29.0.4 () {58 vars in 1849 bytes} [Sat Aug 10 11:16:22 2024] GET /api/inventories/?page=1&page_size=16 => generated 247 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 15/15] 172.29.0.4 () {58 vars in 1855 bytes} [Sat Aug 10 11:16:22 2024] GET /api/warehouses/options/?page_size=99999 => generated 115 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 35|app: 0|req: 17/16] 172.29.0.4 () {58 vars in 1822 bytes} [Sat Aug 10 11:16:23 2024] GET /api/collection_orders/ => generated 52 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesReturnOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesReturnOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseReturnOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseReturnOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 35|app: 0|req: 18/17] 172.29.0.4 () {58 vars in 1816 bytes} [Sat Aug 10 11:16:23 2024] GET /api/payment_orders/ => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField ChargeOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField ChargeOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 35|app: 0|req: 19/18] 172.29.0.4 () {58 vars in 1921 bytes} [Sat Aug 10 11:16:23 2024] GET /api/finance_statistics/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 178 bytes in 21 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'apps.purchase.models.PurchaseOrder'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[pid: 35|app: 0|req: 20/19] 172.29.0.4 () {58 vars in 1933 bytes} [Sat Aug 10 11:16:23 2024] GET /api/purchase_payment_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2000-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2100-01-01 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'apps.sales.models.SalesOrder'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[pid: 35|app: 0|req: 20/20] 172.29.0.4 () {58 vars in 1933 bytes} [Sat Aug 10 11:16:23 2024] GET /api/sales_collection_detials/?start_date=2000-01-01&end_date=2100-01-01&page=1 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 21/21] 172.29.0.4 () {58 vars in 1855 bytes} [Sat Aug 10 11:16:23 2024] GET /api/batchs/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 35|app: 0|req: 23/22] 172.29.0.4 () {58 vars in 1814 bytes} [Sat Aug 10 11:16:24 2024] GET /api/home_overview/ => generated 216 bytes in 13 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-03 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+[pid: 35|app: 0|req: 24/23] 172.29.0.4 () {58 vars in 1895 bytes} [Sat Aug 10 11:16:24 2024] GET /api/sales_trends/?start_date=2024-08-03&end_date=2024-08-11 => generated 2 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 205 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 24/24] 172.29.0.4 () {58 vars in 1901 bytes} [Sat Aug 10 11:16:24 2024] GET /api/sales_hot_goods/?start_date=2024-08-03&end_date=2024-08-11 => generated 2 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 205 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 25/25] 172.29.0.4 () {58 vars in 1875 bytes} [Sat Aug 10 11:16:27 2024] GET /api/goods_categories/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 26/26] 172.29.0.4 () {58 vars in 1865 bytes} [Sat Aug 10 11:16:28 2024] GET /api/goods_units/?search=&page=1&page_size=16 => generated 52 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 27/27] 172.29.0.4 () {58 vars in 1853 bytes} [Sat Aug 10 11:16:29 2024] GET /api/goods/?search=&page=1&page_size=16 => generated 622 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 28/28] 172.29.0.4 () {58 vars in 1939 bytes} [Sat Aug 10 11:16:30 2024] GET /api/batchs/?search=&page=1&page_size=16&has_stock=true&is_expiration_warning=true => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 30/29] 172.29.0.4 () {58 vars in 1832 bytes} [Sat Aug 10 11:16:32 2024] GET /api/purchase_orders/number/ => generated 27 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 31/30] 172.29.0.4 () {58 vars in 1887 bytes} [Sat Aug 10 11:16:32 2024] GET /api/warehouses/options/?page_size=999999&is_active=true => generated 115 bytes in 11 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 32/31] 172.29.0.4 () {58 vars in 1877 bytes} [Sat Aug 10 11:16:32 2024] GET /api/users/options/?page_size=999999&is_active=true => generated 119 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 33/32] 172.29.0.4 () {58 vars in 1885 bytes} [Sat Aug 10 11:16:32 2024] GET /api/suppliers/options/?page_size=999999&is_active=true => generated 118 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 33/33] 172.29.0.4 () {58 vars in 1883 bytes} [Sat Aug 10 11:16:32 2024] GET /api/accounts/options/?page_size=999999&is_active=true => generated 115 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 34/34] 172.29.0.4 () {58 vars in 1857 bytes} [Sat Aug 10 11:16:33 2024] GET /api/purchase_orders/?page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 36/35] 172.29.0.4 () {58 vars in 1895 bytes} [Sat Aug 10 11:16:33 2024] GET /api/purchase_orders/options/?page_size=999999&is_void=false => generated 52 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseReturnOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseReturnOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 35|app: 0|req: 37/36] 172.29.0.4 () {58 vars in 1846 bytes} [Sat Aug 10 11:16:33 2024] GET /api/purchase_return_orders/number/ => generated 27 bytes in 11 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 38/37] 172.29.0.4 () {58 vars in 1887 bytes} [Sat Aug 10 11:16:33 2024] GET /api/warehouses/options/?page_size=999999&is_active=true => generated 115 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 39/38] 172.29.0.4 () {58 vars in 1877 bytes} [Sat Aug 10 11:16:33 2024] GET /api/users/options/?page_size=999999&is_active=true => generated 119 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 40/39] 172.29.0.4 () {58 vars in 1885 bytes} [Sat Aug 10 11:16:33 2024] GET /api/suppliers/options/?page_size=999999&is_active=true => generated 118 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 40/40] 172.29.0.4 () {58 vars in 1883 bytes} [Sat Aug 10 11:16:33 2024] GET /api/accounts/options/?page_size=999999&is_active=true => generated 115 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 41/41] 172.29.0.4 () {58 vars in 1870 bytes} [Sat Aug 10 11:16:34 2024] GET /api/purchase_return_orders/?page=1&page_size=16 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 43/42] 172.29.0.4 () {58 vars in 1825 bytes} [Sat Aug 10 11:16:35 2024] GET /api/sales_orders/number/ => generated 27 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 44/43] 172.29.0.4 () {58 vars in 1886 bytes} [Sat Aug 10 11:16:35 2024] GET /api/warehouses/options/?page_size=999999&is_active=true => generated 115 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 45/44] 172.29.0.4 () {58 vars in 1876 bytes} [Sat Aug 10 11:16:35 2024] GET /api/users/options/?page_size=999999&is_active=true => generated 119 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 46/45] 172.29.0.4 () {58 vars in 1880 bytes} [Sat Aug 10 11:16:35 2024] GET /api/clients/options/?page_size=999999&is_active=true => generated 127 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 46/46] 172.29.0.4 () {58 vars in 1882 bytes} [Sat Aug 10 11:16:35 2024] GET /api/accounts/options/?page_size=999999&is_active=true => generated 115 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 47/47] 172.29.0.4 () {58 vars in 1851 bytes} [Sat Aug 10 11:16:36 2024] GET /api/sales_orders/?page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesReturnOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesReturnOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 35|app: 0|req: 49/48] 172.29.0.4 () {58 vars in 1840 bytes} [Sat Aug 10 11:16:36 2024] GET /api/sales_return_orders/number/ => generated 27 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 49/49] 172.29.0.4 () {58 vars in 1889 bytes} [Sat Aug 10 11:16:36 2024] GET /api/sales_orders/options/?page_size=999999&is_void=false => generated 52 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 51/50] 172.29.0.4 () {58 vars in 1887 bytes} [Sat Aug 10 11:16:36 2024] GET /api/warehouses/options/?page_size=999999&is_active=true => generated 115 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 52/51] 172.29.0.4 () {58 vars in 1877 bytes} [Sat Aug 10 11:16:36 2024] GET /api/users/options/?page_size=999999&is_active=true => generated 119 bytes in 12 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 53/52] 172.29.0.4 () {58 vars in 1881 bytes} [Sat Aug 10 11:16:36 2024] GET /api/clients/options/?page_size=999999&is_active=true => generated 127 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 53/53] 172.29.0.4 () {58 vars in 1883 bytes} [Sat Aug 10 11:16:36 2024] GET /api/accounts/options/?page_size=999999&is_active=true => generated 115 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 54/54] 172.29.0.4 () {58 vars in 1865 bytes} [Sat Aug 10 11:16:37 2024] GET /api/sales_return_orders/?page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 55/55] 172.29.0.4 () {58 vars in 1895 bytes} [Sat Aug 10 11:16:38 2024] GET /api/stock_in_orders/?page=1&is_completed=false&page_size=16 => generated 52 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 56/56] 172.29.0.4 () {58 vars in 1897 bytes} [Sat Aug 10 11:16:39 2024] GET /api/stock_out_orders/?page=1&is_completed=false&page_size=16 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 57/57] 172.29.0.4 () {58 vars in 1863 bytes} [Sat Aug 10 11:16:39 2024] GET /api/stock_check_orders/?page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 58/58] 172.29.0.4 () {58 vars in 1869 bytes} [Sat Aug 10 11:16:40 2024] GET /api/stock_transfer_orders/?page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 60/59] 172.29.0.4 () {58 vars in 1857 bytes} [Sat Aug 10 11:16:40 2024] GET /api/inventory_flows/?page=1&page_size=16 => generated 52 bytes in 12 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 60/60] 172.29.0.4 () {58 vars in 1857 bytes} [Sat Aug 10 11:16:40 2024] GET /api/warehouses/options/?page_size=999999 => generated 115 bytes in 13 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 61/61] 172.29.0.4 () {58 vars in 1893 bytes} [Sat Aug 10 11:16:42 2024] GET /api/supplier_arrears/?page=1&has_arrears=true&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 62/62] 172.29.0.4 () {58 vars in 1855 bytes} [Sat Aug 10 11:16:42 2024] GET /api/payment_orders/?page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 63/63] 172.29.0.4 () {58 vars in 1889 bytes} [Sat Aug 10 11:16:42 2024] GET /api/client_arrears/?page=1&has_arrears=true&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 64/64] 172.29.0.4 () {58 vars in 1861 bytes} [Sat Aug 10 11:16:43 2024] GET /api/collection_orders/?page=1&page_size=16 => generated 52 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 65/65] 172.29.0.4 () {58 vars in 1889 bytes} [Sat Aug 10 11:16:43 2024] GET /api/account_transfer_records/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 66/66] 172.29.0.4 () {58 vars in 1868 bytes} [Sat Aug 10 11:16:44 2024] GET /api/charge_orders/?search=&page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 67/67] 172.29.0.4 () {58 vars in 1852 bytes} [Sat Aug 10 11:16:44 2024] GET /api/finance_flows/?page=1&page_size=16 => generated 52 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 69/68] 172.29.0.4 () {58 vars in 1822 bytes} [Sat Aug 10 11:16:46 2024] GET /api/permission_groups/ => generated 2416 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 208 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 69/69] 172.29.0.4 () {58 vars in 1853 bytes} [Sat Aug 10 11:16:46 2024] GET /api/roles/?search=&page=1&page_size=16 => generated 52 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 71/70] 172.29.0.4 () {58 vars in 1847 bytes} [Sat Aug 10 11:16:46 2024] GET /api/roles/options/?page_size=999999 => generated 52 bytes in 11 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 35|app: 0|req: 71/71] 172.29.0.4 () {58 vars in 1853 bytes} [Sat Aug 10 11:16:46 2024] GET /api/users/?search=&page=1&page_size=16 => generated 269 bytes in 12 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 35|app: 0|req: 72/72] 172.29.0.4 () {58 vars in 1816 bytes} [Sat Aug 10 11:16:47 2024] GET /api/system/configs/ => generated 60 bytes in 4 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 03:22:12 2024] ***
+compiled with version: 12.2.0 on 10 August 2024 03:20:27
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: 383509782fd4
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /app
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /app
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33331 (port auto-assigned) fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.19 (main, Aug  2 2024, 14:41:58)  [GCC 12.2.0]
+Python main interpreter initialized at 0x55d795ef65f0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d795ef65f0 pid: 32 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32)
+spawned uWSGI worker 1 (pid: 33, cores: 2)
+spawned uWSGI http 1 (pid: 35)
+[pid: 33|app: 0|req: 1/1] 172.31.0.4 () {58 vars in 1806 bytes} [Sat Aug 10 11:22:28 2024] GET /api/user/info/ => generated 85 bytes in 718 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 2/2] 172.31.0.4 () {58 vars in 1816 bytes} [Sat Aug 10 11:22:29 2024] GET /api/system/configs/ => generated 60 bytes in 4 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-03 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+[pid: 33|app: 0|req: 4/3] 172.31.0.4 () {58 vars in 1893 bytes} [Sat Aug 10 11:22:31 2024] GET /api/sales_trends/?start_date=2024-08-03&end_date=2024-08-11 => generated 2 bytes in 27 msecs (HTTP/1.0 200) 7 headers in 205 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 5/4] 172.31.0.4 () {58 vars in 1814 bytes} [Sat Aug 10 11:22:31 2024] GET /api/home_overview/ => generated 216 bytes in 42 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 5/5] 172.31.0.4 () {58 vars in 1900 bytes} [Sat Aug 10 11:22:31 2024] GET /api/sales_hot_goods/?start_date=2024-08-03&end_date=2024-08-11 => generated 2 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 205 bytes (1 switches on core 1)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1358: RuntimeWarning: DateTimeField SalesOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s.%s received a naive datetime "
+/usr/local/lib/python3.9/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'apps.sales.models.SalesGoods'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[pid: 33|app: 0|req: 7/6] 172.31.0.4 () {58 vars in 1958 bytes} [Sat Aug 10 11:22:33 2024] GET /api/sales_reports/statistics/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 57 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 8/7] 172.31.0.4 () {58 vars in 1953 bytes} [Sat Aug 10 11:22:33 2024] GET /api/sales_reports/detials/?start_date=2024-08-10&end_date=2024-08-11&page=1&page_size=16 => generated 52 bytes in 15 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 8/8] 172.31.0.4 () {58 vars in 1867 bytes} [Sat Aug 10 11:22:33 2024] GET /api/goods_categories/options/?page_size=99999 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 10/9] 172.31.0.4 () {58 vars in 1853 bytes} [Sat Aug 10 11:22:35 2024] GET /api/roles/?search=&page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 10/10] 172.31.0.4 () {58 vars in 1822 bytes} [Sat Aug 10 11:22:35 2024] GET /api/permission_groups/ => generated 2416 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 208 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 11/11] 172.31.0.4 () {58 vars in 1895 bytes} [Sat Aug 10 11:22:36 2024] GET /api/stock_in_orders/?page=1&is_completed=false&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 12/12] 172.31.0.4 () {58 vars in 1897 bytes} [Sat Aug 10 11:22:37 2024] GET /api/stock_out_orders/?page=1&is_completed=false&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 13/13] 172.31.0.4 () {58 vars in 1863 bytes} [Sat Aug 10 11:22:37 2024] GET /api/stock_check_orders/?page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 14/14] 172.31.0.4 () {58 vars in 1869 bytes} [Sat Aug 10 11:22:38 2024] GET /api/stock_transfer_orders/?page=1&page_size=16 => generated 52 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 16/15] 172.31.0.4 () {58 vars in 1887 bytes} [Sat Aug 10 11:22:39 2024] GET /api/warehouses/options/?page_size=999999&is_active=true => generated 115 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 16/16] 172.31.0.4 () {58 vars in 1832 bytes} [Sat Aug 10 11:22:39 2024] GET /api/purchase_orders/number/ => generated 27 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 18/17] 172.31.0.4 () {58 vars in 1877 bytes} [Sat Aug 10 11:22:39 2024] GET /api/users/options/?page_size=999999&is_active=true => generated 119 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 19/18] 172.31.0.4 () {58 vars in 1885 bytes} [Sat Aug 10 11:22:39 2024] GET /api/suppliers/options/?page_size=999999&is_active=true => generated 118 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 19/19] 172.31.0.4 () {58 vars in 1883 bytes} [Sat Aug 10 11:22:39 2024] GET /api/accounts/options/?page_size=999999&is_active=true => generated 115 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 20/20] 172.31.0.4 () {58 vars in 1857 bytes} [Sat Aug 10 11:22:40 2024] GET /api/purchase_orders/?page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseReturnOrder.create_time received a naive datetime (2024-08-10 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+/usr/local/lib/python3.9/site-packages/django/db/models/fields/__init__.py:1416: RuntimeWarning: DateTimeField PurchaseReturnOrder.create_time received a naive datetime (2024-08-11 00:00:00) while time zone support is active.
+  warnings.warn("DateTimeField %s received a naive datetime (%s)"
+[pid: 33|app: 0|req: 22/21] 172.31.0.4 () {58 vars in 1895 bytes} [Sat Aug 10 11:22:41 2024] GET /api/purchase_orders/options/?page_size=999999&is_void=false => generated 52 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 22/22] 172.31.0.4 () {58 vars in 1846 bytes} [Sat Aug 10 11:22:41 2024] GET /api/purchase_return_orders/number/ => generated 27 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 24/23] 172.31.0.4 () {58 vars in 1887 bytes} [Sat Aug 10 11:22:41 2024] GET /api/warehouses/options/?page_size=999999&is_active=true => generated 115 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 25/24] 172.31.0.4 () {58 vars in 1877 bytes} [Sat Aug 10 11:22:41 2024] GET /api/users/options/?page_size=999999&is_active=true => generated 119 bytes in 9 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 26/25] 172.31.0.4 () {58 vars in 1885 bytes} [Sat Aug 10 11:22:41 2024] GET /api/suppliers/options/?page_size=999999&is_active=true => generated 118 bytes in 8 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 26/26] 172.31.0.4 () {58 vars in 1883 bytes} [Sat Aug 10 11:22:41 2024] GET /api/accounts/options/?page_size=999999&is_active=true => generated 115 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 207 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 27/27] 172.31.0.4 () {58 vars in 1871 bytes} [Sat Aug 10 11:22:42 2024] GET /api/purchase_return_orders/?page=1&page_size=16 => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 28/28] 172.31.0.4 () {58 vars in 1875 bytes} [Sat Aug 10 11:22:43 2024] GET /api/goods_categories/?search=&page=1&page_size=16 => generated 52 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 29/29] 172.31.0.4 () {58 vars in 1865 bytes} [Sat Aug 10 11:22:43 2024] GET /api/goods_units/?search=&page=1&page_size=16 => generated 52 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 30/30] 172.31.0.4 () {58 vars in 1853 bytes} [Sat Aug 10 11:22:44 2024] GET /api/goods/?search=&page=1&page_size=16 => generated 622 bytes in 12 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 31/31] 172.31.0.4 () {58 vars in 1939 bytes} [Sat Aug 10 11:22:45 2024] GET /api/batchs/?search=&page=1&page_size=16&has_stock=true&is_expiration_warning=true => generated 52 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 206 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 32/32] 172.31.0.4 () {58 vars in 1853 bytes} [Sat Aug 10 11:22:45 2024] GET /api/goods/?search=&page=1&page_size=16 => generated 622 bytes in 10 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 33/33] 172.31.0.4 () {58 vars in 1857 bytes} [Sat Aug 10 11:22:47 2024] GET /api/clients/?search=&page=1&page_size=16 => generated 260 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 34/34] 172.31.0.4 () {58 vars in 1861 bytes} [Sat Aug 10 11:22:47 2024] GET /api/suppliers/?search=&page=1&page_size=16 => generated 257 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 35/35] 172.31.0.4 () {58 vars in 1863 bytes} [Sat Aug 10 11:22:48 2024] GET /api/warehouses/?search=&page=1&page_size=16 => generated 172 bytes in 7 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 33|app: 0|req: 36/36] 172.31.0.4 () {58 vars in 1858 bytes} [Sat Aug 10 11:22:48 2024] GET /api/accounts/?search=&page=1&page_size=16 => generated 276 bytes in 6 msecs (HTTP/1.0 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 33|app: 0|req: 37/37] 172.31.0.4 () {58 vars in 1866 bytes} [Sat Aug 10 11:22:50 2024] GET /api/charge_items/?search=&page=1&page_size=16 => generated 52 bytes in 5 msecs (HTTP/1.0 200) 7 headers in 212 bytes (1 switches on core 0)
