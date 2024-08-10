@@ -79,7 +79,7 @@ instance.interceptors.response.use(
       }
     }
 
-    message.error(error.response.data.detail || '相应出错');
+    message.error(error.response.data.detail || '响应出错');
     return Promise.reject(error);
   }
 );

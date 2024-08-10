@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "engines": {
-    "node": "12.13.1"
+    "node": "16.20.2"
   },
   "dependencies": {
     "@ant-design/colors": "^7.0.0",
@@ -42,6 +42,7 @@
     "compression-webpack-plugin": "^5.0.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "grunt-contrib-jshint": "^3.2.0",
     "mockjs": "^1.1.0",
     "vue-template-compiler": "^2.6.11"
   },
