@@ -14,14 +14,6 @@ services:
       - "3307:3306"
     networks:
       - db_network
-  web:
-    build:
-      context: ./frontend/
-    volumes:
-      - ./frontend:/app
-    networks:
-      - db_network
-      - nginx_network
   backend:
     build: ./django
     restart: always
@@ -32,32 +24,12 @@ services:
       - db
     networks:
       - db_network
-      - nginx_network
     ports:
       - "8000:8000"
-  nginx:
-    build: ./nginx
-    ports:
-      - "8081:8080"
-      - "443:443"
-    expose:
-      - "80"
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf # 挂载nginx配置文件
-      - ./nginx/log:/var/log/nginx # 挂载日志
-      - ./frontend:/usr/share/nginx/html # 挂载静态文件
-    networks:
-      - nginx_network
-    depends_on:
-      - web
-      - backend
-    restart: always
 
 
 networks: # 自定义网络(默认桥接), 不使用links通信
   db_network:
-    driver: bridge
-  nginx_network:
     driver: bridge
 volumes: # 自定义数据卷
   db_vol: #定义数据卷同步存放容器内mysql数据
