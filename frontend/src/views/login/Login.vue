@@ -10,7 +10,6 @@
         </a-form-model-item>
       </a-form-model>
     </div>
-
     <a-row>
       <a-col :span="14" offset="5">
         <a-button type="primary" size="large" :loading="isLoading" style="width: 100%;" @click="login">登录</a-button>
