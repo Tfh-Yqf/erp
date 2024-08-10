@@ -11,7 +11,6 @@ while ! nc -z db 3306 ; do
     sleep 3
 done
 
-uwsgi --ini /app/configs/uwsgi.ini&&
-tail -f /dev/null
+uwsgi --ini /app/configs/uwsgi.ini
 
 exec "$@"

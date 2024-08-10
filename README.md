@@ -13,7 +13,7 @@
 
 ### 方法一 拉取代码后，本地build up
 ~~~
-docker-compose up --build
+docker-compose up --build -d
 ~~~
 
 ### 方法二 拉取代码后，拉取build好的镜像，然后up
@@ -24,7 +24,7 @@ docker pull registry.cn-hangzhou.aliyuncs.com/tfh/erp-backend
 docker tag registry.cn-hangzhou.aliyuncs.com/tfh/erp-nginx erp-nginx
 docker tag registry.cn-hangzhou.aliyuncs.com/tfh/erp-web erp-web
 docker tag registry.cn-hangzhou.aliyuncs.com/tfh/erp-backend erp-backend
-docker-compose up
+docker-compose up -d
 ~~~
 * 访问 127.0.0.1:8080查看效果
 * 数据库防止和本地的数据库端口冲突，开放在3307端口

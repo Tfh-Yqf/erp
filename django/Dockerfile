@@ -9,9 +9,9 @@ COPY . /app
 # 安装Python依赖和其他必要工具
 RUN pip install --no-cache-dir -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple && \
     apt update && \
-    apt install -y netcat-openbsd expect && \
-    chmod 777 /app/logs/debug.log /app/logs/error.log && \
-    touch /app/logs/debug.log /app/logs/error.log && \
+    apt install -y netcat-openbsd && \
+    chmod 777 /app/logs/debug.log /app/logs/error.log /app/logs/uWSGI.log && \
+    touch /app/logs/debug.log /app/logs/error.log /app/logs/uWSGI.log && \
     chmod 777 /app/scripts/init_data.sh && \
     sed -i 's/\r//' ./start.sh && \
     chmod +x ./start.sh
@@ -24,4 +24,4 @@ ENV PYTHONUNBUFFERED 1
 EXPOSE 8000
 
 # 启动命令
-CMD ["/bin/bash", "-c", "[ ! -f /app/initialized ] && /app/scripts/init_data.sh; /bin/bash ./start.sh"]
+CMD ["/bin/bash", "-c", "[ ! -f /app/initialized ] && /app/scripts/init_data.sh; /bin/bash /app/start.sh"]

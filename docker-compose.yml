@@ -61,5 +61,4 @@ networks: # 自定义网络(默认桥接), 不使用links通信
     driver: bridge
 volumes: # 自定义数据卷
   db_vol: #定义数据卷同步存放容器内mysql数据
-  static_vol: #定义数据卷同步存放web项目static文件夹的数据
 

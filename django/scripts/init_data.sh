@@ -18,12 +18,9 @@ while ! nc -z db 3306 ; do
     sleep 3
 done
 
-python manage.py makemigrations
-python manage.py migrate
-expect ./scripts/create_user.exp
-# python manage.py runscript create_user
+python ./tools/rebuild_database.py
+python manage.py runscript create_default_user
 python manage.py runscript create_test_data
-python manage.py runscript init_permission
 
 # Create a flag file to indicate initialization has been done
 touch /app/initialized

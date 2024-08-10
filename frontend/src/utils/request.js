@@ -34,6 +34,12 @@ instance.interceptors.response.use(
     return response.data;
   },
   (error) => {
+    if (!error.response) {
+      if (error.message.includes("Network Error")) {
+        message.error("连接被拒绝，请检查服务器是否启动");
+      }
+      return Promise.reject(error);
+    }
     if (!error.response) return Promise.reject(error);
     console.error("Request error:", error.response);
 
@@ -73,7 +79,7 @@ instance.interceptors.response.use(
       }
     }
 
-    message.error(error.response.data.detail);
+    message.error(error.response.data.detail || '相应出错');
     return Promise.reject(error);
   }
 );
