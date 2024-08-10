@@ -67,7 +67,6 @@ export default {
     initialize() {
       document.onkeypress = (e) => {
         let code = document.all ? event.keyCode : e.which;
-
       }
     },
     login() {
@@ -92,8 +91,3 @@ export default {
   },
 }
 </script>
-
-<style>
-.reg_group {
-}
-</style>
