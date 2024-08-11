@@ -3,7 +3,7 @@
   <div  class="background" >
     <a-card class="card" :title="ProjectName">
       <div style="text-align: center; padding-top: 16px">
-        <img :src="logo" width="120" style="cursor: pointer; margin-top: 16px" @click="backIndex" />
+        <img :src="logo" width="120" style="cursor: pointer; margin-top: 16px"/>
       </div>
 
       <div style="width: 100%;display: flex;flex-direction: row;justify-content: center;margin-bottom: 30px;">
@@ -25,7 +25,6 @@ export default {
   },
   methods: {
     jump_login(){
-
       this.$router.push('/user/login');
     }
   },
