@@ -83,7 +83,7 @@ export default {
             this.$message.success('登录成功');
             Cookies.set('access', data.access);
             Cookies.set('refresh', data.refresh);
-            this.$router.push('/basicData/client');
+            this.$router.push('/home');
           }).finally(() => {
             this.isLoading = false;
           });
