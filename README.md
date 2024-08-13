@@ -9,6 +9,12 @@
 * nodejs 为 12.13.1（推荐使用nvm 控制版本）
 * 数据库为MySQL 8.0+
 
+## 线上部署版本
+* 前端使用https://vercel.com自动化部署
+* 后端在自己的服务器上部署
+* 数据库使用https://sqlpub.com的测试服务器
+
+
 ## 快捷部署-docker
 
 ### 方法一 拉取代码后，本地build up

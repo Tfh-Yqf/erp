@@ -1,36 +1,13 @@
 version: '3'
 
 services:
-  db:
-    image: registry.cn-hangzhou.aliyuncs.com/tfh/mysql:8.0
-    restart: always
-    env_file:
-      - ./mysql/.env # 使用了环境变量文件
-    volumes:
-      - db_vol:/var/lib/mysql:rw # 挂载数据库数据, 可读可写
-      - ./mysql/my.cnf:/etc/mysql/my.cnf # 挂载配置文件
-      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql # 挂载数据初始化sql脚本
-    ports:
-      - "3307:3306"
-    networks:
-      - db_network
   backend:
     build: ./django
     restart: always
     volumes:
       - ./django:/app:rw
       - ./uwsgi:/tmp
-    depends_on:
-      - db
-    networks:
-      - db_network
     ports:
       - "8000:8000"
 
-
-networks: # 自定义网络(默认桥接), 不使用links通信
-  db_network:
-    driver: bridge
-volumes: # 自定义数据卷
-  db_vol: #定义数据卷同步存放容器内mysql数据
 
